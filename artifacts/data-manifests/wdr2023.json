@@ -1,0 +1,14 @@
+{
+  "source_id": "wdr2023",
+  "title": "World Development Report 2023: Migrants, Refugees, and Societies",
+  "source_url": "https://www.worldbank.org/en/publication/wdr2023",
+  "download_url": "https://mapa.do.undp.org/files/publications/World%20Development%20Report%202023.%20Migrants,%20Refugees%20and%20Societies.pdf",
+  "license": "CC BY 3.0 IGO; third-party components may have separate rights",
+  "attribution": "World Bank. 2023. World Development Report 2023: Migrants, Refugees, and Societies. doi:10.1596/978-1-4648-1941-4.",
+  "adaptation_notice": "This is an adaptation of an original work by The World Bank. Views and opinions expressed in the adaptation are the sole responsibility of the author or authors of the adaptation and are not endorsed by The World Bank.",
+  "translation_notice": "This translation was not created by The World Bank and should not be considered an official World Bank translation. The World Bank shall not be liable for any content or error in this translation.",
+  "sha256": "9577adf6a2849918eaf406aa975082b278b26cd880277b4d4e87336f6200ee84",
+  "pdf": "source.pdf",
+  "expected_physical_pages": 348,
+  "visual_rights_policy": "Do not redistribute separately credited photographs; review component credit lines before sharing crops."
+}

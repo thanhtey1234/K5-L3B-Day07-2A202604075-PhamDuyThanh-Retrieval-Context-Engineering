@@ -1,0 +1,16 @@
+{
+  "source_id": "luat_an_ninh_mang_116-2025",
+  "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat116-2025.pdf",
+  "title": "Luật An ninh mạng số 116/2025/QH15",
+  "license": "Nội dung văn bản quy phạm pháp luật không thuộc phạm vi bảo hộ quyền tác giả theo khoản 2 Điều 15 Luật Sở hữu trí tuệ; PDF được lấy từ Cổng Thông tin điện tử Chính phủ và ghi rõ nguồn",
+  "upstream_repo": "thanhtey1234/K5-L3B-Day06_PhamDuyThanh-2A202604075-DataIngestionEngineering",
+  "upstream_commit": "663df9fa1c0f7c5bafcb1e21f47433e5137d3057",
+  "pages_sha256": "a840fa8229b024404b4fedf748ca808e3101012f6901bde64c4bd39e188f3e64",
+  "chunks_sha256": "379f47ee7c9ab68ca9db3981d53b5b22a26cfcf6c74ad1f79dc3c0b5c55ad284",
+  "physical_pages": 37,
+  "chunk_count": 235,
+  "embedding_model": "AITeamVN/Vietnamese_Embedding",
+  "embedding_dimensions": 1024,
+  "strategy": "strategy_b",
+  "notes": "OCR errors retained; compare with original PDF."
+}

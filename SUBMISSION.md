@@ -21,7 +21,7 @@ Thay phần trong `< >` bằng tên và địa chỉ thật. Nộp link theo hư
 - [ ] Benchmark gồm ít nhất 20 câu có evidence và 4 câu thiếu evidence, đã chia dev/test.
 - [ ] Kết quả từng query và tool call; context, câu trả lời, citation, lỗi, thời gian và chi phí.
 - [ ] Ít nhất 2 cấu hình cải thiện; bảng benchmark, nhãn, phân tích lỗi và lý do chọn theo [BENCHMARK.md](BENCHMARK.md).
-- [ ] Sao chép và điền [mẫu báo cáo](report/individual/MSSV_HoTen.md), đổi tên theo MSSV và họ tên.
+- [ ] Kiểm tra [báo cáo cá nhân đã điền](report/individual/2A202604075_PhamDuyThanh.md) theo MSSV và họ tên.
 - [ ] Người chấm có quyền xem repo; không nộp dữ liệu mật, `.env`, API key hoặc token.
 
 ## Nếu làm thử thách nâng cao

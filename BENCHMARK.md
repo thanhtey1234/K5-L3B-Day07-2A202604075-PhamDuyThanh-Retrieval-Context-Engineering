@@ -39,4 +39,4 @@ Chạy agent thật trên dev cho các cấu hình cần so sánh; sau khi chố
 
 Ghi nhãn và lý do cho từng câu, citation; báo lỗi model hoặc vector store riêng. Đọc citation để xác nhận nguồn hỗ trợ từng điều kiện; ID hợp lệ hoặc verifier model chấp nhận là chưa đủ. Với câu thiếu evidence, kiểm tra agent thực sự từ chối, không thêm khẳng định vô căn cứ.
 
-[Script tổng hợp](starter/README.md#4-tổng-hợp-đánh-giá-agent) chỉ tổng hợp nhãn đã chấm. Ghi ít nhất hai lỗi dev, giả thuyết, kết quả trước/sau và giới hạn trong [báo cáo](report/individual/MSSV_HoTen.md).
+[Script tổng hợp](starter/README.md#4-tổng-hợp-đánh-giá-agent) chỉ tổng hợp nhãn đã chấm. Ghi ít nhất hai lỗi dev, giả thuyết, kết quả trước/sau và giới hạn trong [báo cáo cá nhân](report/individual/2A202604075_PhamDuyThanh.md).

@@ -1,0 +1,310 @@
+[
+  {
+    "query_id": "basic-dev-01",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      1
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "reason": "PDF p1 khoản 2 Điều 2 nêu nguyên vẹn, bảo mật, khả dụng. Đáp án và đoạn được cite nêu đủ ba thuộc tính."
+  },
+  {
+    "query_id": "basic-dev-02",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      6
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "reason": "PDF p6 điểm c khoản 3 nêu Bộ Ngoại giao phối hợp Bộ Công an, Bộ Quốc phòng. Đáp án/citation giữ đúng các bộ."
+  },
+  {
+    "query_id": "basic-dev-03",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      8
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 1,
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "reason": "PDF p8 điểm đ Điều 8 có đáp án đặc biệt nghiêm trọng tới an ninh quốc gia; context A không có, D chỉ có tiêu đề Điều 8. Cả hai từ chối sai trên câu có đáp án."
+  },
+  {
+    "query_id": "basic-dev-04",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      10
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "reason": "PDF p10 điểm b khoản 1 Điều 11 ghi thông báo bằng văn bản trước tháng 10 hằng năm. Đáp án và citation đầy đủ."
+  },
+  {
+    "query_id": "basic-dev-05",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      12
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "reason": "PDF p12 điểm b khoản 1 Điều 12 nêu đề nghị của chủ quản hệ thống. A không truy xuất được; D có đúng đoạn và trả lời đầy đủ."
+  },
+  {
+    "query_id": "basic-dev-06",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      17
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "reason": "PDF p17 khoản 2 Điều 16 nêu cha/mẹ/người giám hộ đăng ký bằng thông tin của họ. A chỉ có quyền trẻ em và trách nhiệm nhà cung cấp. D cite đúng khoản, trả lời đủ câu hỏi ai đăng ký; nghĩa vụ giám sát là chi tiết thêm trong đáp án tham chiếu, không phải nội dung câu hỏi bắt buộc."
+  },
+  {
+    "query_id": "basic-dev-07",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      19,
+      20
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 1,
+    "answer_grade": 1,
+    "citation_support": [
+      false
+    ],
+    "abstention_correct": false,
+    "reason": "PDF p20 khoản 5 Điều 19 đúng là Bộ Quốc phòng chủ trì phòng chống khủng bố. Nhưng citation p19_para_005 thuộc khoản 4 Điều 18 về tấn công mạng, rồi mới sang tiêu đề Điều 19. Agent gán nội dung đó cho khoản 1 Điều 19: đúng tên bộ nhưng sai căn cứ và citation không hỗ trợ khẳng định cụ thể. Chấm đáp án một phần, support=false."
+  },
+  {
+    "query_id": "basic-dev-08",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      22
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 1,
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "reason": "PDF p22 khoản 1 Điều 22 ghi hai hoặc nhiều tổ chức. A không có đoạn liên quan, D chỉ có tiêu đề Điều 22. Không nhầm tiêu đề với nội dung định nghĩa; cả hai từ chối sai."
+  },
+  {
+    "query_id": "basic-dev-09",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      26
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 0,
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "reason": "PDF p26 điểm g khoản 2 Điều 28 liệt kê dịch vụ khôi phục dữ liệu. Không context nào có danh sách này; từ chối nhận 0."
+  },
+  {
+    "query_id": "basic-dev-10",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      28
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 1,
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "reason": "PDF p28 khoản 2 Điều 34 miễn cho cá nhân đã đào tạo chuyên ngành an ninh mạng. A không có, D có tiêu đề/khoản 1 nhưng thiếu ngoại lệ khoản 2; từ chối sai."
+  },
+  {
+    "query_id": "basic-dev-11",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      29
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 1,
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "reason": "PDF p29 khoản 2 Điều 36 nêu cơ quan, tổ chức, cá nhân có liên quan. A không có; D chỉ có tiêu đề/khoản 1 về nội dung nghiên cứu, chưa có chủ thể; từ chối sai."
+  },
+  {
+    "query_id": "basic-dev-12",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      29
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "reason": "PDF p29 khoản 3 Điều 35 nêu UBND cấp tỉnh xây dựng/triển khai phổ biến kiến thức cho địa phương. Hai đáp án và citation hỗ trợ đúng."
+  },
+  {
+    "query_id": "basic-dev-13",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      30
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 1,
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "reason": "PDF p30 khoản 2 Điều 38 quy định tự bảo đảm kinh phí. A không có; D chỉ có tiêu đề Điều 38, chưa có khoản 2. Từ chối sai."
+  },
+  {
+    "query_id": "basic-dev-14",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      32
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 1,
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "reason": "PDF p32 điểm b khoản 2 Điều 40 yêu cầu chỉ định cá nhân/bộ phận phụ trách. A không có; D có tiêu đề/khoản 1 nhưng thiếu điểm b khoản 2. Từ chối sai."
+  },
+  {
+    "query_id": "basic-dev-15",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      33
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": 1,
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "reason": "PDF p33 khoản 3 Điều 41 yêu cầu triển khai ứng cứu khẩn cấp và đồng thời báo cáo ngay. Context A/D chỉ có khoản 2 về chuẩn bị phương án và các trách nhiệm chung, nên context một phần; từ chối câu có đáp án nhận 0."
+  },
+  {
+    "query_id": "basic-dev-absent-1",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      1,
+      26,
+      32
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": null,
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "AI đối chiếu phạm vi luật (PDF p1), danh sách sản phẩm/dịch vụ p26 và trách nhiệm p32; tìm toàn bộ OCR corpus không có số liệu ransomware 2026/tên hãng bắt buộc tương ứng. Agent từ chối rõ ràng, không bịa số liệu/hãng. Đây là kiểm tra phạm vi của AI, không phải chứng minh thiếu thông tin tuyệt đối hoặc xác nhận của con người."
+  },
+  {
+    "query_id": "basic-dev-absent-2",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      1,
+      26,
+      32
+    ],
+    "source_method": "rendered original scanned PDF pages; full relevant trace context; corpus OCR scope search for absent cases",
+    "context_grade": null,
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "AI đối chiếu phạm vi luật (PDF p1), danh sách sản phẩm/dịch vụ p26 và trách nhiệm p32; tìm toàn bộ OCR corpus không có số liệu ransomware 2026/tên hãng bắt buộc tương ứng. Agent từ chối rõ ràng, không bịa số liệu/hãng. Đây là kiểm tra phạm vi của AI, không phải chứng minh thiếu thông tin tuyệt đối hoặc xác nhận của con người."
+  }
+]

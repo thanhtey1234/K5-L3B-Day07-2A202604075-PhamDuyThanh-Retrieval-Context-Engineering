@@ -1,0 +1,2079 @@
+{
+  "manifest": {
+    "split": "test",
+    "mode": "agent",
+    "experiment": {
+      "name": "A-dense",
+      "method": "dense",
+      "top_k": 3,
+      "candidate_k": 10,
+      "context_budget": 3000,
+      "max_searches": 1,
+      "max_views": 2,
+      "rrf_k": 60
+    },
+    "corpus_hash": "096c01cc292de2fb3777361720920926a9afa1bfc459d0610de95c4c27d1577e",
+    "cases_hash": "97e58539a79b6c8de72524a4acc740db059dc7f3e90ec646bb807b678470c3ca",
+    "model": {
+      "provider": "groq",
+      "id": "qwen/qwen3.8-27b",
+      "created": 1786984846,
+      "owned_by": "Alibaba Cloud",
+      "context_length": 131072,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "tools": true,
+      "account_policy": "user_confirmed_free_tier_not_api_verified",
+      "tokenizer_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+      "reasoning_effort": "none",
+      "temperature": 0,
+      "max_output_tokens": 1024,
+      "capabilities_source": "https://console.groq.com/docs/model/qwen/qwen3.8-27b"
+    },
+    "code_hash": "c8c3c8eb7a1295bf1798d9075c0a79d5b0dbe796539499be60564dfb431bd80f",
+    "retrieval_provenance": {
+      "store": "postgresql/pgvector",
+      "index_id": null,
+      "day6_strategy": "strategy_b",
+      "embedding": {
+        "model": "AITeamVN/Vietnamese_Embedding",
+        "revision": "dea33aa1ab339f38d66ae0a40e6c40e0a9249568",
+        "dimensions": 1024,
+        "max_length": 2048,
+        "normalized": true
+      },
+      "query_cache_policy": "original test queries prewarmed"
+    }
+  },
+  "created_at": "2026-11-16T11:08:58.324852+00:00",
+  "state": "complete",
+  "records": [
+    {
+      "query_id": "basic-test-01",
+      "question": "Khoản 17 Điều 43 bãi bỏ khoản nào của Luật Thư viện số 46/2019/QH14?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p36_para_004",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 36,
+          "text": "17. Bãi bỏ khoản 3 Điều 49 của Luật Thư viện số 46/2019/QH14.\n\nĐiều 44. Hiệu lực thi hành\n\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026.\n\n2. Luật An toàn thông tin mạng số 86/2015/QH13 đã được sửa đổi, bổ\nsung một sô điêu theo Luật sô 35/2018/QH14; Luật An ninh mạng sô\n24/2018/QH14 hết hiệu lực kê từ ngày Luật này có hiệu lực thi hành.\n\nĐiều 45. Điều khoản chuyễn tiếp",
+          "metadata": {
+            "page": 36,
+            "chapter": "Chương VIII",
+            "n_chars": 724,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 3286,
+            "char_length": 386,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 5
+          },
+          "score": 0.40253696426528984,
+          "method": "dense",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p34_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 34,
+          "text": "2. Thay thế, bãi bỏ một số cụm từ của Luật Bảo vệ quyền lợi người tiêu\ndùng sô 19/2023/QHI5 như sau:\n\n.a) Thay thế cụm từ “an toàn thông tin” bằng cụm từ “an ninh thông tin”\ntại điêm d khoản I Điêu 16; cụm từ “an toàn, an ninh thông tin” băng cụm từ\n“an ninh mạng” tại khoản 1 Điêu 15, tên Điêu 19, khoản 1 và khoản 3 Điêu 19;\n\nb) Bãi bỏ cụm từ “an toàn thông tin mạng,” tại khoản 3 Điều 19.",
+          "metadata": {
+            "page": 34,
+            "chapter": "Chương VIII",
+            "n_chars": 2127,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2127,
+            "char_length": 391,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 3
+          },
+          "score": 0.29612526297569275,
+          "method": "dense",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p24_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 24,
+          "text": "b) Ngăn chặn việc chia sẻ thông tin, xóa bỏ thông tin, gỡ bỏ dịch Vụ, Ứng\ndụng có nội dung vi phạm quy định của Luật này chậm nhât là 24 giờ kê từ thời\nđiêm có yêu câu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ\nCông an và lưu nhật ký hệ thông đê phục vụ xác minh, điêu tra, xử lý hành vi vi\nphạm pháp luật vê an ninh mạng trong thời gian theo quy định của pháp luật;\ntrường hợp khân câp đe dọa xâm hại an ninh quôc gia, yêu câu ngăn chặn, xóa\nbỏ thông tin chậm nhất là 06 giờ;",
+          "metadata": {
+            "page": 24,
+            "chapter": "Chương IV",
+            "n_chars": 2620,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2620,
+            "char_length": 489,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 1
+          },
+          "score": 0.25001347064971924,
+          "method": "dense",
+          "rank": 3
+        }
+      ],
+      "status": "abstain",
+      "answer": "Tôi không thể trả lời vì các tài liệu hiện tại không chứa nội dung Khoản 17 Điều 43 của văn bản liên quan đến việc bãi bỏ các khoản của Luật Thư viện số 46/2019/QH14.",
+      "citations": [],
+      "events": [
+        {
+          "event": "search",
+          "tool": "dense",
+          "query": "Khoản 17",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat_an_ninh_mang_116-2025_p7_para_000",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 7,
+              "text": "7",
+              "metadata": {
+                "page": 7,
+                "chapter": "Chương I",
+                "n_chars": 2622,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2622,
+                "char_length": 1,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1
+              },
+              "score": 0.513496994972229,
+              "method": "dense",
+              "rank": 1
+            },
+            {
+              "id": "luat_an_ninh_mang_116-2025_p17_para_000",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 17,
+              "text": "17\n\nđ) Tham gia nghiên cứu, sản xuất sản phẩm lưu trữ, truyền đưa thông\ntin, tài liệu có nội dung thuộc bí mật nhà nước theo quy định của pháp luật và\nsản phâm mã hóa thông tin trên không gian mạng theo chức năng, nhiệm vụ\nđược g1ao;\n\ne) Thanh tra, kiểm tra công tác bảo vệ bí mật nhà nước trên không gian\nmạng của cơ quan nhà nước và bảo vệ an ninh mạng của chủ quản hệ thông\nthông tin quan trọng vệ an ninh quôc gia;",
+              "metadata": {
+                "page": 17,
+                "chapter": "Chương III",
+                "n_chars": 2538,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2538,
+                "char_length": 418,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 3
+              },
+              "score": 0.2678622007369995,
+              "method": "dense",
+              "rank": 2
+            },
+            {
+              "id": "luat_an_ninh_mang_116-2025_p15_para_006",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 15,
+              "text": "a) Chiếm đoạt, mua bán, thu giữ, cố ý làm lộ thông tin thuộc bí mật nhà\nnước, bí mật công tác, bí mật kinh đoanh; chiếm đoạt, mua bán, thu giữ, cố ý\nlàm lộ bí mật cá nhân, bí mật gia đình và đời sống riêng tư gây ảnh hưởng\nđến danh dự, uy tín, nhân phẩm, quyền và lợi ích hợp pháp của cơ quan, tô\nchức, cá nhân;",
+              "metadata": {
+                "page": 15,
+                "chapter": "Chương III",
+                "n_chars": 2662,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2662,
+                "char_length": 311,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1
+              },
+              "score": 0.2556920647621155,
+              "method": "dense",
+              "rank": 3
+            }
+          ],
+          "context_ids": [
+            "luat_an_ninh_mang_116-2025_p7_para_000",
+            "luat_an_ninh_mang_116-2025_p17_para_000",
+            "luat_an_ninh_mang_116-2025_p15_para_006"
+          ],
+          "elapsed_ms": 33.7837999995827
+        },
+        {
+          "event": "abstain",
+          "reason": "model_insufficient_evidence"
+        }
+      ],
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p7_para_000] luat_an_ninh_mang_116-2025 | PDF page 7\n7\n\n[luat_an_ninh_mang_116-2025_p17_para_000] luat_an_ninh_mang_116-2025 | PDF page 17\n17\n\nđ) Tham gia nghiên cứu, sản xuất sản phẩm lưu trữ, truyền đưa thông\ntin, tài liệu có nội dung thuộc bí mật nhà nước theo quy định của pháp luật và\nsản phâm mã hóa thông tin trên không gian mạng theo chức năng, nhiệm vụ\nđược g1ao;\n\ne) Thanh tra, kiểm tra công tác bảo vệ bí mật nhà nước trên không gian\nmạng của cơ quan nhà nước và bảo vệ an ninh mạng của chủ quản hệ thông\nthông tin quan trọng vệ an ninh quôc gia;\n\n[luat_an_ninh_mang_116-2025_p15_para_006] luat_an_ninh_mang_116-2025 | PDF page 15\na) Chiếm đoạt, mua bán, thu giữ, cố ý làm lộ thông tin thuộc bí mật nhà\nnước, bí mật công tác, bí mật kinh đoanh; chiếm đoạt, mua bán, thu giữ, cố ý\nlàm lộ bí mật cá nhân, bí mật gia đình và đời sống riêng tư gây ảnh hưởng\nđến danh dự, uy tín, nhân phẩm, quyền và lợi ích hợp pháp của cơ quan, tô\nchức, cá nhân;",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p7_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 7,
+            "text": "7",
+            "metadata": {
+              "page": 7,
+              "chapter": "Chương I",
+              "n_chars": 2622,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2622,
+              "char_length": 1,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1
+            },
+            "score": 0.513496994972229,
+            "method": "dense",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p17_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 17,
+            "text": "17\n\nđ) Tham gia nghiên cứu, sản xuất sản phẩm lưu trữ, truyền đưa thông\ntin, tài liệu có nội dung thuộc bí mật nhà nước theo quy định của pháp luật và\nsản phâm mã hóa thông tin trên không gian mạng theo chức năng, nhiệm vụ\nđược g1ao;\n\ne) Thanh tra, kiểm tra công tác bảo vệ bí mật nhà nước trên không gian\nmạng của cơ quan nhà nước và bảo vệ an ninh mạng của chủ quản hệ thông\nthông tin quan trọng vệ an ninh quôc gia;",
+            "metadata": {
+              "page": 17,
+              "chapter": "Chương III",
+              "n_chars": 2538,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2538,
+              "char_length": 418,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 3
+            },
+            "score": 0.2678622007369995,
+            "method": "dense",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p15_para_006",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 15,
+            "text": "a) Chiếm đoạt, mua bán, thu giữ, cố ý làm lộ thông tin thuộc bí mật nhà\nnước, bí mật công tác, bí mật kinh đoanh; chiếm đoạt, mua bán, thu giữ, cố ý\nlàm lộ bí mật cá nhân, bí mật gia đình và đời sống riêng tư gây ảnh hưởng\nđến danh dự, uy tín, nhân phẩm, quyền và lợi ích hợp pháp của cơ quan, tô\nchức, cá nhân;",
+            "metadata": {
+              "page": 15,
+              "chapter": "Chương III",
+              "n_chars": 2662,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2662,
+              "char_length": 311,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1
+            },
+            "score": 0.2556920647621155,
+            "method": "dense",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p7_para_000",
+          "luat_an_ninh_mang_116-2025_p17_para_000",
+          "luat_an_ninh_mang_116-2025_p15_para_006"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1191
+      },
+      "model_calls": [
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 1,
+          "reserved_tokens": 2062,
+          "http_status": 200,
+          "elapsed_ms": 270.51160000064556,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "922",
+            "x-ratelimit-remaining-tokens": "2887",
+            "x-ratelimit-reset-tokens": "41.211s"
+          },
+          "request_id": "chatcmpl-fbc89ad5-e8d6-4148-9cc3-542ea6124030",
+          "usage": {
+            "queue_time": 0.056042102,
+            "prompt_tokens": 635,
+            "prompt_time": 0.046713886,
+            "completion_tokens": 30,
+            "completion_time": 0.060996616,
+            "total_tokens": 665,
+            "total_time": 0.107710502
+          },
+          "response_model": "qwen/qwen3.8-27b"
+        },
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 1,
+          "reserved_tokens": 2783,
+          "http_status": 400,
+          "elapsed_ms": 2081.3379000001078,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "921",
+            "x-ratelimit-remaining-tokens": "6639",
+            "x-ratelimit-reset-tokens": "10.207s"
+          },
+          "error_code": "tool_use_failed",
+          "error_type": "invalid_request_error"
+        },
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 2,
+          "reserved_tokens": 2783,
+          "http_status": 200,
+          "elapsed_ms": 575.9755999997651,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "920",
+            "x-ratelimit-remaining-tokens": "5574",
+            "x-ratelimit-reset-tokens": "18.195s"
+          },
+          "request_id": "chatcmpl-3378947d-e4b4-4962-9bfc-0479f2d3dcac",
+          "usage": {
+            "queue_time": 0.141162683,
+            "prompt_tokens": 1297,
+            "prompt_time": 0.09775477,
+            "completion_tokens": 104,
+            "completion_time": 0.229873757,
+            "total_tokens": 1401,
+            "total_time": 0.327628527
+          },
+          "response_model": "qwen/qwen3.8-27b"
+        }
+      ],
+      "elapsed_ms": 60016.10660000006
+    },
+    {
+      "query_id": "basic-test-02",
+      "question": "Theo điều khoản chuyển tiếp, giấy phép kinh doanh sản phẩm, dịch vụ an toàn thông tin mạng đã cấp trước ngày luật có hiệu lực còn giá trị đến khi nào?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p36_para_006",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 36,
+          "text": "2. Các loại giấy phép kinh doanh sản phẩm, dịch vụ an toàn thông tin\nmạng, mật mã dân sự theo quy. định của Luật An toàn thông tin mạng sô\n86/2015/QH13 đã được sửa đôi, bô sung một sô điêu theo Luật sô 35/2018/QH14\nđã được cấp trước ngày Luật này có hiệu lực thi hành có giá trị sử dụng đến hết\nthời hạn được ghi trên giây phép.",
+          "metadata": {
+            "page": 36,
+            "chapter": "Chương VIII",
+            "n_chars": 724,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 3286,
+            "char_length": 328,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 1
+          },
+          "score": 0.4852651357650757,
+          "method": "dense",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p37_para_000",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 37,
+          "text": "\";\nđã được cấp trước ngày Luật này có hiệu lực thi hành có giá trị sử dụng đến hết\nthời hạn được ghi trên giây phép.",
+          "metadata": {
+            "page": 37,
+            "chapter": "Chương VIII",
+            "n_chars": 724,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 724,
+            "char_length": 116,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 1
+          },
+          "score": 0.43956464529037476,
+          "method": "dense",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p37_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 37,
+          "text": "3. Các sản phẩm, dịch vụ, giải pháp, phương tiện kỹ thuật bảo đảm an\ntoàn thông tin mạng theo quy định của Luật An toàn thông tin mạng sô\n86/2015/QH13 đã được sửa đôi, bô sung một sô điêu theo Luật sô 35/2018/QH14\nđã được đưa vào sử dụng trước ngày Luật này có hiệu lực thi hành tiêp tục được\nsử dụng; trong thời hạn 12 tháng kê từ ngày Luật này có hiệu lực thi hành thì\nphải bảo đảm các điêu kiện an ninh mạng theo quy định của Luật này.",
+          "metadata": {
+            "page": 37,
+            "chapter": "Chương VIII",
+            "n_chars": 724,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 724,
+            "char_length": 438,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 1
+          },
+          "score": 0.387009859085083,
+          "method": "dense",
+          "rank": 3
+        }
+      ],
+      "status": "abstain",
+      "answer": "Tôi chưa tìm được bằng chứng trong tài liệu được cung cấp về điều khoản chuyển tiếp quy định thời hạn giá trị của giấy phép kinh doanh sản phẩm, dịch vụ an toàn thông tin mạng đã cấp trước ngày luật có hiệu lực.",
+      "citations": [],
+      "events": [
+        {
+          "event": "search",
+          "tool": "dense",
+          "query": "điều khoản chuyển tiếp",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat_an_ninh_mang_116-2025_p7_para_000",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 7,
+              "text": "7",
+              "metadata": {
+                "page": 7,
+                "chapter": "Chương I",
+                "n_chars": 2622,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2622,
+                "char_length": 1,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1
+              },
+              "score": 0.30354034900665283,
+              "method": "dense",
+              "rank": 1
+            },
+            {
+              "id": "luat_an_ninh_mang_116-2025_p14_para_004",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 14,
+              "text": "©) Thiết lập, cung cấp dịch vụ hoặc hỗ trợ vận hành, kinh doanh, Ølao\ndịch, mua bán, tiêp thị trực tuyên cho sàn giao dịch, trang thông tin điện tử, ứng\ndụng trái phép trên không gian mạng, bao gôm: sàn thương mại điện tử, trang\nthông tin điện tử, ứng dụng bán hàng, cung câp dịch vụ thương mại điện tử; sàn\ngiao dịch dựa trên chỉ sô các loại hàng hóa; sàn giao dịch tài sản sô, kinh doanh\ntheo phương thức đa câp;",
+              "metadata": {
+                "page": 14,
+                "chapter": "Chương III",
+                "n_chars": 2657,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2657,
+                "char_length": 414,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1
+              },
+              "score": 0.2921743094921112,
+              "method": "dense",
+              "rank": 2
+            },
+            {
+              "id": "luat_an_ninh_mang_116-2025_p14_para_005",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 14,
+              "text": "ø) Sử dụng danh tính giả, giấy tờ, hồ sơ giả hoặc sử dụng trái phép thông\ntin của người khác đê thành lập doanh nghiệp, thiệt lập, đăng ký tài khoản ngân\nhàng, tài khoản chứng khoán, tài khoản bảo hiêm, tài khoản thuê và tài khoản sô\nkhác; thu thập, tàng trữ, trao đôi, mua bán, tặng cho, công khai trái phép dữ liệu,\nthông tin tài khoản ngân hàng, thẻ ngân hàng, tài khoản ví điện tử, tài khoản\nchứng khoán, tài khoản bảo hiêm, tài khoản thuê và các loại tài khoản sô khác;",
+              "metadata": {
+                "page": 14,
+                "chapter": "Chương III",
+                "n_chars": 2657,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2657,
+                "char_length": 474,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1
+              },
+              "score": 0.2572364807128906,
+              "method": "dense",
+              "rank": 3
+            }
+          ],
+          "context_ids": [
+            "luat_an_ninh_mang_116-2025_p7_para_000",
+            "luat_an_ninh_mang_116-2025_p14_para_004",
+            "luat_an_ninh_mang_116-2025_p14_para_005"
+          ],
+          "elapsed_ms": 35.78349999952479
+        },
+        {
+          "event": "abstain",
+          "reason": "model_insufficient_evidence"
+        }
+      ],
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p7_para_000] luat_an_ninh_mang_116-2025 | PDF page 7\n7\n\n[luat_an_ninh_mang_116-2025_p14_para_004] luat_an_ninh_mang_116-2025 | PDF page 14\n©) Thiết lập, cung cấp dịch vụ hoặc hỗ trợ vận hành, kinh doanh, Ølao\ndịch, mua bán, tiêp thị trực tuyên cho sàn giao dịch, trang thông tin điện tử, ứng\ndụng trái phép trên không gian mạng, bao gôm: sàn thương mại điện tử, trang\nthông tin điện tử, ứng dụng bán hàng, cung câp dịch vụ thương mại điện tử; sàn\ngiao dịch dựa trên chỉ sô các loại hàng hóa; sàn giao dịch tài sản sô, kinh doanh\ntheo phương thức đa câp;\n\n[luat_an_ninh_mang_116-2025_p14_para_005] luat_an_ninh_mang_116-2025 | PDF page 14\nø) Sử dụng danh tính giả, giấy tờ, hồ sơ giả hoặc sử dụng trái phép thông\ntin của người khác đê thành lập doanh nghiệp, thiệt lập, đăng ký tài khoản ngân\nhàng, tài khoản chứng khoán, tài khoản bảo hiêm, tài khoản thuê và tài khoản sô\nkhác; thu thập, tàng trữ, trao đôi, mua bán, tặng cho, công khai trái phép dữ liệu,\nthông tin tài khoản ngân hàng, thẻ ngân hàng, tài khoản ví điện tử, tài khoản\nchứng khoán, tài khoản bảo hiêm, tài khoản thuê và các loại tài khoản sô khác;",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p7_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 7,
+            "text": "7",
+            "metadata": {
+              "page": 7,
+              "chapter": "Chương I",
+              "n_chars": 2622,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2622,
+              "char_length": 1,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1
+            },
+            "score": 0.30354034900665283,
+            "method": "dense",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p14_para_004",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 14,
+            "text": "©) Thiết lập, cung cấp dịch vụ hoặc hỗ trợ vận hành, kinh doanh, Ølao\ndịch, mua bán, tiêp thị trực tuyên cho sàn giao dịch, trang thông tin điện tử, ứng\ndụng trái phép trên không gian mạng, bao gôm: sàn thương mại điện tử, trang\nthông tin điện tử, ứng dụng bán hàng, cung câp dịch vụ thương mại điện tử; sàn\ngiao dịch dựa trên chỉ sô các loại hàng hóa; sàn giao dịch tài sản sô, kinh doanh\ntheo phương thức đa câp;",
+            "metadata": {
+              "page": 14,
+              "chapter": "Chương III",
+              "n_chars": 2657,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2657,
+              "char_length": 414,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1
+            },
+            "score": 0.2921743094921112,
+            "method": "dense",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p14_para_005",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 14,
+            "text": "ø) Sử dụng danh tính giả, giấy tờ, hồ sơ giả hoặc sử dụng trái phép thông\ntin của người khác đê thành lập doanh nghiệp, thiệt lập, đăng ký tài khoản ngân\nhàng, tài khoản chứng khoán, tài khoản bảo hiêm, tài khoản thuê và tài khoản sô\nkhác; thu thập, tàng trữ, trao đôi, mua bán, tặng cho, công khai trái phép dữ liệu,\nthông tin tài khoản ngân hàng, thẻ ngân hàng, tài khoản ví điện tử, tài khoản\nchứng khoán, tài khoản bảo hiêm, tài khoản thuê và các loại tài khoản sô khác;",
+            "metadata": {
+              "page": 14,
+              "chapter": "Chương III",
+              "n_chars": 2657,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2657,
+              "char_length": 474,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1
+            },
+            "score": 0.2572364807128906,
+            "method": "dense",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p7_para_000",
+          "luat_an_ninh_mang_116-2025_p14_para_004",
+          "luat_an_ninh_mang_116-2025_p14_para_005"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1387
+      },
+      "model_calls": [
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 1,
+          "reserved_tokens": 2066,
+          "http_status": 200,
+          "elapsed_ms": 564.2193000003317,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "919",
+            "x-ratelimit-remaining-tokens": "7226",
+            "x-ratelimit-reset-tokens": "5.805s"
+          },
+          "request_id": "chatcmpl-2c586ff9-64ef-4b6b-a196-bbe7cf0f5756",
+          "usage": {
+            "queue_time": 0.246998571,
+            "prompt_tokens": 639,
+            "prompt_time": 0.051990609,
+            "completion_tokens": 30,
+            "completion_time": 0.065296193,
+            "total_tokens": 669,
+            "total_time": 0.117286802
+          },
+          "response_model": "qwen/qwen3.8-27b"
+        },
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 1,
+          "reserved_tokens": 2824,
+          "http_status": 200,
+          "elapsed_ms": 613.2389000003968,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "918",
+            "x-ratelimit-remaining-tokens": "5996",
+            "x-ratelimit-reset-tokens": "15.03s"
+          },
+          "request_id": "chatcmpl-c9d8266e-002b-4003-b3e6-f32da09bacec",
+          "usage": {
+            "queue_time": 0.05550849,
+            "prompt_tokens": 1343,
+            "prompt_time": 0.101616958,
+            "completion_tokens": 98,
+            "completion_time": 0.340157339,
+            "total_tokens": 1441,
+            "total_time": 0.441774297
+          },
+          "response_model": "qwen/qwen3.8-27b"
+        }
+      ],
+      "elapsed_ms": 1280.114200000753
+    },
+    {
+      "query_id": "basic-test-03",
+      "question": "Thông tin định danh địa chỉ IP của người dùng Internet phải được doanh nghiệp cung cấp cho lực lượng nào?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p33_para_002",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 33,
+          "text": "5. Có trách nhiệm định danh địa chỉ IP của tổ chức, cá nhân sử dụng dịch\nvụ internet; cung câp thông tin định danh địa chỉ IP cho lực lượng chuyên trách\nbảo vệ an ninh mạng đê thực hiện biện pháp bảo vệ an ninh mạng.",
+          "metadata": {
+            "page": 33,
+            "chapter": "Chương VII",
+            "n_chars": 2682,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2682,
+            "char_length": 216,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 1
+          },
+          "score": 0.6150502654820217,
+          "method": "dense",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p23_para_005",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 23,
+          "text": "2. Doanh nghiệp trong nước và nước ngoài khi cung cấp dịch vụ trên\nmạng viên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại\nViệt Nam có trách nhiệm sau đây:\n\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật\nthông tin, tài khoản của người dùng; cung câp thông tin người dùng cho lực\nlượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an chậm nhất là 24",
+          "metadata": {
+            "page": 23,
+            "chapter": "Chương IV",
+            "n_chars": 2513,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2513,
+            "char_length": 392,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 2
+          },
+          "score": 0.43826797972512443,
+          "method": "dense",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p31_para_003",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 31,
+          "text": "đ) Phòng ngừa, đấu tranh với hoạt động sử dụng không gian mạng xâm\nphạm chủ quyên, lợi ích, an ninh quôc gia, trật tự, an toàn xã hội và phòng,\nchông tội phạm mạng;\n\ne) Bảo đảm an ninh thông tin trên không gian mạng, an ninh dữ liệu; xây\ndựng cơ chê quản lý định danh địa chỉ IP; xác thực thông tin đăng ký tài khoản\nsô; cảnh báo, chia sẻ thông tin an ninh mạng, nguy cơ đe dọa an ninh mạng;",
+          "metadata": {
+            "page": 31,
+            "chapter": "Chương VII",
+            "n_chars": 2393,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2393,
+            "char_length": 391,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 2
+          },
+          "score": 0.4089592207718824,
+          "method": "dense",
+          "rank": 3
+        }
+      ],
+      "status": "answered",
+      "answer": "Theo Luật An ninh mạng 116/2025, doanh nghiệp có trách nhiệm định danh địa chỉ IP của tổ chức, cá nhân sử dụng dịch vụ Internet và cung cấp thông tin định danh địa chỉ IP cho **lực lượng chuyên trách bảo vệ an ninh mạng** để thực hiện biện pháp bảo vệ an ninh mạng [luat_an_ninh_mang_116-2025_p33_para_002].",
+      "citations": [
+        "luat_an_ninh_mang_116-2025_p33_para_002"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "tool": "dense",
+          "query": "định danh địa chỉ IP",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat_an_ninh_mang_116-2025_p33_para_002",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 33,
+              "text": "5. Có trách nhiệm định danh địa chỉ IP của tổ chức, cá nhân sử dụng dịch\nvụ internet; cung câp thông tin định danh địa chỉ IP cho lực lượng chuyên trách\nbảo vệ an ninh mạng đê thực hiện biện pháp bảo vệ an ninh mạng.",
+              "metadata": {
+                "page": 33,
+                "chapter": "Chương VII",
+                "n_chars": 2682,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2682,
+                "char_length": 216,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1
+              },
+              "score": 0.5546210874030382,
+              "method": "dense",
+              "rank": 1
+            },
+            {
+              "id": "luat_an_ninh_mang_116-2025_p31_para_003",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 31,
+              "text": "đ) Phòng ngừa, đấu tranh với hoạt động sử dụng không gian mạng xâm\nphạm chủ quyên, lợi ích, an ninh quôc gia, trật tự, an toàn xã hội và phòng,\nchông tội phạm mạng;\n\ne) Bảo đảm an ninh thông tin trên không gian mạng, an ninh dữ liệu; xây\ndựng cơ chê quản lý định danh địa chỉ IP; xác thực thông tin đăng ký tài khoản\nsô; cảnh báo, chia sẻ thông tin an ninh mạng, nguy cơ đe dọa an ninh mạng;",
+              "metadata": {
+                "page": 31,
+                "chapter": "Chương VII",
+                "n_chars": 2393,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2393,
+                "char_length": 391,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 2
+              },
+              "score": 0.3944686541911393,
+              "method": "dense",
+              "rank": 2
+            },
+            {
+              "id": "luat_an_ninh_mang_116-2025_p14_para_004",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 14,
+              "text": "©) Thiết lập, cung cấp dịch vụ hoặc hỗ trợ vận hành, kinh doanh, Ølao\ndịch, mua bán, tiêp thị trực tuyên cho sàn giao dịch, trang thông tin điện tử, ứng\ndụng trái phép trên không gian mạng, bao gôm: sàn thương mại điện tử, trang\nthông tin điện tử, ứng dụng bán hàng, cung câp dịch vụ thương mại điện tử; sàn\ngiao dịch dựa trên chỉ sô các loại hàng hóa; sàn giao dịch tài sản sô, kinh doanh\ntheo phương thức đa câp;",
+              "metadata": {
+                "page": 14,
+                "chapter": "Chương III",
+                "n_chars": 2657,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2657,
+                "char_length": 414,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1
+              },
+              "score": 0.32491784394766987,
+              "method": "dense",
+              "rank": 3
+            }
+          ],
+          "context_ids": [
+            "luat_an_ninh_mang_116-2025_p33_para_002",
+            "luat_an_ninh_mang_116-2025_p31_para_003",
+            "luat_an_ninh_mang_116-2025_p14_para_004"
+          ],
+          "elapsed_ms": 34.16610000022047
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p33_para_002] luat_an_ninh_mang_116-2025 | PDF page 33\n5. Có trách nhiệm định danh địa chỉ IP của tổ chức, cá nhân sử dụng dịch\nvụ internet; cung câp thông tin định danh địa chỉ IP cho lực lượng chuyên trách\nbảo vệ an ninh mạng đê thực hiện biện pháp bảo vệ an ninh mạng.\n\n[luat_an_ninh_mang_116-2025_p31_para_003] luat_an_ninh_mang_116-2025 | PDF page 31\nđ) Phòng ngừa, đấu tranh với hoạt động sử dụng không gian mạng xâm\nphạm chủ quyên, lợi ích, an ninh quôc gia, trật tự, an toàn xã hội và phòng,\nchông tội phạm mạng;\n\ne) Bảo đảm an ninh thông tin trên không gian mạng, an ninh dữ liệu; xây\ndựng cơ chê quản lý định danh địa chỉ IP; xác thực thông tin đăng ký tài khoản\nsô; cảnh báo, chia sẻ thông tin an ninh mạng, nguy cơ đe dọa an ninh mạng;\n\n[luat_an_ninh_mang_116-2025_p14_para_004] luat_an_ninh_mang_116-2025 | PDF page 14\n©) Thiết lập, cung cấp dịch vụ hoặc hỗ trợ vận hành, kinh doanh, Ølao\ndịch, mua bán, tiêp thị trực tuyên cho sàn giao dịch, trang thông tin điện tử, ứng\ndụng trái phép trên không gian mạng, bao gôm: sàn thương mại điện tử, trang\nthông tin điện tử, ứng dụng bán hàng, cung câp dịch vụ thương mại điện tử; sàn\ngiao dịch dựa trên chỉ sô các loại hàng hóa; sàn giao dịch tài sản sô, kinh doanh\ntheo phương thức đa câp;",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p33_para_002",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 33,
+            "text": "5. Có trách nhiệm định danh địa chỉ IP của tổ chức, cá nhân sử dụng dịch\nvụ internet; cung câp thông tin định danh địa chỉ IP cho lực lượng chuyên trách\nbảo vệ an ninh mạng đê thực hiện biện pháp bảo vệ an ninh mạng.",
+            "metadata": {
+              "page": 33,
+              "chapter": "Chương VII",
+              "n_chars": 2682,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2682,
+              "char_length": 216,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1
+            },
+            "score": 0.5546210874030382,
+            "method": "dense",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p31_para_003",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 31,
+            "text": "đ) Phòng ngừa, đấu tranh với hoạt động sử dụng không gian mạng xâm\nphạm chủ quyên, lợi ích, an ninh quôc gia, trật tự, an toàn xã hội và phòng,\nchông tội phạm mạng;\n\ne) Bảo đảm an ninh thông tin trên không gian mạng, an ninh dữ liệu; xây\ndựng cơ chê quản lý định danh địa chỉ IP; xác thực thông tin đăng ký tài khoản\nsô; cảnh báo, chia sẻ thông tin an ninh mạng, nguy cơ đe dọa an ninh mạng;",
+            "metadata": {
+              "page": 31,
+              "chapter": "Chương VII",
+              "n_chars": 2393,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2393,
+              "char_length": 391,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 2
+            },
+            "score": 0.3944686541911393,
+            "method": "dense",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p14_para_004",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 14,
+            "text": "©) Thiết lập, cung cấp dịch vụ hoặc hỗ trợ vận hành, kinh doanh, Ølao\ndịch, mua bán, tiêp thị trực tuyên cho sàn giao dịch, trang thông tin điện tử, ứng\ndụng trái phép trên không gian mạng, bao gôm: sàn thương mại điện tử, trang\nthông tin điện tử, ứng dụng bán hàng, cung câp dịch vụ thương mại điện tử; sàn\ngiao dịch dựa trên chỉ sô các loại hàng hóa; sàn giao dịch tài sản sô, kinh doanh\ntheo phương thức đa câp;",
+            "metadata": {
+              "page": 14,
+              "chapter": "Chương III",
+              "n_chars": 2657,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2657,
+              "char_length": 414,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1
+            },
+            "score": 0.32491784394766987,
+            "method": "dense",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p33_para_002",
+          "luat_an_ninh_mang_116-2025_p31_para_003",
+          "luat_an_ninh_mang_116-2025_p14_para_004"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1556
+      },
+      "model_calls": [
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 1,
+          "reserved_tokens": 2053,
+          "http_status": 200,
+          "elapsed_ms": 279.07909999976255,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "917",
+            "x-ratelimit-remaining-tokens": "5255",
+            "x-ratelimit-reset-tokens": "21.145s"
+          },
+          "request_id": "chatcmpl-05cae2dc-83e3-4111-8bda-df17818522a2",
+          "usage": {
+            "queue_time": 0.055214236,
+            "prompt_tokens": 626,
+            "prompt_time": 0.04767843,
+            "completion_tokens": 31,
+            "completion_time": 0.07095456,
+            "total_tokens": 657,
+            "total_time": 0.11863299
+          },
+          "response_model": "qwen/qwen3.8-27b"
+        },
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 1,
+          "reserved_tokens": 2853,
+          "http_status": 200,
+          "elapsed_ms": 882.8495999996449,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "916",
+            "x-ratelimit-remaining-tokens": "3894",
+            "x-ratelimit-reset-tokens": "32.58s"
+          },
+          "request_id": "chatcmpl-51135424-c5d6-4205-88e8-b31bed4c0cba",
+          "usage": {
+            "queue_time": 0.052609395,
+            "prompt_tokens": 1373,
+            "prompt_time": 0.099108011,
+            "completion_tokens": 169,
+            "completion_time": 0.619129919,
+            "total_tokens": 1542,
+            "total_time": 0.71823793
+          },
+          "response_model": "qwen/qwen3.8-27b"
+        }
+      ],
+      "elapsed_ms": 1238.7483000002248
+    },
+    {
+      "query_id": "basic-test-04",
+      "question": "Kiến thức an ninh mạng được đưa vào môn học và chương trình bồi dưỡng nào theo Điều 33?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p28_para_002",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 28,
+          "text": "1. Nội dung giáo dục, bồi dưỡng kiến thức an ninh mạng được đưa vào\nmôn học giáo dục quôc phòng và an ninh trong nhà trường, chương trình bôi\ndưỡng kiên thức quôc phòng và an ninh theo quy định của Luật Giáo dục quôc\nphòng và an ninh.\n\n2. Bộ Công an chủ trì, phối hợp với Bộ, ngành có liên quan tổ chức bồi\ndưỡng nghiệp vụ an ninh mạng cho lực lượng bảo vệ an ninh mạng và công\nchức, viên chức, người lao động tham gia bảo vệ an ninh mạng.",
+          "metadata": {
+            "page": 28,
+            "chapter": "Chương VI",
+            "n_chars": 2514,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2514,
+            "char_length": 439,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 2
+          },
+          "score": 0.5369393781495836,
+          "method": "dense",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p28_para_003",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 28,
+          "text": "Bộ Quốc phòng, Ban Cơ yếu Chính phủ tổ chức bồi dưỡng nghiệp vụ an\nninh mạng cho đôi tượng thuộc phạm vi quản lý.\n\nĐiều 34. Tập huấn kiến thức, kỹ năng chuyên sâu về an ninh mạng\n\n1. Lực lượng bảo vệ an ninh mạng quy định tại điểm a và điểm b khoản 1\nĐiêu 30 của Luật này phải đáp ứng yêu câu kiên thức, kỹ năng chuyên sâu về an\nninh mạng.",
+          "metadata": {
+            "page": 28,
+            "chapter": "Chương VI",
+            "n_chars": 2514,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2514,
+            "char_length": 339,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 3
+          },
+          "score": 0.4039875864982634,
+          "method": "dense",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p5_para_004",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 5,
+          "text": "b) Xây dựng khuôn khổ pháp lý, chính sách và cơ chế hợp tác, phối hợp\ntrong bảo vệ an ninh mạng; đàm phán, ký kêt, tham gia thực hiện điêu ước quôc\ntê, thỏa thuận quôc tê vê an ninh mạng;\n\nc) Đào tạo, tư vấn, chia sẻ kinh nghiệm và nâng cao năng lực chuyên\nmôn, kỹ thuật trong lĩnh vực an ninh mạng;\n\nd) Phòng, chống tội phạm mạng, tội phạm sử dụng công nghệ cao; phối\nhợp điêu tra, xử lý vi phạm pháp luật, tội phạm mạng và tội phạm sử dụng công\nnghệ cao;",
+          "metadata": {
+            "page": 5,
+            "chapter": "Chương I",
+            "n_chars": 2392,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2392,
+            "char_length": 456,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 3
+          },
+          "score": 0.386901474779757,
+          "method": "dense",
+          "rank": 3
+        }
+      ],
+      "status": "abstain",
+      "answer": "Tôi chưa đủ bằng chứng trong các đoạn đã tìm để xác định nội dung Điều 33 về việc đưa kiến thức an ninh mạng vào môn học và chương trình bồi dưỡng nào.",
+      "citations": [],
+      "events": [
+        {
+          "event": "search",
+          "tool": "dense",
+          "query": "Điều 33",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat_an_ninh_mang_116-2025_p7_para_000",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 7,
+              "text": "7",
+              "metadata": {
+                "page": 7,
+                "chapter": "Chương I",
+                "n_chars": 2622,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2622,
+                "char_length": 1,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1
+              },
+              "score": 0.4326669911940707,
+              "method": "dense",
+              "rank": 1
+            },
+            {
+              "id": "luat_an_ninh_mang_116-2025_p36_para_000",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 36,
+              "text": "36\nmột số điều theo Luật số 54/2014/QH13, Luật số 18/2017/QH14, Luật số\n67/2020/QH14, Luật sô 09/2022/QHI5, Luật sô 11/2022/QHI5, Luật sô\n56/2024/QH15 và Luật sô 88/2025/QH15.",
+              "metadata": {
+                "page": 36,
+                "chapter": "Chương VIII",
+                "n_chars": 724,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 3286,
+                "char_length": 175,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1
+              },
+              "score": 0.3386157549252662,
+              "method": "dense",
+              "rank": 2
+            },
+            {
+              "id": "luat_an_ninh_mang_116-2025_p15_para_006",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 15,
+              "text": "a) Chiếm đoạt, mua bán, thu giữ, cố ý làm lộ thông tin thuộc bí mật nhà\nnước, bí mật công tác, bí mật kinh đoanh; chiếm đoạt, mua bán, thu giữ, cố ý\nlàm lộ bí mật cá nhân, bí mật gia đình và đời sống riêng tư gây ảnh hưởng\nđến danh dự, uy tín, nhân phẩm, quyền và lợi ích hợp pháp của cơ quan, tô\nchức, cá nhân;",
+              "metadata": {
+                "page": 15,
+                "chapter": "Chương III",
+                "n_chars": 2662,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2662,
+                "char_length": 311,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1
+              },
+              "score": 0.29749087706262656,
+              "method": "dense",
+              "rank": 3
+            }
+          ],
+          "context_ids": [
+            "luat_an_ninh_mang_116-2025_p7_para_000",
+            "luat_an_ninh_mang_116-2025_p36_para_000",
+            "luat_an_ninh_mang_116-2025_p15_para_006"
+          ],
+          "elapsed_ms": 48.86519999945449
+        },
+        {
+          "event": "abstain",
+          "reason": "model_insufficient_evidence"
+        }
+      ],
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p7_para_000] luat_an_ninh_mang_116-2025 | PDF page 7\n7\n\n[luat_an_ninh_mang_116-2025_p36_para_000] luat_an_ninh_mang_116-2025 | PDF page 36\n36\nmột số điều theo Luật số 54/2014/QH13, Luật số 18/2017/QH14, Luật số\n67/2020/QH14, Luật sô 09/2022/QHI5, Luật sô 11/2022/QHI5, Luật sô\n56/2024/QH15 và Luật sô 88/2025/QH15.\n\n[luat_an_ninh_mang_116-2025_p15_para_006] luat_an_ninh_mang_116-2025 | PDF page 15\na) Chiếm đoạt, mua bán, thu giữ, cố ý làm lộ thông tin thuộc bí mật nhà\nnước, bí mật công tác, bí mật kinh đoanh; chiếm đoạt, mua bán, thu giữ, cố ý\nlàm lộ bí mật cá nhân, bí mật gia đình và đời sống riêng tư gây ảnh hưởng\nđến danh dự, uy tín, nhân phẩm, quyền và lợi ích hợp pháp của cơ quan, tô\nchức, cá nhân;",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p7_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 7,
+            "text": "7",
+            "metadata": {
+              "page": 7,
+              "chapter": "Chương I",
+              "n_chars": 2622,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2622,
+              "char_length": 1,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1
+            },
+            "score": 0.4326669911940707,
+            "method": "dense",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p36_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 36,
+            "text": "36\nmột số điều theo Luật số 54/2014/QH13, Luật số 18/2017/QH14, Luật số\n67/2020/QH14, Luật sô 09/2022/QHI5, Luật sô 11/2022/QHI5, Luật sô\n56/2024/QH15 và Luật sô 88/2025/QH15.",
+            "metadata": {
+              "page": 36,
+              "chapter": "Chương VIII",
+              "n_chars": 724,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 3286,
+              "char_length": 175,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1
+            },
+            "score": 0.3386157549252662,
+            "method": "dense",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p15_para_006",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 15,
+            "text": "a) Chiếm đoạt, mua bán, thu giữ, cố ý làm lộ thông tin thuộc bí mật nhà\nnước, bí mật công tác, bí mật kinh đoanh; chiếm đoạt, mua bán, thu giữ, cố ý\nlàm lộ bí mật cá nhân, bí mật gia đình và đời sống riêng tư gây ảnh hưởng\nđến danh dự, uy tín, nhân phẩm, quyền và lợi ích hợp pháp của cơ quan, tô\nchức, cá nhân;",
+            "metadata": {
+              "page": 15,
+              "chapter": "Chương III",
+              "n_chars": 2662,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2662,
+              "char_length": 311,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1
+            },
+            "score": 0.29749087706262656,
+            "method": "dense",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p7_para_000",
+          "luat_an_ninh_mang_116-2025_p36_para_000",
+          "luat_an_ninh_mang_116-2025_p15_para_006"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 867
+      },
+      "model_calls": [
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 1,
+          "reserved_tokens": 2054,
+          "http_status": 200,
+          "elapsed_ms": 461.9637999994666,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "915",
+            "x-ratelimit-remaining-tokens": "3221",
+            "x-ratelimit-reset-tokens": "37.028s"
+          },
+          "request_id": "chatcmpl-8662cc3d-b052-4b5b-a6b0-00abf8fbd98c",
+          "usage": {
+            "queue_time": 0.166232767,
+            "prompt_tokens": 627,
+            "prompt_time": 0.065883216,
+            "completion_tokens": 29,
+            "completion_time": 0.132579636,
+            "total_tokens": 656,
+            "total_time": 0.198462852
+          },
+          "response_model": "qwen/qwen3.8-27b"
+        },
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 1,
+          "reserved_tokens": 2766,
+          "http_status": 200,
+          "elapsed_ms": 703.4045000000333,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "914",
+            "x-ratelimit-remaining-tokens": "6617",
+            "x-ratelimit-reset-tokens": "10.372s"
+          },
+          "request_id": "chatcmpl-93dfb964-cc7d-428e-bb34-a93389c2d439",
+          "usage": {
+            "queue_time": 0.076213565,
+            "prompt_tokens": 1285,
+            "prompt_time": 0.101201473,
+            "completion_tokens": 88,
+            "completion_time": 0.292902344,
+            "total_tokens": 1373,
+            "total_time": 0.394103817
+          },
+          "response_model": "qwen/qwen3.8-27b"
+        }
+      ],
+      "elapsed_ms": 58260.162099999434
+    },
+    {
+      "query_id": "basic-test-05",
+      "question": "Ban Cơ yếu Chính phủ giúp bộ trưởng nào quản lý nhà nước về mật mã dân sự và an ninh mạng trong phạm vi quản lý?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p32_para_002",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 32,
+          "text": "4. Ban Cơ yếu Chính phủ giúp Bộ trưởng Bộ Quốc phòng thực hiện quản\nlý nhà nước vê mật mã dân sự và an ninh mạng thuộc phạm vi quản lý theo quy\nđịnh của pháp luật.\n\n5. Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, trong phạm vi chức\nnăng, nhiệm vụ, quyên hạn của mình, thực hiện công tác bảo vệ an ninh mạng;\nphôi hợp với Bộ Công an thực hiện quản lý nhà nước vê an ninh mạng.",
+          "metadata": {
+            "page": 32,
+            "chapter": "Chương VII",
+            "n_chars": 2239,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2239,
+            "char_length": 377,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 2
+          },
+          "score": 0.6743197039175222,
+          "method": "dense",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p17_para_002",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 17,
+          "text": "6. Ban Cơ yếu Chính phủ có trách nhiệm thực hiện các nội dung quy định\ntại khoản 4 Điêu này đôi với hệ thông thông tin cơ yếu thuộc Ban Cơ yếu Chính\nphủ; có trách nhiệm tô chức thực hiện các quy định của pháp luật trong việc sử\ndụng mật mã đê bảo vệ thông tin thuộc bí mật nhà nước được lưu trữ, trao đổi\ntrên không gian mạng.\n\nĐiều 16. Phòng, chống xâm hại trẻ em trên không gian mạng",
+          "metadata": {
+            "page": 17,
+            "chapter": "Chương III",
+            "n_chars": 2538,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2538,
+            "char_length": 385,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 2
+          },
+          "score": 0.46154085030908365,
+          "method": "dense",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p3_para_004",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 3,
+          "text": "23. Hệ thống thông tin cơ yếu là hệ thống thông tin dùng mật mã cơ yếu\nđề bảo vệ thông tin thuộc phạm vi bí mật nhà nước đê phục vụ hoạt động chuyên\nmôn nghiệp vụ cơ yêu do tô chức cơ yêu trực tiêp quản lý, vận hành.\n\nĐiều 3. Chính sách của Nhà nước về an ninh mạng\n\n1. Xây dựng không gian mạng lành mạnh, không gây phương hại đến an\nninh quôc gia, trật tự, an toàn xã hội, quyên và lợi ích hợp pháp của cơ quan, tô\nchức, cá nhân.",
+          "metadata": {
+            "page": 3,
+            "chapter": "Chương I",
+            "n_chars": 2705,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2705,
+            "char_length": 430,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 3
+          },
+          "score": 0.4309348464012146,
+          "method": "dense",
+          "rank": 3
+        }
+      ],
+      "status": "answered",
+      "answer": "Ban Cơ yếu Chính phủ giúp Bộ trưởng Bộ Quốc phòng thực hiện quản lý nhà nước về mật mã dân sự và an ninh mạng thuộc phạm vi quản lý theo quy định của pháp luật [luat_an_ninh_mang_116-2025_p32_para_002].",
+      "citations": [
+        "luat_an_ninh_mang_116-2025_p32_para_002"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "tool": "dense",
+          "query": "Ban Cơ yếu Chính phủ",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat_an_ninh_mang_116-2025_p32_para_002",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 32,
+              "text": "4. Ban Cơ yếu Chính phủ giúp Bộ trưởng Bộ Quốc phòng thực hiện quản\nlý nhà nước vê mật mã dân sự và an ninh mạng thuộc phạm vi quản lý theo quy\nđịnh của pháp luật.\n\n5. Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, trong phạm vi chức\nnăng, nhiệm vụ, quyên hạn của mình, thực hiện công tác bảo vệ an ninh mạng;\nphôi hợp với Bộ Công an thực hiện quản lý nhà nước vê an ninh mạng.",
+              "metadata": {
+                "page": 32,
+                "chapter": "Chương VII",
+                "n_chars": 2239,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2239,
+                "char_length": 377,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 2
+              },
+              "score": 0.495493620902681,
+              "method": "dense",
+              "rank": 1
+            },
+            {
+              "id": "luat_an_ninh_mang_116-2025_p11_para_005",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 11,
+              "text": "4. Ban Cơ yếu Chính phủ chủ trì tổ chức triển khai giải pháp dùng mật mã\ncơ yêu đê bảo vệ thông tin bí mật nhà nước trong hệ thông thông tin quan trọng\nvề an ninh quôc gia; thâm định an ninh mạng, đánh giá điêu kiện an ninh mạng,\nkiêm tra an ninh mạng đột xuât, giám sát an ninh mạng và điêu phôi hoạt động\nứng phó, khắc phục sự cô an ninh mạng đôi với hệ thông thông tin cơ yêu thuộc\nBan Cơ yêu Chính phủ.",
+              "metadata": {
+                "page": 11,
+                "chapter": "Chương II",
+                "n_chars": 2446,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2446,
+                "char_length": 406,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1
+              },
+              "score": 0.47008636772117884,
+              "method": "dense",
+              "rank": 2
+            },
+            {
+              "id": "luat_an_ninh_mang_116-2025_p17_para_002",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 17,
+              "text": "6. Ban Cơ yếu Chính phủ có trách nhiệm thực hiện các nội dung quy định\ntại khoản 4 Điêu này đôi với hệ thông thông tin cơ yếu thuộc Ban Cơ yếu Chính\nphủ; có trách nhiệm tô chức thực hiện các quy định của pháp luật trong việc sử\ndụng mật mã đê bảo vệ thông tin thuộc bí mật nhà nước được lưu trữ, trao đổi\ntrên không gian mạng.\n\nĐiều 16. Phòng, chống xâm hại trẻ em trên không gian mạng",
+              "metadata": {
+                "page": 17,
+                "chapter": "Chương III",
+                "n_chars": 2538,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2538,
+                "char_length": 385,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 2
+              },
+              "score": 0.4673159439971488,
+              "method": "dense",
+              "rank": 3
+            }
+          ],
+          "context_ids": [
+            "luat_an_ninh_mang_116-2025_p32_para_002",
+            "luat_an_ninh_mang_116-2025_p11_para_005",
+            "luat_an_ninh_mang_116-2025_p17_para_002"
+          ],
+          "elapsed_ms": 56.61130000044068
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p32_para_002] luat_an_ninh_mang_116-2025 | PDF page 32\n4. Ban Cơ yếu Chính phủ giúp Bộ trưởng Bộ Quốc phòng thực hiện quản\nlý nhà nước vê mật mã dân sự và an ninh mạng thuộc phạm vi quản lý theo quy\nđịnh của pháp luật.\n\n5. Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, trong phạm vi chức\nnăng, nhiệm vụ, quyên hạn của mình, thực hiện công tác bảo vệ an ninh mạng;\nphôi hợp với Bộ Công an thực hiện quản lý nhà nước vê an ninh mạng.\n\n[luat_an_ninh_mang_116-2025_p11_para_005] luat_an_ninh_mang_116-2025 | PDF page 11\n4. Ban Cơ yếu Chính phủ chủ trì tổ chức triển khai giải pháp dùng mật mã\ncơ yêu đê bảo vệ thông tin bí mật nhà nước trong hệ thông thông tin quan trọng\nvề an ninh quôc gia; thâm định an ninh mạng, đánh giá điêu kiện an ninh mạng,\nkiêm tra an ninh mạng đột xuât, giám sát an ninh mạng và điêu phôi hoạt động\nứng phó, khắc phục sự cô an ninh mạng đôi với hệ thông thông tin cơ yêu thuộc\nBan Cơ yêu Chính phủ.\n\n[luat_an_ninh_mang_116-2025_p17_para_002] luat_an_ninh_mang_116-2025 | PDF page 17\n6. Ban Cơ yếu Chính phủ có trách nhiệm thực hiện các nội dung quy định\ntại khoản 4 Điêu này đôi với hệ thông thông tin cơ yếu thuộc Ban Cơ yếu Chính\nphủ; có trách nhiệm tô chức thực hiện các quy định của pháp luật trong việc sử\ndụng mật mã đê bảo vệ thông tin thuộc bí mật nhà nước được lưu trữ, trao đổi\ntrên không gian mạng.\n\nĐiều 16. Phòng, chống xâm hại trẻ em trên không gian mạng",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p32_para_002",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 32,
+            "text": "4. Ban Cơ yếu Chính phủ giúp Bộ trưởng Bộ Quốc phòng thực hiện quản\nlý nhà nước vê mật mã dân sự và an ninh mạng thuộc phạm vi quản lý theo quy\nđịnh của pháp luật.\n\n5. Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, trong phạm vi chức\nnăng, nhiệm vụ, quyên hạn của mình, thực hiện công tác bảo vệ an ninh mạng;\nphôi hợp với Bộ Công an thực hiện quản lý nhà nước vê an ninh mạng.",
+            "metadata": {
+              "page": 32,
+              "chapter": "Chương VII",
+              "n_chars": 2239,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2239,
+              "char_length": 377,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 2
+            },
+            "score": 0.495493620902681,
+            "method": "dense",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p11_para_005",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 11,
+            "text": "4. Ban Cơ yếu Chính phủ chủ trì tổ chức triển khai giải pháp dùng mật mã\ncơ yêu đê bảo vệ thông tin bí mật nhà nước trong hệ thông thông tin quan trọng\nvề an ninh quôc gia; thâm định an ninh mạng, đánh giá điêu kiện an ninh mạng,\nkiêm tra an ninh mạng đột xuât, giám sát an ninh mạng và điêu phôi hoạt động\nứng phó, khắc phục sự cô an ninh mạng đôi với hệ thông thông tin cơ yêu thuộc\nBan Cơ yêu Chính phủ.",
+            "metadata": {
+              "page": 11,
+              "chapter": "Chương II",
+              "n_chars": 2446,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2446,
+              "char_length": 406,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1
+            },
+            "score": 0.47008636772117884,
+            "method": "dense",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p17_para_002",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 17,
+            "text": "6. Ban Cơ yếu Chính phủ có trách nhiệm thực hiện các nội dung quy định\ntại khoản 4 Điêu này đôi với hệ thông thông tin cơ yếu thuộc Ban Cơ yếu Chính\nphủ; có trách nhiệm tô chức thực hiện các quy định của pháp luật trong việc sử\ndụng mật mã đê bảo vệ thông tin thuộc bí mật nhà nước được lưu trữ, trao đổi\ntrên không gian mạng.\n\nĐiều 16. Phòng, chống xâm hại trẻ em trên không gian mạng",
+            "metadata": {
+              "page": 17,
+              "chapter": "Chương III",
+              "n_chars": 2538,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2538,
+              "char_length": 385,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 2
+            },
+            "score": 0.4673159439971488,
+            "method": "dense",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p32_para_002",
+          "luat_an_ninh_mang_116-2025_p11_para_005",
+          "luat_an_ninh_mang_116-2025_p17_para_002"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1765
+      },
+      "model_calls": [
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 1,
+          "reserved_tokens": 2059,
+          "http_status": 200,
+          "elapsed_ms": 282.1518000000651,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "913",
+            "x-ratelimit-remaining-tokens": "5980",
+            "x-ratelimit-reset-tokens": "15.797s"
+          },
+          "request_id": "chatcmpl-ea0d7241-0a1c-4d20-8b3f-ad30c5bd7481",
+          "usage": {
+            "queue_time": 0.054958766,
+            "prompt_tokens": 632,
+            "prompt_time": 0.048012653,
+            "completion_tokens": 30,
+            "completion_time": 0.061079961,
+            "total_tokens": 662,
+            "total_time": 0.109092614
+          },
+          "response_model": "qwen/qwen3.8-27b"
+        },
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 1,
+          "reserved_tokens": 2889,
+          "http_status": 200,
+          "elapsed_ms": 739.9521999996068,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "912",
+            "x-ratelimit-remaining-tokens": "4729",
+            "x-ratelimit-reset-tokens": "26.451s"
+          },
+          "request_id": "chatcmpl-1b45550f-e229-435f-ab9f-cc3b0b20185d",
+          "usage": {
+            "queue_time": 0.050759529,
+            "prompt_tokens": 1403,
+            "prompt_time": 0.103589629,
+            "completion_tokens": 137,
+            "completion_time": 0.467536483,
+            "total_tokens": 1540,
+            "total_time": 0.571126112
+          },
+          "response_model": "qwen/qwen3.8-27b"
+        }
+      ],
+      "elapsed_ms": 2124.9332999996113
+    },
+    {
+      "query_id": "basic-test-absent-1",
+      "question": "Theo riêng văn bản luật này, mức phạt tiền cụ thể bằng bao nhiêu đồng khi cá nhân làm lộ mật khẩu tài khoản?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p24_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 24,
+          "text": "b) Ngăn chặn việc chia sẻ thông tin, xóa bỏ thông tin, gỡ bỏ dịch Vụ, Ứng\ndụng có nội dung vi phạm quy định của Luật này chậm nhât là 24 giờ kê từ thời\nđiêm có yêu câu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ\nCông an và lưu nhật ký hệ thông đê phục vụ xác minh, điêu tra, xử lý hành vi vi\nphạm pháp luật vê an ninh mạng trong thời gian theo quy định của pháp luật;\ntrường hợp khân câp đe dọa xâm hại an ninh quôc gia, yêu câu ngăn chặn, xóa\nbỏ thông tin chậm nhất là 06 giờ;",
+          "metadata": {
+            "page": 24,
+            "chapter": "Chương IV",
+            "n_chars": 2620,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2620,
+            "char_length": 489,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 1
+          },
+          "score": 0.36489105224609375,
+          "method": "dense",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p33_para_005",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 33,
+          "text": "2. Có trách nhiệm bảo mật thông tin đăng ký, mở, quản lý, sử dụng tài\nkhoản sô của mình. Trường hợp sử dụng tài khoản sô đê thực hiện hành vi vi\nphạm pháp luật, tùy theo tính chât, mức độ của hành vi vi phạm, chủ tài khoản\nsô, người sử dụng tài khoản sô bị xử lý kỷ luật, xử phạt li phạm hành chính\nhoặc bị truy cứu trách nhiệm hình sự; nêu gây thiệt hại đên lợi ích của Nhà\nnước, quyên và lợi ích hợp pháp của tô chức, cá nhân thì phải bôi thường thiệt\nhại theo quy định pháp luật.",
+          "metadata": {
+            "page": 33,
+            "chapter": "Chương VII",
+            "n_chars": 2682,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2682,
+            "char_length": 482,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 1
+          },
+          "score": 0.31597916388635905,
+          "method": "dense",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p15_para_004",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 15,
+          "text": "4. Tổ chức, cá nhân soạn thảo, đăng tải, phát tán thông tin trên không gian\nmạng có nội dung quy định tại các khoản 1, 2 và 3 Điều 13 của Luật này phải gỡ\nbỏ thông tin khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng và\nchịu trách nhiệm theo quy định của pháp luật.\n\n5. Chính phủ quy định chỉ tiết Điều này.",
+          "metadata": {
+            "page": 15,
+            "chapter": "Chương III",
+            "n_chars": 2662,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2662,
+            "char_length": 320,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 2
+          },
+          "score": 0.3115987777709961,
+          "method": "dense",
+          "rank": 3
+        }
+      ],
+      "status": "abstain",
+      "answer": "Trong các đoạn văn bản hiện có, chưa thấy quy định cụ thể về mức phạt tiền (số tiền bằng bao nhiêu đồng) áp dụng cho hành vi cá nhân làm lộ mật khẩu tài khoản. Do đó, không thể trả lời chính xác theo bằng chứng đã cung cấp.",
+      "citations": [],
+      "events": [
+        {
+          "event": "search",
+          "tool": "dense",
+          "query": "lộ mật khẩu",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat_an_ninh_mang_116-2025_p7_para_002",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 7,
+              "text": "tiêt lộ thông tin vê sản phâm mật mã dân sự, thông tin vê khách hàng\nsử dụng hợp pháp sản phâm mật mã dân sự; sử dụng, kinh doanh các sản phâm\nmật mã dân sự không rõ nguôn gôc;",
+              "metadata": {
+                "page": 7,
+                "chapter": "Chương I",
+                "n_chars": 2622,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2622,
+                "char_length": 176,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1,
+                "is_split_subpiece": true
+              },
+              "score": 0.3961261398566718,
+              "method": "dense",
+              "rank": 1
+            },
+            {
+              "id": "luat_an_ninh_mang_116-2025_p7_para_000",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 7,
+              "text": "7",
+              "metadata": {
+                "page": 7,
+                "chapter": "Chương I",
+                "n_chars": 2622,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2622,
+                "char_length": 1,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1
+              },
+              "score": 0.3521371064022678,
+              "method": "dense",
+              "rank": 2
+            },
+            {
+              "id": "luat_an_ninh_mang_116-2025_p7_para_001",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 7,
+              "text": "e) Chiếm đoạt, mua bán, thu g1Iữ, cô ý làm lộ thông tin thuộc bí mật nhà\nnước, bí mật công tác, bí mật kinh doanh; chiêm đoạt, mua bán, thu giữ, cô ý\nlàm lộ bí mật cá nhân, bí mật gia đình và đời sông riêng tư gây ảnh hưởng đến\ndanh dự, uy tín, nhân phâm, quyên và lợi ích hợp pháp của cơ quan, tô chức, cá\nnhân; cô ý nghe lén, ghi âm, ghi hình trái phép các cuộc đàm thoại trên không\nglan mạng;",
+              "metadata": {
+                "page": 7,
+                "chapter": "Chương I",
+                "n_chars": 2622,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2622,
+                "char_length": 395,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1,
+                "is_split_subpiece": true
+              },
+              "score": 0.3047843212146397,
+              "method": "dense",
+              "rank": 3
+            }
+          ],
+          "context_ids": [
+            "luat_an_ninh_mang_116-2025_p7_para_002",
+            "luat_an_ninh_mang_116-2025_p7_para_000",
+            "luat_an_ninh_mang_116-2025_p7_para_001"
+          ],
+          "elapsed_ms": 39.33340000003227
+        },
+        {
+          "event": "abstain",
+          "reason": "model_insufficient_evidence"
+        }
+      ],
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p7_para_002] luat_an_ninh_mang_116-2025 | PDF page 7\ntiêt lộ thông tin vê sản phâm mật mã dân sự, thông tin vê khách hàng\nsử dụng hợp pháp sản phâm mật mã dân sự; sử dụng, kinh doanh các sản phâm\nmật mã dân sự không rõ nguôn gôc;\n\n[luat_an_ninh_mang_116-2025_p7_para_000] luat_an_ninh_mang_116-2025 | PDF page 7\n7\n\n[luat_an_ninh_mang_116-2025_p7_para_001] luat_an_ninh_mang_116-2025 | PDF page 7\ne) Chiếm đoạt, mua bán, thu g1Iữ, cô ý làm lộ thông tin thuộc bí mật nhà\nnước, bí mật công tác, bí mật kinh doanh; chiêm đoạt, mua bán, thu giữ, cô ý\nlàm lộ bí mật cá nhân, bí mật gia đình và đời sông riêng tư gây ảnh hưởng đến\ndanh dự, uy tín, nhân phâm, quyên và lợi ích hợp pháp của cơ quan, tô chức, cá\nnhân; cô ý nghe lén, ghi âm, ghi hình trái phép các cuộc đàm thoại trên không\nglan mạng;",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p7_para_002",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 7,
+            "text": "tiêt lộ thông tin vê sản phâm mật mã dân sự, thông tin vê khách hàng\nsử dụng hợp pháp sản phâm mật mã dân sự; sử dụng, kinh doanh các sản phâm\nmật mã dân sự không rõ nguôn gôc;",
+            "metadata": {
+              "page": 7,
+              "chapter": "Chương I",
+              "n_chars": 2622,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2622,
+              "char_length": 176,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1,
+              "is_split_subpiece": true
+            },
+            "score": 0.3961261398566718,
+            "method": "dense",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p7_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 7,
+            "text": "7",
+            "metadata": {
+              "page": 7,
+              "chapter": "Chương I",
+              "n_chars": 2622,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2622,
+              "char_length": 1,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1
+            },
+            "score": 0.3521371064022678,
+            "method": "dense",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p7_para_001",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 7,
+            "text": "e) Chiếm đoạt, mua bán, thu g1Iữ, cô ý làm lộ thông tin thuộc bí mật nhà\nnước, bí mật công tác, bí mật kinh doanh; chiêm đoạt, mua bán, thu giữ, cô ý\nlàm lộ bí mật cá nhân, bí mật gia đình và đời sông riêng tư gây ảnh hưởng đến\ndanh dự, uy tín, nhân phâm, quyên và lợi ích hợp pháp của cơ quan, tô chức, cá\nnhân; cô ý nghe lén, ghi âm, ghi hình trái phép các cuộc đàm thoại trên không\nglan mạng;",
+            "metadata": {
+              "page": 7,
+              "chapter": "Chương I",
+              "n_chars": 2622,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2622,
+              "char_length": 395,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1,
+              "is_split_subpiece": true
+            },
+            "score": 0.3047843212146397,
+            "method": "dense",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p7_para_002",
+          "luat_an_ninh_mang_116-2025_p7_para_000",
+          "luat_an_ninh_mang_116-2025_p7_para_001"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 979
+      },
+      "model_calls": [
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 1,
+          "reserved_tokens": 2057,
+          "http_status": 200,
+          "elapsed_ms": 497.8274999994028,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "911",
+            "x-ratelimit-remaining-tokens": "4066",
+            "x-ratelimit-reset-tokens": "31.062s"
+          },
+          "request_id": "chatcmpl-bd5a735c-7b45-4bd5-adfc-4ff6ec2ea9fc",
+          "usage": {
+            "queue_time": 0.182133214,
+            "prompt_tokens": 630,
+            "prompt_time": 0.070635454,
+            "completion_tokens": 29,
+            "completion_time": 0.134261374,
+            "total_tokens": 659,
+            "total_time": 0.204896828
+          },
+          "response_model": "qwen/qwen3.8-27b"
+        },
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 1,
+          "reserved_tokens": 2730,
+          "http_status": 200,
+          "elapsed_ms": 679.9397000004319,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "910",
+            "x-ratelimit-remaining-tokens": "2861",
+            "x-ratelimit-reset-tokens": "41.22s"
+          },
+          "request_id": "chatcmpl-42ec522b-da15-4559-9fc7-1f919916c721",
+          "usage": {
+            "queue_time": 0.055880177,
+            "prompt_tokens": 1250,
+            "prompt_time": 0.097633842,
+            "completion_tokens": 108,
+            "completion_time": 0.402434954,
+            "total_tokens": 1358,
+            "total_time": 0.500068796
+          },
+          "response_model": "qwen/qwen3.8-27b"
+        }
+      ],
+      "elapsed_ms": 1258.4690999992745
+    },
+    {
+      "query_id": "basic-test-absent-2",
+      "question": "Địa chỉ API và mã xác thực kỹ thuật nào được luật công bố để doanh nghiệp gửi báo cáo sự cố tới Bộ Công an?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p33_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 33,
+          "text": "3. Khi xảy ra sự cố an ninh mạng, ngay lập tức triển khai phương án ứng\ncứu khân câp bảo đảm an ninh mạng, đông thời báo cáo ngay với lực lượng\nchuyên trách bảo vệ an ninh mạng theo quy định của Luật này.\n\n4. Áp dụng các biện pháp, giải pháp kỹ thuật để bảo đảm an ninh mạng\ncho hoạt động xử lý dữ liệu, xử lý đữ liệu cá nhân theo quy định của Luật này,\npháp luật về dữ liệu, pháp luật vê bảo vệ dữ liệu cá nhân và quy định khác của\npháp luật có liên quan.",
+          "metadata": {
+            "page": 33,
+            "chapter": "Chương VII",
+            "n_chars": 2682,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2682,
+            "char_length": 456,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 2
+          },
+          "score": 0.26071370424967133,
+          "method": "dense",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p24_para_005",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 24,
+          "text": "Doanh nghiệp ngoài nước quy định tại khoản này phải đặt chi nhánh hoặc\nvăn phòng đại diện tại Việt Nam.\n\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.\n\nĐiều 26. Bảo đảm an ninh dữ liệu\n\n1. Bảo đảm an ninh dữ liệu là tổng thể các biện pháp kỹ thuật, tổ chức và\npháp lý nhăm bảo vệ dữ liệu, phòng, chông xâm phạm an ninh dữ liệu.\n\n2. Nội dung bảo đảm an ninh dữ liệu bao gồm:\n\na) Xây dựng chính sách, thiết lập quy trình về bảo đảm an ninh dữ liệu;",
+          "metadata": {
+            "page": 24,
+            "chapter": "Chương IV",
+            "n_chars": 2620,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2620,
+            "char_length": 460,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 6
+          },
+          "score": 0.2552744448184967,
+          "method": "dense",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p23_para_005",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 23,
+          "text": "2. Doanh nghiệp trong nước và nước ngoài khi cung cấp dịch vụ trên\nmạng viên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại\nViệt Nam có trách nhiệm sau đây:\n\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật\nthông tin, tài khoản của người dùng; cung câp thông tin người dùng cho lực\nlượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an chậm nhất là 24",
+          "metadata": {
+            "page": 23,
+            "chapter": "Chương IV",
+            "n_chars": 2513,
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "char_count": 2513,
+            "char_length": 392,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chunk_strategy": "by_paragraph",
+            "paragraph_count": 2
+          },
+          "score": 0.2473994642496109,
+          "method": "dense",
+          "rank": 3
+        }
+      ],
+      "status": "abstain",
+      "answer": "Tôi không thể xác định địa chỉ API và mã xác thực kỹ thuật được luật công bố để doanh nghiệp gửi báo cáo sự cố tới Bộ Công an, vì các đoạn bằng chứng hiện tại chỉ nêu yêu cầu báo cáo ngay với lực lượng chuyên trách bảo vệ an ninh mạng và các quy định liên quan, nhưng không nêu địa chỉ API hay mã xác thực kỹ thuật cụ thể.",
+      "citations": [],
+      "events": [
+        {
+          "event": "search",
+          "tool": "dense",
+          "query": "luật công bố địa chỉ API mã xác thực kỹ thuật doanh nghiệp gửi báo cáo sự cố Bộ Công an",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat_an_ninh_mang_116-2025_p33_para_001",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 33,
+              "text": "3. Khi xảy ra sự cố an ninh mạng, ngay lập tức triển khai phương án ứng\ncứu khân câp bảo đảm an ninh mạng, đông thời báo cáo ngay với lực lượng\nchuyên trách bảo vệ an ninh mạng theo quy định của Luật này.\n\n4. Áp dụng các biện pháp, giải pháp kỹ thuật để bảo đảm an ninh mạng\ncho hoạt động xử lý dữ liệu, xử lý đữ liệu cá nhân theo quy định của Luật này,\npháp luật về dữ liệu, pháp luật vê bảo vệ dữ liệu cá nhân và quy định khác của\npháp luật có liên quan.",
+              "metadata": {
+                "page": 33,
+                "chapter": "Chương VII",
+                "n_chars": 2682,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2682,
+                "char_length": 456,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 2
+              },
+              "score": 0.29991351664324173,
+              "method": "dense",
+              "rank": 1
+            },
+            {
+              "id": "luat_an_ninh_mang_116-2025_p24_para_005",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 24,
+              "text": "Doanh nghiệp ngoài nước quy định tại khoản này phải đặt chi nhánh hoặc\nvăn phòng đại diện tại Việt Nam.\n\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.\n\nĐiều 26. Bảo đảm an ninh dữ liệu\n\n1. Bảo đảm an ninh dữ liệu là tổng thể các biện pháp kỹ thuật, tổ chức và\npháp lý nhăm bảo vệ dữ liệu, phòng, chông xâm phạm an ninh dữ liệu.\n\n2. Nội dung bảo đảm an ninh dữ liệu bao gồm:\n\na) Xây dựng chính sách, thiết lập quy trình về bảo đảm an ninh dữ liệu;",
+              "metadata": {
+                "page": 24,
+                "chapter": "Chương IV",
+                "n_chars": 2620,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2620,
+                "char_length": 460,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 6
+              },
+              "score": 0.2876738734439692,
+              "method": "dense",
+              "rank": 2
+            },
+            {
+              "id": "luat_an_ninh_mang_116-2025_p24_para_000",
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "source": "luat_an_ninh_mang_116-2025",
+              "page": 24,
+              "text": "24\ngiờ kế từ thời điểm có yêu cầu bằng văn bản hoặc thư điện tử, điện thoại hoặc\nhình thức trao đôi khác đã được xác nhận đê phục vụ xác minh, điêu tra, xử lý\nhành vi vi phạm pháp luật vê an ninh mạng; trường hợp khân câp đe dọa xâm\nhại an ninh quôc gia, đe dọa tính mạng con người, yêu câu cung câp thông tin\nchậm nhất là 03 giờ;",
+              "metadata": {
+                "page": 24,
+                "chapter": "Chương IV",
+                "n_chars": 2620,
+                "source_id": "luat_an_ninh_mang_116-2025",
+                "char_count": 2620,
+                "char_length": 330,
+                "document_id": "luat_an_ninh_mang_116-2025",
+                "chunk_strategy": "by_paragraph",
+                "paragraph_count": 1
+              },
+              "score": 0.27264304324131994,
+              "method": "dense",
+              "rank": 3
+            }
+          ],
+          "context_ids": [
+            "luat_an_ninh_mang_116-2025_p33_para_001",
+            "luat_an_ninh_mang_116-2025_p24_para_005",
+            "luat_an_ninh_mang_116-2025_p24_para_000"
+          ],
+          "elapsed_ms": 392.4265999994532
+        },
+        {
+          "event": "abstain",
+          "reason": "model_insufficient_evidence"
+        }
+      ],
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p33_para_001] luat_an_ninh_mang_116-2025 | PDF page 33\n3. Khi xảy ra sự cố an ninh mạng, ngay lập tức triển khai phương án ứng\ncứu khân câp bảo đảm an ninh mạng, đông thời báo cáo ngay với lực lượng\nchuyên trách bảo vệ an ninh mạng theo quy định của Luật này.\n\n4. Áp dụng các biện pháp, giải pháp kỹ thuật để bảo đảm an ninh mạng\ncho hoạt động xử lý dữ liệu, xử lý đữ liệu cá nhân theo quy định của Luật này,\npháp luật về dữ liệu, pháp luật vê bảo vệ dữ liệu cá nhân và quy định khác của\npháp luật có liên quan.\n\n[luat_an_ninh_mang_116-2025_p24_para_005] luat_an_ninh_mang_116-2025 | PDF page 24\nDoanh nghiệp ngoài nước quy định tại khoản này phải đặt chi nhánh hoặc\nvăn phòng đại diện tại Việt Nam.\n\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.\n\nĐiều 26. Bảo đảm an ninh dữ liệu\n\n1. Bảo đảm an ninh dữ liệu là tổng thể các biện pháp kỹ thuật, tổ chức và\npháp lý nhăm bảo vệ dữ liệu, phòng, chông xâm phạm an ninh dữ liệu.\n\n2. Nội dung bảo đảm an ninh dữ liệu bao gồm:\n\na) Xây dựng chính sách, thiết lập quy trình về bảo đảm an ninh dữ liệu;\n\n[luat_an_ninh_mang_116-2025_p24_para_000] luat_an_ninh_mang_116-2025 | PDF page 24\n24\ngiờ kế từ thời điểm có yêu cầu bằng văn bản hoặc thư điện tử, điện thoại hoặc\nhình thức trao đôi khác đã được xác nhận đê phục vụ xác minh, điêu tra, xử lý\nhành vi vi phạm pháp luật vê an ninh mạng; trường hợp khân câp đe dọa xâm\nhại an ninh quôc gia, đe dọa tính mạng con người, yêu câu cung câp thông tin\nchậm nhất là 03 giờ;",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p33_para_001",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 33,
+            "text": "3. Khi xảy ra sự cố an ninh mạng, ngay lập tức triển khai phương án ứng\ncứu khân câp bảo đảm an ninh mạng, đông thời báo cáo ngay với lực lượng\nchuyên trách bảo vệ an ninh mạng theo quy định của Luật này.\n\n4. Áp dụng các biện pháp, giải pháp kỹ thuật để bảo đảm an ninh mạng\ncho hoạt động xử lý dữ liệu, xử lý đữ liệu cá nhân theo quy định của Luật này,\npháp luật về dữ liệu, pháp luật vê bảo vệ dữ liệu cá nhân và quy định khác của\npháp luật có liên quan.",
+            "metadata": {
+              "page": 33,
+              "chapter": "Chương VII",
+              "n_chars": 2682,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2682,
+              "char_length": 456,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 2
+            },
+            "score": 0.29991351664324173,
+            "method": "dense",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p24_para_005",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 24,
+            "text": "Doanh nghiệp ngoài nước quy định tại khoản này phải đặt chi nhánh hoặc\nvăn phòng đại diện tại Việt Nam.\n\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.\n\nĐiều 26. Bảo đảm an ninh dữ liệu\n\n1. Bảo đảm an ninh dữ liệu là tổng thể các biện pháp kỹ thuật, tổ chức và\npháp lý nhăm bảo vệ dữ liệu, phòng, chông xâm phạm an ninh dữ liệu.\n\n2. Nội dung bảo đảm an ninh dữ liệu bao gồm:\n\na) Xây dựng chính sách, thiết lập quy trình về bảo đảm an ninh dữ liệu;",
+            "metadata": {
+              "page": 24,
+              "chapter": "Chương IV",
+              "n_chars": 2620,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2620,
+              "char_length": 460,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 6
+            },
+            "score": 0.2876738734439692,
+            "method": "dense",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p24_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 24,
+            "text": "24\ngiờ kế từ thời điểm có yêu cầu bằng văn bản hoặc thư điện tử, điện thoại hoặc\nhình thức trao đôi khác đã được xác nhận đê phục vụ xác minh, điêu tra, xử lý\nhành vi vi phạm pháp luật vê an ninh mạng; trường hợp khân câp đe dọa xâm\nhại an ninh quôc gia, đe dọa tính mạng con người, yêu câu cung câp thông tin\nchậm nhất là 03 giờ;",
+            "metadata": {
+              "page": 24,
+              "chapter": "Chương IV",
+              "n_chars": 2620,
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "char_count": 2620,
+              "char_length": 330,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chunk_strategy": "by_paragraph",
+              "paragraph_count": 1
+            },
+            "score": 0.27264304324131994,
+            "method": "dense",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p33_para_001",
+          "luat_an_ninh_mang_116-2025_p24_para_005",
+          "luat_an_ninh_mang_116-2025_p24_para_000"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1895
+      },
+      "model_calls": [
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 1,
+          "reserved_tokens": 2058,
+          "http_status": 200,
+          "elapsed_ms": 406.7754999996396,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "909",
+            "x-ratelimit-remaining-tokens": "7234",
+            "x-ratelimit-reset-tokens": "5.745s"
+          },
+          "request_id": "chatcmpl-9a9cc560-3745-43b9-b1c9-3247d5fb5b67",
+          "usage": {
+            "queue_time": 0.056605621,
+            "prompt_tokens": 631,
+            "prompt_time": 0.050553238,
+            "completion_tokens": 45,
+            "completion_time": 0.097647629,
+            "total_tokens": 676,
+            "total_time": 0.148200867
+          },
+          "response_model": "qwen/qwen3.8-27b"
+        },
+        {
+          "model": "qwen/qwen3.8-27b",
+          "provider": "groq",
+          "attempt": 1,
+          "reserved_tokens": 2949,
+          "http_status": 200,
+          "elapsed_ms": 1079.3525999997655,
+          "rate_limits": {
+            "x-ratelimit-remaining-requests": "908",
+            "x-ratelimit-remaining-tokens": "5824",
+            "x-ratelimit-reset-tokens": "17.202s"
+          },
+          "request_id": "chatcmpl-a6dd800a-4902-4d14-b696-c58f48e9bebb",
+          "usage": {
+            "queue_time": 0.334106375,
+            "prompt_tokens": 1460,
+            "prompt_time": 0.142512424,
+            "completion_tokens": 128,
+            "completion_time": 0.494612151,
+            "total_tokens": 1588,
+            "total_time": 0.637124575
+          },
+          "response_model": "qwen/qwen3.8-27b"
+        }
+      ],
+      "elapsed_ms": 57925.26330000055
+    }
+  ],
+  "pending": null,
+  "completed_at": "2026-11-16T11:13:00.512252+00:00"
+}

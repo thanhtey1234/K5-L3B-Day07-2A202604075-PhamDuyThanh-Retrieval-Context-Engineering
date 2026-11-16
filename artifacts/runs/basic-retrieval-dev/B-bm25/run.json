@@ -1,0 +1,2666 @@
+{
+  "manifest": {
+    "split": "dev",
+    "mode": "retrieval",
+    "experiment": {
+      "name": "B-bm25",
+      "method": "bm25",
+      "top_k": 3,
+      "candidate_k": 10,
+      "context_budget": 3000,
+      "max_searches": 1,
+      "max_views": 2,
+      "rrf_k": 60
+    },
+    "corpus_hash": "096c01cc292de2fb3777361720920926a9afa1bfc459d0610de95c4c27d1577e",
+    "cases_hash": "0c5f8cf43d31b022b9fb5e3b9a4b89875fe6cd5461dea0f227fc0a16183c1502",
+    "model": null,
+    "code_hash": "c8c3c8eb7a1295bf1798d9075c0a79d5b0dbe796539499be60564dfb431bd80f",
+    "retrieval_provenance": {
+      "store": "in-memory BM25",
+      "embedding": null,
+      "query_cache_policy": "original dev queries prewarmed"
+    }
+  },
+  "created_at": "2026-11-16T09:52:47.810514+00:00",
+  "state": "complete",
+  "records": [
+    {
+      "query_id": "basic-dev-01",
+      "question": "An ninh thông tin mạng bảo đảm ba thuộc tính nào của thông tin?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p1_para_003",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 1,
+          "text": "2. An ninh thông tin mạng là sự bảo đảm tính nguyên vẹn, tính bảo mật,\ntính khả dụng của thông tin trên không gian mạng, tránh bị truy cập, sử dụng,\ntiệt lộ, sửa đôi trái phép, phá hoại hoặc hành vi khác đe dọa hoặc gây phương\nhại đên an ninh quôc gia, trật tự, an toàn xã hội.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 1,
+            "n_chars": 1786,
+            "char_count": 1786,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương I",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 277
+          },
+          "score": 11.344546284598545,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p22_para_005",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 22,
+          "text": "1. Nội dung triển khai hoạt động bảo vệ an ninh mạng bao gồm:\n\na) Xây dựng, hoàn thiện quy định, quy chế sử dụng mạng máy tính nội bộ,\nmạng máy tính có kêt nôi mạng Internet; phương án bảo đảm an ninh mạng đôi\nvới hệ thông thông tin; phương án ứng phó, khắc phục sự cô an ninh mạng;\n\nb) Ứng dụng, triển khai phương án, biện pháp, công nghệ bảo vệ an ninh\nmạng đôi với hệ thông thông tin và thông tin, tài liệu được lưu trữ, soạn thảo,\ntruyện đưa trên hệ thông thông tin thuộc phạm vi quản lý;",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 22,
+            "n_chars": 2381,
+            "char_count": 2381,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương III",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 492
+          },
+          "score": 10.623504494104012,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p8_para_000",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 8,
+          "text": "§\n\n5. Xâm nhập trái phép vào mạng viễn thông, mạng máy tính, hệ thống\nthông tin, hệ thông xử lý và điêu khiên thông tin, cơ sở dữ liệu, phương tiện điện\ntử của người khác.\n\n6. Chống lại hoặc cản trở hoạt động của lực lượng bảo vệ an ninh mạng: tấn\ncông, vô hiệu hóa trái pháp luật làm mât tác dụng biện pháp bảo vệ an ninh mạng.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 8,
+            "n_chars": 2350,
+            "char_count": 2350,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương II",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 328
+          },
+          "score": 7.398512562464066,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p1_para_003] luat_an_ninh_mang_116-2025 | PDF page 1\n2. An ninh thông tin mạng là sự bảo đảm tính nguyên vẹn, tính bảo mật,\ntính khả dụng của thông tin trên không gian mạng, tránh bị truy cập, sử dụng,\ntiệt lộ, sửa đôi trái phép, phá hoại hoặc hành vi khác đe dọa hoặc gây phương\nhại đên an ninh quôc gia, trật tự, an toàn xã hội.\n\n[luat_an_ninh_mang_116-2025_p22_para_005] luat_an_ninh_mang_116-2025 | PDF page 22\n1. Nội dung triển khai hoạt động bảo vệ an ninh mạng bao gồm:\n\na) Xây dựng, hoàn thiện quy định, quy chế sử dụng mạng máy tính nội bộ,\nmạng máy tính có kêt nôi mạng Internet; phương án bảo đảm an ninh mạng đôi\nvới hệ thông thông tin; phương án ứng phó, khắc phục sự cô an ninh mạng;\n\nb) Ứng dụng, triển khai phương án, biện pháp, công nghệ bảo vệ an ninh\nmạng đôi với hệ thông thông tin và thông tin, tài liệu được lưu trữ, soạn thảo,\ntruyện đưa trên hệ thông thông tin thuộc phạm vi quản lý;\n\n[luat_an_ninh_mang_116-2025_p8_para_000] luat_an_ninh_mang_116-2025 | PDF page 8\n§\n\n5. Xâm nhập trái phép vào mạng viễn thông, mạng máy tính, hệ thống\nthông tin, hệ thông xử lý và điêu khiên thông tin, cơ sở dữ liệu, phương tiện điện\ntử của người khác.\n\n6. Chống lại hoặc cản trở hoạt động của lực lượng bảo vệ an ninh mạng: tấn\ncông, vô hiệu hóa trái pháp luật làm mât tác dụng biện pháp bảo vệ an ninh mạng.",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p1_para_003",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 1,
+            "text": "2. An ninh thông tin mạng là sự bảo đảm tính nguyên vẹn, tính bảo mật,\ntính khả dụng của thông tin trên không gian mạng, tránh bị truy cập, sử dụng,\ntiệt lộ, sửa đôi trái phép, phá hoại hoặc hành vi khác đe dọa hoặc gây phương\nhại đên an ninh quôc gia, trật tự, an toàn xã hội.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 1,
+              "n_chars": 1786,
+              "char_count": 1786,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương I",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 277
+            },
+            "score": 11.344546284598545,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p22_para_005",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 22,
+            "text": "1. Nội dung triển khai hoạt động bảo vệ an ninh mạng bao gồm:\n\na) Xây dựng, hoàn thiện quy định, quy chế sử dụng mạng máy tính nội bộ,\nmạng máy tính có kêt nôi mạng Internet; phương án bảo đảm an ninh mạng đôi\nvới hệ thông thông tin; phương án ứng phó, khắc phục sự cô an ninh mạng;\n\nb) Ứng dụng, triển khai phương án, biện pháp, công nghệ bảo vệ an ninh\nmạng đôi với hệ thông thông tin và thông tin, tài liệu được lưu trữ, soạn thảo,\ntruyện đưa trên hệ thông thông tin thuộc phạm vi quản lý;",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 22,
+              "n_chars": 2381,
+              "char_count": 2381,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương III",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 492
+            },
+            "score": 10.623504494104012,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p8_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 8,
+            "text": "§\n\n5. Xâm nhập trái phép vào mạng viễn thông, mạng máy tính, hệ thống\nthông tin, hệ thông xử lý và điêu khiên thông tin, cơ sở dữ liệu, phương tiện điện\ntử của người khác.\n\n6. Chống lại hoặc cản trở hoạt động của lực lượng bảo vệ an ninh mạng: tấn\ncông, vô hiệu hóa trái pháp luật làm mât tác dụng biện pháp bảo vệ an ninh mạng.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 8,
+              "n_chars": 2350,
+              "char_count": 2350,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương II",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 328
+            },
+            "score": 7.398512562464066,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p1_para_003",
+          "luat_an_ninh_mang_116-2025_p22_para_005",
+          "luat_an_ninh_mang_116-2025_p8_para_000"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1675
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 2.1277000000736734
+    },
+    {
+      "query_id": "basic-dev-02",
+      "question": "Bộ Ngoại giao phối hợp với những bộ nào trong hợp tác quốc tế về an ninh mạng?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p6_para_000",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 6,
+          "text": "6\n\nø) Hoạt động hợp tác quốc tế khác về an ninh mạng.\n\n3. Trách nhiệm hợp tác quốc tế về an ninh mạng được quy định như sau:\n\na) Bộ Công an chịu trách nhiệm trước Chính phủ chủ trì, phối hợp thực\nhiện hợp tác quôc tê vê an ninh mạng;\n\nÖ_ b) Bộ Quốc phòng chịu trách nhiệm trước Chính phủ thực hiện hợp tác\nquôc tê vê an ninh mạng trong phạm vi quản lý;\n\nc) Bộ Ngoại giao có trách nhiệm phối hợp với Bộ Công an, Bộ Quốc\nphòng trong hoạt động hợp tác quôc tê về an ninh mạng:",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 6,
+            "n_chars": 2605,
+            "char_count": 2605,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương I",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 473
+          },
+          "score": 30.626822137340234,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p5_para_005",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 5,
+          "text": "đ) Nghiên cứu, phát triển, chuyển giao công nghệ, sản phẩm, giải pháp kỹ\nthuật phục vụ công tác bảo vệ an ninh mạng:\n\ne) Tổ chức hội nghị, hội thảo quốc tế và triển khai các chương trình, dự án\nhợp tác quôc tê về an ninh mạng;",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 5,
+            "n_chars": 2392,
+            "char_count": 2392,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương I",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 226
+          },
+          "score": 16.98740817325979,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p6_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 6,
+          "text": "d) Trường hợp hợp tác quốc tế về an ninh mạng có liên quan đến trách\nnhiệm của nhiêu Bộ, ngành do Thủ tướng Chính phủ quyêt định;\n\nđ) Hoạt động hợp tác quốc tế về an ninh mạng của Bộ, ngành khác, của địa\nphương phải có văn bản tham gia ý kiên của Bộ Công an trước khi triển khai.\n\nĐiều 7. Các hành vi bị nghiêm cấm về an ninh mạng\n\n1. Đăng tải, phát tán thông tin có nội dung sau trên không gian mạng:",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 6,
+            "n_chars": 2605,
+            "char_count": 2605,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương I",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 401
+          },
+          "score": 16.60613198219127,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p6_para_000] luat_an_ninh_mang_116-2025 | PDF page 6\n6\n\nø) Hoạt động hợp tác quốc tế khác về an ninh mạng.\n\n3. Trách nhiệm hợp tác quốc tế về an ninh mạng được quy định như sau:\n\na) Bộ Công an chịu trách nhiệm trước Chính phủ chủ trì, phối hợp thực\nhiện hợp tác quôc tê vê an ninh mạng;\n\nÖ_ b) Bộ Quốc phòng chịu trách nhiệm trước Chính phủ thực hiện hợp tác\nquôc tê vê an ninh mạng trong phạm vi quản lý;\n\nc) Bộ Ngoại giao có trách nhiệm phối hợp với Bộ Công an, Bộ Quốc\nphòng trong hoạt động hợp tác quôc tê về an ninh mạng:\n\n[luat_an_ninh_mang_116-2025_p5_para_005] luat_an_ninh_mang_116-2025 | PDF page 5\nđ) Nghiên cứu, phát triển, chuyển giao công nghệ, sản phẩm, giải pháp kỹ\nthuật phục vụ công tác bảo vệ an ninh mạng:\n\ne) Tổ chức hội nghị, hội thảo quốc tế và triển khai các chương trình, dự án\nhợp tác quôc tê về an ninh mạng;\n\n[luat_an_ninh_mang_116-2025_p6_para_001] luat_an_ninh_mang_116-2025 | PDF page 6\nd) Trường hợp hợp tác quốc tế về an ninh mạng có liên quan đến trách\nnhiệm của nhiêu Bộ, ngành do Thủ tướng Chính phủ quyêt định;\n\nđ) Hoạt động hợp tác quốc tế về an ninh mạng của Bộ, ngành khác, của địa\nphương phải có văn bản tham gia ý kiên của Bộ Công an trước khi triển khai.\n\nĐiều 7. Các hành vi bị nghiêm cấm về an ninh mạng\n\n1. Đăng tải, phát tán thông tin có nội dung sau trên không gian mạng:",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p6_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 6,
+            "text": "6\n\nø) Hoạt động hợp tác quốc tế khác về an ninh mạng.\n\n3. Trách nhiệm hợp tác quốc tế về an ninh mạng được quy định như sau:\n\na) Bộ Công an chịu trách nhiệm trước Chính phủ chủ trì, phối hợp thực\nhiện hợp tác quôc tê vê an ninh mạng;\n\nÖ_ b) Bộ Quốc phòng chịu trách nhiệm trước Chính phủ thực hiện hợp tác\nquôc tê vê an ninh mạng trong phạm vi quản lý;\n\nc) Bộ Ngoại giao có trách nhiệm phối hợp với Bộ Công an, Bộ Quốc\nphòng trong hoạt động hợp tác quôc tê về an ninh mạng:",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 6,
+              "n_chars": 2605,
+              "char_count": 2605,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương I",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 473
+            },
+            "score": 30.626822137340234,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p5_para_005",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 5,
+            "text": "đ) Nghiên cứu, phát triển, chuyển giao công nghệ, sản phẩm, giải pháp kỹ\nthuật phục vụ công tác bảo vệ an ninh mạng:\n\ne) Tổ chức hội nghị, hội thảo quốc tế và triển khai các chương trình, dự án\nhợp tác quôc tê về an ninh mạng;",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 5,
+              "n_chars": 2392,
+              "char_count": 2392,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương I",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 226
+            },
+            "score": 16.98740817325979,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p6_para_001",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 6,
+            "text": "d) Trường hợp hợp tác quốc tế về an ninh mạng có liên quan đến trách\nnhiệm của nhiêu Bộ, ngành do Thủ tướng Chính phủ quyêt định;\n\nđ) Hoạt động hợp tác quốc tế về an ninh mạng của Bộ, ngành khác, của địa\nphương phải có văn bản tham gia ý kiên của Bộ Công an trước khi triển khai.\n\nĐiều 7. Các hành vi bị nghiêm cấm về an ninh mạng\n\n1. Đăng tải, phát tán thông tin có nội dung sau trên không gian mạng:",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 6,
+              "n_chars": 2605,
+              "char_count": 2605,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương I",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 401
+            },
+            "score": 16.60613198219127,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p6_para_000",
+          "luat_an_ninh_mang_116-2025_p5_para_005",
+          "luat_an_ninh_mang_116-2025_p6_para_001"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1678
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 2.6529000001573877
+    },
+    {
+      "query_id": "basic-dev-03",
+      "question": "Theo Điều 8, hệ thống thông tin cấp độ 5 có thể gây mức tổn hại nào?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p8_para_003",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 8,
+          "text": "c) Cấp độ 3 có thê làm tổn hại đặc biệt nghiêm trọng tới quyền và lợi ích\nhợp pháp của tô chức, cá nhân; tôn hại nghiêm trọng tới lợi ích công cộng; tôn\nhại hoặc tôn hại nghiêm trọng tới trật tự, an toàn xã hội hoặc làm tôn hại tới an\nninh quôc ø1a;\n\nđ) Cấp độ 4 có thể làm tổn hại đặc biệt nghiêm trọng tới lợi ích công\ncộng, trật tự, an toàn xã hội hoặc làm tôn hại nghiêm trọng tới an ninh quôc ø1a;\n\nđ) Cấp độ 5 có thể làm tổn hại đặc biệt nghiêm trọng tới an ninh quốc gia.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 8,
+            "n_chars": 2350,
+            "char_count": 2350,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương II",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 478
+          },
+          "score": 25.734741400901207,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p8_para_002",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 8,
+          "text": "I1. Hệ thống thông tin được phân loại theo Š cấp độ căn cứ vào mức độ tôn\nhại tới an ninh quôc gia, trật tự, an toàn xã hội, quyên, lợi ích hợp pháp của tô\nchức, cá nhân, lợi ích công cộng khi bị sự cô hoặc có hành vi vi phạm pháp luật\nvê an ninh mạng như sau:\n\na) Cấp độ 1 có thể làm tốn hại tới quyền và lợi ích hợp pháp của tô chức,\ncá nhân;\n\nb) Cấp độ 2 có thể làm tốn hại nghiêm trọng tới quyền và lợi ích hợp pháp\ncủa tô chức, cá nhân hoặc làm tôn hại tới lợi ích công cộng;",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 8,
+            "n_chars": 2350,
+            "char_count": 2350,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương II",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 480
+          },
+          "score": 23.23416783643894,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p21_para_000",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 21,
+          "text": "21\n\nd) Phân tích, đánh giá thông tin, dự báo khả năng, phạm vi ảnh hưởng và\nmức độ thiệt hại do tình huông nguy hiêm về an ninh mạng gây ra;\n\nđ) Ngừng cung cấp thông tin mạng tại khu vực cụ thể hoặc ngắt công kết\nnôi mạng quôc tê;\n\ne) Bố trí lực lượng, phương tiện ngăn chặn, loại bỏ tình huống nguy hiểm\nvề an ninh mạng:\n\nø) Biện pháp khác theo quy định của Luật An ninh quốc gia.\n\n4. Việc xử lý tình huống nguy hiểm về an ninh mạng được quy định như sau:",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 21,
+            "n_chars": 2350,
+            "char_count": 2350,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương III",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 456
+          },
+          "score": 16.128690720478474,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p8_para_003] luat_an_ninh_mang_116-2025 | PDF page 8\nc) Cấp độ 3 có thê làm tổn hại đặc biệt nghiêm trọng tới quyền và lợi ích\nhợp pháp của tô chức, cá nhân; tôn hại nghiêm trọng tới lợi ích công cộng; tôn\nhại hoặc tôn hại nghiêm trọng tới trật tự, an toàn xã hội hoặc làm tôn hại tới an\nninh quôc ø1a;\n\nđ) Cấp độ 4 có thể làm tổn hại đặc biệt nghiêm trọng tới lợi ích công\ncộng, trật tự, an toàn xã hội hoặc làm tôn hại nghiêm trọng tới an ninh quôc ø1a;\n\nđ) Cấp độ 5 có thể làm tổn hại đặc biệt nghiêm trọng tới an ninh quốc gia.\n\n[luat_an_ninh_mang_116-2025_p8_para_002] luat_an_ninh_mang_116-2025 | PDF page 8\nI1. Hệ thống thông tin được phân loại theo Š cấp độ căn cứ vào mức độ tôn\nhại tới an ninh quôc gia, trật tự, an toàn xã hội, quyên, lợi ích hợp pháp của tô\nchức, cá nhân, lợi ích công cộng khi bị sự cô hoặc có hành vi vi phạm pháp luật\nvê an ninh mạng như sau:\n\na) Cấp độ 1 có thể làm tốn hại tới quyền và lợi ích hợp pháp của tô chức,\ncá nhân;\n\nb) Cấp độ 2 có thể làm tốn hại nghiêm trọng tới quyền và lợi ích hợp pháp\ncủa tô chức, cá nhân hoặc làm tôn hại tới lợi ích công cộng;\n\n[luat_an_ninh_mang_116-2025_p21_para_000] luat_an_ninh_mang_116-2025 | PDF page 21\n21\n\nd) Phân tích, đánh giá thông tin, dự báo khả năng, phạm vi ảnh hưởng và\nmức độ thiệt hại do tình huông nguy hiêm về an ninh mạng gây ra;\n\nđ) Ngừng cung cấp thông tin mạng tại khu vực cụ thể hoặc ngắt công kết\nnôi mạng quôc tê;\n\ne) Bố trí lực lượng, phương tiện ngăn chặn, loại bỏ tình huống nguy hiểm\nvề an ninh mạng:\n\nø) Biện pháp khác theo quy định của Luật An ninh quốc gia.\n\n4. Việc xử lý tình huống nguy hiểm về an ninh mạng được quy định như sau:",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p8_para_003",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 8,
+            "text": "c) Cấp độ 3 có thê làm tổn hại đặc biệt nghiêm trọng tới quyền và lợi ích\nhợp pháp của tô chức, cá nhân; tôn hại nghiêm trọng tới lợi ích công cộng; tôn\nhại hoặc tôn hại nghiêm trọng tới trật tự, an toàn xã hội hoặc làm tôn hại tới an\nninh quôc ø1a;\n\nđ) Cấp độ 4 có thể làm tổn hại đặc biệt nghiêm trọng tới lợi ích công\ncộng, trật tự, an toàn xã hội hoặc làm tôn hại nghiêm trọng tới an ninh quôc ø1a;\n\nđ) Cấp độ 5 có thể làm tổn hại đặc biệt nghiêm trọng tới an ninh quốc gia.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 8,
+              "n_chars": 2350,
+              "char_count": 2350,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương II",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 478
+            },
+            "score": 25.734741400901207,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p8_para_002",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 8,
+            "text": "I1. Hệ thống thông tin được phân loại theo Š cấp độ căn cứ vào mức độ tôn\nhại tới an ninh quôc gia, trật tự, an toàn xã hội, quyên, lợi ích hợp pháp của tô\nchức, cá nhân, lợi ích công cộng khi bị sự cô hoặc có hành vi vi phạm pháp luật\nvê an ninh mạng như sau:\n\na) Cấp độ 1 có thể làm tốn hại tới quyền và lợi ích hợp pháp của tô chức,\ncá nhân;\n\nb) Cấp độ 2 có thể làm tốn hại nghiêm trọng tới quyền và lợi ích hợp pháp\ncủa tô chức, cá nhân hoặc làm tôn hại tới lợi ích công cộng;",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 8,
+              "n_chars": 2350,
+              "char_count": 2350,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương II",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 480
+            },
+            "score": 23.23416783643894,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p21_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 21,
+            "text": "21\n\nd) Phân tích, đánh giá thông tin, dự báo khả năng, phạm vi ảnh hưởng và\nmức độ thiệt hại do tình huông nguy hiêm về an ninh mạng gây ra;\n\nđ) Ngừng cung cấp thông tin mạng tại khu vực cụ thể hoặc ngắt công kết\nnôi mạng quôc tê;\n\ne) Bố trí lực lượng, phương tiện ngăn chặn, loại bỏ tình huống nguy hiểm\nvề an ninh mạng:\n\nø) Biện pháp khác theo quy định của Luật An ninh quốc gia.\n\n4. Việc xử lý tình huống nguy hiểm về an ninh mạng được quy định như sau:",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 21,
+              "n_chars": 2350,
+              "char_count": 2350,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương III",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 456
+            },
+            "score": 16.128690720478474,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p8_para_003",
+          "luat_an_ninh_mang_116-2025_p8_para_002",
+          "luat_an_ninh_mang_116-2025_p21_para_000"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 2110
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 2.393299999766896
+    },
+    {
+      "query_id": "basic-dev-04",
+      "question": "Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia phải thông báo kết quả tự kiểm tra định kỳ trước tháng nào?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p10_para_005",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 10,
+          "text": "b) Khi thiết lập, mở rộng hoặc nâng cấp hệ thống thông tin quan trọng về\nan ninh quôc gia phải thực hiện kiêm tra an ninh mạng trước khi đi vào vận\nhành, khai thác; định kỳ hắng năm, tự kiêm tra an ninh mạng, đánh giá điêu kiện\nan ninh mạng hệ thông thông tin quan trọng vê an ninh quồc gia và thông báo\nkêt quả kiêm tra băng văn bản trước tháng 10 hăng năm cho lực lượng chuyên\ntrách bảo vệ an ninh mạng có thâm quyên;",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 10,
+            "n_chars": 2387,
+            "char_count": 2387,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương II",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 419
+          },
+          "score": 35.56161385107099,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p9_para_002",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 9,
+          "text": "h) Hệ thống điều khiển và giám sát tự động tại công trình quan trọng liên\nquan đên an ninh quôc gia, mục tiêu quan trọng về an ninh quốc gia.\n\n3. Hệ thống thông tin quan trọng về an ninh quốc gia phải được thâm định\nan ninh mạng, chứng nhận đủ điêu kiện về an ninh mạng trước khi đưa vào vận\nhành, sử dụng; thường xuyên kiêm tra an ninh mạng, giám sát an ninh mạng\ntrong quá trình sử dụng và kịp thời ứng phó, khắc phục sự cô an ninh mạng.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 9,
+            "n_chars": 2142,
+            "char_count": 2142,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương II",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 439
+          },
+          "score": 23.978902989806947,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p11_para_002",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 11,
+          "text": "b) Đánh giá, chứng nhận đủ điều kiện an ninh mạng đối với hệ thống\nthông tin quan trọng vê an ninh quôc gia;\n\nc) Kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng\nVỀ an ninh quôc ø1a;\n\nd) Thực hiện giám sát an ninh mạng: cảnh báo và phối hợp với chủ quản\nhệ thông thông tin đê khắc phục, xử lý các nguy cơ đe dọa an ninh mạng, sự cô\nan ninh mạng đôi với hệ thông thông tin quan trọng về an ninh quốc gia;",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 11,
+            "n_chars": 2446,
+            "char_count": 2446,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương II",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 423
+          },
+          "score": 23.757595412758377,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p10_para_005] luat_an_ninh_mang_116-2025 | PDF page 10\nb) Khi thiết lập, mở rộng hoặc nâng cấp hệ thống thông tin quan trọng về\nan ninh quôc gia phải thực hiện kiêm tra an ninh mạng trước khi đi vào vận\nhành, khai thác; định kỳ hắng năm, tự kiêm tra an ninh mạng, đánh giá điêu kiện\nan ninh mạng hệ thông thông tin quan trọng vê an ninh quồc gia và thông báo\nkêt quả kiêm tra băng văn bản trước tháng 10 hăng năm cho lực lượng chuyên\ntrách bảo vệ an ninh mạng có thâm quyên;\n\n[luat_an_ninh_mang_116-2025_p9_para_002] luat_an_ninh_mang_116-2025 | PDF page 9\nh) Hệ thống điều khiển và giám sát tự động tại công trình quan trọng liên\nquan đên an ninh quôc gia, mục tiêu quan trọng về an ninh quốc gia.\n\n3. Hệ thống thông tin quan trọng về an ninh quốc gia phải được thâm định\nan ninh mạng, chứng nhận đủ điêu kiện về an ninh mạng trước khi đưa vào vận\nhành, sử dụng; thường xuyên kiêm tra an ninh mạng, giám sát an ninh mạng\ntrong quá trình sử dụng và kịp thời ứng phó, khắc phục sự cô an ninh mạng.\n\n[luat_an_ninh_mang_116-2025_p11_para_002] luat_an_ninh_mang_116-2025 | PDF page 11\nb) Đánh giá, chứng nhận đủ điều kiện an ninh mạng đối với hệ thống\nthông tin quan trọng vê an ninh quôc gia;\n\nc) Kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng\nVỀ an ninh quôc ø1a;\n\nd) Thực hiện giám sát an ninh mạng: cảnh báo và phối hợp với chủ quản\nhệ thông thông tin đê khắc phục, xử lý các nguy cơ đe dọa an ninh mạng, sự cô\nan ninh mạng đôi với hệ thông thông tin quan trọng về an ninh quốc gia;",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p10_para_005",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 10,
+            "text": "b) Khi thiết lập, mở rộng hoặc nâng cấp hệ thống thông tin quan trọng về\nan ninh quôc gia phải thực hiện kiêm tra an ninh mạng trước khi đi vào vận\nhành, khai thác; định kỳ hắng năm, tự kiêm tra an ninh mạng, đánh giá điêu kiện\nan ninh mạng hệ thông thông tin quan trọng vê an ninh quồc gia và thông báo\nkêt quả kiêm tra băng văn bản trước tháng 10 hăng năm cho lực lượng chuyên\ntrách bảo vệ an ninh mạng có thâm quyên;",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 10,
+              "n_chars": 2387,
+              "char_count": 2387,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương II",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 419
+            },
+            "score": 35.56161385107099,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p9_para_002",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 9,
+            "text": "h) Hệ thống điều khiển và giám sát tự động tại công trình quan trọng liên\nquan đên an ninh quôc gia, mục tiêu quan trọng về an ninh quốc gia.\n\n3. Hệ thống thông tin quan trọng về an ninh quốc gia phải được thâm định\nan ninh mạng, chứng nhận đủ điêu kiện về an ninh mạng trước khi đưa vào vận\nhành, sử dụng; thường xuyên kiêm tra an ninh mạng, giám sát an ninh mạng\ntrong quá trình sử dụng và kịp thời ứng phó, khắc phục sự cô an ninh mạng.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 9,
+              "n_chars": 2142,
+              "char_count": 2142,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương II",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 439
+            },
+            "score": 23.978902989806947,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p11_para_002",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 11,
+            "text": "b) Đánh giá, chứng nhận đủ điều kiện an ninh mạng đối với hệ thống\nthông tin quan trọng vê an ninh quôc gia;\n\nc) Kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng\nVỀ an ninh quôc ø1a;\n\nd) Thực hiện giám sát an ninh mạng: cảnh báo và phối hợp với chủ quản\nhệ thông thông tin đê khắc phục, xử lý các nguy cơ đe dọa an ninh mạng, sự cô\nan ninh mạng đôi với hệ thông thông tin quan trọng về an ninh quốc gia;",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 11,
+              "n_chars": 2446,
+              "char_count": 2446,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương II",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 423
+            },
+            "score": 23.757595412758377,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p10_para_005",
+          "luat_an_ninh_mang_116-2025_p9_para_002",
+          "luat_an_ninh_mang_116-2025_p11_para_002"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1875
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 4.054399999859015
+    },
+    {
+      "query_id": "basic-dev-05",
+      "question": "Theo Điều 12, ngoài trường hợp có hành vi vi phạm được liệt kê, hệ thống có thể được kiểm tra khi ai đề nghị?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p12_para_000",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 12,
+          "text": "12\n\nĐiều 12. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ\nquan, tô chức không thuộc danh mục hệ thông thông tin quan trọng về an\nninh quôc gia\n\n1. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức\nkhông thuộc danh mục hệ thông thông tin quan trọng về an ninh quốc gia trong\ntrường hợp sau đây:\n\na) Khi có hành vi được quy định tại các khoản 12, 13, 14 và 15 Điều 2 của\nLuật này;\n\nb) Khi có đề nghị của chủ quản hệ thống thông tin.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 12,
+            "n_chars": 2046,
+            "char_count": 2045,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương II",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 461
+          },
+          "score": 33.500074490688,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p12_para_002",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 12,
+          "text": "3. Chủ quản hệ thống thông tin có trách nhiệm thông báo cho lực lượng\nchuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi phát hiện hành vi vi\nphạm pháp luật vê an ninh mạng trên hệ thông thông tin thuộc phạm vi quản lý.\n\n4. Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an tiến\nhành kiêm tra an ninh mạng đôi với hệ thông thông tin Của cơ quan, tô chức\ntrong các trường hợp quy định tại khoản 1 Điêu này. Kêt quả kiêm tra an ninh\nmạng được bảo mật theo quy định của pháp luật.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 12,
+            "n_chars": 2046,
+            "char_count": 2045,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương II",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 490
+          },
+          "score": 18.570887334982437,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p19_para_006",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 19,
+          "text": "1. Cơ quan nhà nước có thẩm quyền có trách nhiệm áp dụng biện pháp\ntheo quy định của Luật này và pháp luật vê phòng, chông khủng bô đề xử lý\nkhủng bô mạng.\n\n2. Chủ quản hệ thống thông tin thường xuyên rà soát, kiểm tra hệ thống\nthông tin thuộc phạm vi quản lý nhắm loại trừ nguy cơ khủng bô mạng.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 19,
+            "n_chars": 2717,
+            "char_count": 2717,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương III",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 296
+          },
+          "score": 17.41738597770355,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p12_para_000] luat_an_ninh_mang_116-2025 | PDF page 12\n12\n\nĐiều 12. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ\nquan, tô chức không thuộc danh mục hệ thông thông tin quan trọng về an\nninh quôc gia\n\n1. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức\nkhông thuộc danh mục hệ thông thông tin quan trọng về an ninh quốc gia trong\ntrường hợp sau đây:\n\na) Khi có hành vi được quy định tại các khoản 12, 13, 14 và 15 Điều 2 của\nLuật này;\n\nb) Khi có đề nghị của chủ quản hệ thống thông tin.\n\n[luat_an_ninh_mang_116-2025_p12_para_002] luat_an_ninh_mang_116-2025 | PDF page 12\n3. Chủ quản hệ thống thông tin có trách nhiệm thông báo cho lực lượng\nchuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi phát hiện hành vi vi\nphạm pháp luật vê an ninh mạng trên hệ thông thông tin thuộc phạm vi quản lý.\n\n4. Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an tiến\nhành kiêm tra an ninh mạng đôi với hệ thông thông tin Của cơ quan, tô chức\ntrong các trường hợp quy định tại khoản 1 Điêu này. Kêt quả kiêm tra an ninh\nmạng được bảo mật theo quy định của pháp luật.\n\n[luat_an_ninh_mang_116-2025_p19_para_006] luat_an_ninh_mang_116-2025 | PDF page 19\n1. Cơ quan nhà nước có thẩm quyền có trách nhiệm áp dụng biện pháp\ntheo quy định của Luật này và pháp luật vê phòng, chông khủng bô đề xử lý\nkhủng bô mạng.\n\n2. Chủ quản hệ thống thông tin thường xuyên rà soát, kiểm tra hệ thống\nthông tin thuộc phạm vi quản lý nhắm loại trừ nguy cơ khủng bô mạng.",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p12_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 12,
+            "text": "12\n\nĐiều 12. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ\nquan, tô chức không thuộc danh mục hệ thông thông tin quan trọng về an\nninh quôc gia\n\n1. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức\nkhông thuộc danh mục hệ thông thông tin quan trọng về an ninh quốc gia trong\ntrường hợp sau đây:\n\na) Khi có hành vi được quy định tại các khoản 12, 13, 14 và 15 Điều 2 của\nLuật này;\n\nb) Khi có đề nghị của chủ quản hệ thống thông tin.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 12,
+              "n_chars": 2046,
+              "char_count": 2045,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương II",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 461
+            },
+            "score": 33.500074490688,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p12_para_002",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 12,
+            "text": "3. Chủ quản hệ thống thông tin có trách nhiệm thông báo cho lực lượng\nchuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi phát hiện hành vi vi\nphạm pháp luật vê an ninh mạng trên hệ thông thông tin thuộc phạm vi quản lý.\n\n4. Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an tiến\nhành kiêm tra an ninh mạng đôi với hệ thông thông tin Của cơ quan, tô chức\ntrong các trường hợp quy định tại khoản 1 Điêu này. Kêt quả kiêm tra an ninh\nmạng được bảo mật theo quy định của pháp luật.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 12,
+              "n_chars": 2046,
+              "char_count": 2045,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương II",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 490
+            },
+            "score": 18.570887334982437,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p19_para_006",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 19,
+            "text": "1. Cơ quan nhà nước có thẩm quyền có trách nhiệm áp dụng biện pháp\ntheo quy định của Luật này và pháp luật vê phòng, chông khủng bô đề xử lý\nkhủng bô mạng.\n\n2. Chủ quản hệ thống thông tin thường xuyên rà soát, kiểm tra hệ thống\nthông tin thuộc phạm vi quản lý nhắm loại trừ nguy cơ khủng bô mạng.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 19,
+              "n_chars": 2717,
+              "char_count": 2717,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương III",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 296
+            },
+            "score": 17.41738597770355,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p12_para_000",
+          "luat_an_ninh_mang_116-2025_p12_para_002",
+          "luat_an_ninh_mang_116-2025_p19_para_006"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1843
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 2.957700000024488
+    },
+    {
+      "query_id": "basic-dev-06",
+      "question": "Ai đăng ký tài khoản khi trẻ em sử dụng dịch vụ giá trị gia tăng trên không gian mạng?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p17_para_004",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 17,
+          "text": "2. Trẻ em sử dụng dịch vụ giá trị gia tăng trên không gian mạng thì cha,\nmẹ hoặc người giám hộ theo quy định của pháp luật vê dân sự đăng ký tài khoản\nbăng thông tin của cha, mẹ hoặc người giám hộ và có trách nhiệm giám sát,\nquản lý nội dung trẻ em truy cập, đăng tải và chia sẻ thông tin trên các nền tảng\ndịch vụ đó.\n\n3. Chủ quản hệ thống thông tin, doanh nghiệp cung cấp dịch vụ trên mạng\nviên thông, mạng Internet, các dịch vụ giá trị gia tăng trên không gian mạng có\ncác trách nhiệm sau đây:",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 17,
+            "n_chars": 2538,
+            "char_count": 2538,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương III",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 496
+          },
+          "score": 41.24810324194683,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p23_para_005",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 23,
+          "text": "2. Doanh nghiệp trong nước và nước ngoài khi cung cấp dịch vụ trên\nmạng viên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại\nViệt Nam có trách nhiệm sau đây:\n\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật\nthông tin, tài khoản của người dùng; cung câp thông tin người dùng cho lực\nlượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an chậm nhất là 24",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 23,
+            "n_chars": 2513,
+            "char_count": 2513,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương IV",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 392
+          },
+          "score": 25.806818298917296,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p18_para_000",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 18,
+          "text": "18\n\n4. Cơ quan, tổ chức, cá nhân tham gia hoạt động trên không gian mạng có\ntrách nhiệm phôi hợp với cơ quan có thâm quyên trong bảo đảm quyên của trẻ\nem trên không gian mạng; phòng, chông xâm hại trẻ em trên không gian mạng.\n\n5. Cơ quan, tổ chức, cha mẹ, người giám hộ, giáo viên, người chăm sóc\ntrẻ em và cá nhân khác liên quan có trách nhiệm bảo đảm quyên của trẻ em, bảo\nVỆ trẻ em khi tham gia không gian mạng theo quy định của pháp luật về trẻ em\nvà quy định của Luật này.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 18,
+            "n_chars": 2548,
+            "char_count": 2548,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương III",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 477
+          },
+          "score": 21.19160287990565,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p17_para_004] luat_an_ninh_mang_116-2025 | PDF page 17\n2. Trẻ em sử dụng dịch vụ giá trị gia tăng trên không gian mạng thì cha,\nmẹ hoặc người giám hộ theo quy định của pháp luật vê dân sự đăng ký tài khoản\nbăng thông tin của cha, mẹ hoặc người giám hộ và có trách nhiệm giám sát,\nquản lý nội dung trẻ em truy cập, đăng tải và chia sẻ thông tin trên các nền tảng\ndịch vụ đó.\n\n3. Chủ quản hệ thống thông tin, doanh nghiệp cung cấp dịch vụ trên mạng\nviên thông, mạng Internet, các dịch vụ giá trị gia tăng trên không gian mạng có\ncác trách nhiệm sau đây:\n\n[luat_an_ninh_mang_116-2025_p23_para_005] luat_an_ninh_mang_116-2025 | PDF page 23\n2. Doanh nghiệp trong nước và nước ngoài khi cung cấp dịch vụ trên\nmạng viên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại\nViệt Nam có trách nhiệm sau đây:\n\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật\nthông tin, tài khoản của người dùng; cung câp thông tin người dùng cho lực\nlượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an chậm nhất là 24\n\n[luat_an_ninh_mang_116-2025_p18_para_000] luat_an_ninh_mang_116-2025 | PDF page 18\n18\n\n4. Cơ quan, tổ chức, cá nhân tham gia hoạt động trên không gian mạng có\ntrách nhiệm phôi hợp với cơ quan có thâm quyên trong bảo đảm quyên của trẻ\nem trên không gian mạng; phòng, chông xâm hại trẻ em trên không gian mạng.\n\n5. Cơ quan, tổ chức, cha mẹ, người giám hộ, giáo viên, người chăm sóc\ntrẻ em và cá nhân khác liên quan có trách nhiệm bảo đảm quyên của trẻ em, bảo\nVỆ trẻ em khi tham gia không gian mạng theo quy định của pháp luật về trẻ em\nvà quy định của Luật này.",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p17_para_004",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 17,
+            "text": "2. Trẻ em sử dụng dịch vụ giá trị gia tăng trên không gian mạng thì cha,\nmẹ hoặc người giám hộ theo quy định của pháp luật vê dân sự đăng ký tài khoản\nbăng thông tin của cha, mẹ hoặc người giám hộ và có trách nhiệm giám sát,\nquản lý nội dung trẻ em truy cập, đăng tải và chia sẻ thông tin trên các nền tảng\ndịch vụ đó.\n\n3. Chủ quản hệ thống thông tin, doanh nghiệp cung cấp dịch vụ trên mạng\nviên thông, mạng Internet, các dịch vụ giá trị gia tăng trên không gian mạng có\ncác trách nhiệm sau đây:",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 17,
+              "n_chars": 2538,
+              "char_count": 2538,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương III",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 496
+            },
+            "score": 41.24810324194683,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p23_para_005",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 23,
+            "text": "2. Doanh nghiệp trong nước và nước ngoài khi cung cấp dịch vụ trên\nmạng viên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại\nViệt Nam có trách nhiệm sau đây:\n\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật\nthông tin, tài khoản của người dùng; cung câp thông tin người dùng cho lực\nlượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an chậm nhất là 24",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 23,
+              "n_chars": 2513,
+              "char_count": 2513,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương IV",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 392
+            },
+            "score": 25.806818298917296,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p18_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 18,
+            "text": "18\n\n4. Cơ quan, tổ chức, cá nhân tham gia hoạt động trên không gian mạng có\ntrách nhiệm phôi hợp với cơ quan có thâm quyên trong bảo đảm quyên của trẻ\nem trên không gian mạng; phòng, chông xâm hại trẻ em trên không gian mạng.\n\n5. Cơ quan, tổ chức, cha mẹ, người giám hộ, giáo viên, người chăm sóc\ntrẻ em và cá nhân khác liên quan có trách nhiệm bảo đảm quyên của trẻ em, bảo\nVỆ trẻ em khi tham gia không gian mạng theo quy định của pháp luật về trẻ em\nvà quy định của Luật này.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 18,
+              "n_chars": 2548,
+              "char_count": 2548,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương III",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 477
+            },
+            "score": 21.19160287990565,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p17_para_004",
+          "luat_an_ninh_mang_116-2025_p23_para_005",
+          "luat_an_ninh_mang_116-2025_p18_para_000"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1986
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 3.1438000000889588
+    },
+    {
+      "query_id": "basic-dev-07",
+      "question": "Cơ quan nào chủ trì phòng, chống khủng bố mạng đối với hệ thống thông tin quân sự?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p19_para_005",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 19,
+          "text": "b) Bộ Quốc phòng chủ trì, phối hợp với Bộ, ngành có liên quan thực hiện\ncông tác phòng ngừa, phát hiện, xử lý hành vi quy định tại khoản 1 Điều này đôi\nvới hệ thông thông tin quân sự;\n\nc) Ban Cơ yếu Chính phủ chủ trì, phối hợp với Bộ, ngành có liên quan\nthực hiện công tác phòng ngừa, phát hiện, xử lý hành vi quy định tại khoản 1\nĐiêu này đôi với hệ thông thông tin cơ yêu thuộc Ban Cơ yêu Chính phủ.\n\nĐiều 19. Phòng, chống khủng bố mạng",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 19,
+            "n_chars": 2717,
+            "char_count": 2717,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương III",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 438
+          },
+          "score": 27.446248292583345,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p20_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 20,
+          "text": "5. Bộ Quốc phòng chủ trì, phối hợp với Bộ, ngành có liên quan triển khai\ncông tác phòng, chông khủng bỗ mạng, áp dụng biện pháp vô hiệu hóa nguồn\nkhủng bô mạng, xử lý khủng bô mạng, hạn chê đên mức thấp nhất hậu quả xảy\nra đôi với hệ thông thông tin quân sự.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 20,
+            "n_chars": 2629,
+            "char_count": 2629,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương III",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 258
+          },
+          "score": 23.287426521729174,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p11_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 11,
+          "text": "đ) Phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng trong việc\nthực hiện kiêm tra an ninh mạng đột xuât.\n\n2. Bộ Công an có trách nhiệm sau đây đối với hệ thống thông tin quan\ntrọng về an ninh quôc gia, trừ hệ thông thông tin quân sự và hệ thông thông tin\ncơ yêu thuộc Ban Cơ yêu Chính phủ theo quy định của pháp luật:\n\na) Thầm định an ninh mạng đối với hệ thống thông tin quan trọng về an\nninh quôc gia;",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 11,
+            "n_chars": 2446,
+            "char_count": 2446,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương II",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 410
+          },
+          "score": 17.781392876625358,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p19_para_005] luat_an_ninh_mang_116-2025 | PDF page 19\nb) Bộ Quốc phòng chủ trì, phối hợp với Bộ, ngành có liên quan thực hiện\ncông tác phòng ngừa, phát hiện, xử lý hành vi quy định tại khoản 1 Điều này đôi\nvới hệ thông thông tin quân sự;\n\nc) Ban Cơ yếu Chính phủ chủ trì, phối hợp với Bộ, ngành có liên quan\nthực hiện công tác phòng ngừa, phát hiện, xử lý hành vi quy định tại khoản 1\nĐiêu này đôi với hệ thông thông tin cơ yêu thuộc Ban Cơ yêu Chính phủ.\n\nĐiều 19. Phòng, chống khủng bố mạng\n\n[luat_an_ninh_mang_116-2025_p20_para_001] luat_an_ninh_mang_116-2025 | PDF page 20\n5. Bộ Quốc phòng chủ trì, phối hợp với Bộ, ngành có liên quan triển khai\ncông tác phòng, chông khủng bỗ mạng, áp dụng biện pháp vô hiệu hóa nguồn\nkhủng bô mạng, xử lý khủng bô mạng, hạn chê đên mức thấp nhất hậu quả xảy\nra đôi với hệ thông thông tin quân sự.\n\n[luat_an_ninh_mang_116-2025_p11_para_001] luat_an_ninh_mang_116-2025 | PDF page 11\nđ) Phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng trong việc\nthực hiện kiêm tra an ninh mạng đột xuât.\n\n2. Bộ Công an có trách nhiệm sau đây đối với hệ thống thông tin quan\ntrọng về an ninh quôc gia, trừ hệ thông thông tin quân sự và hệ thông thông tin\ncơ yêu thuộc Ban Cơ yêu Chính phủ theo quy định của pháp luật:\n\na) Thầm định an ninh mạng đối với hệ thống thông tin quan trọng về an\nninh quôc gia;",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p19_para_005",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 19,
+            "text": "b) Bộ Quốc phòng chủ trì, phối hợp với Bộ, ngành có liên quan thực hiện\ncông tác phòng ngừa, phát hiện, xử lý hành vi quy định tại khoản 1 Điều này đôi\nvới hệ thông thông tin quân sự;\n\nc) Ban Cơ yếu Chính phủ chủ trì, phối hợp với Bộ, ngành có liên quan\nthực hiện công tác phòng ngừa, phát hiện, xử lý hành vi quy định tại khoản 1\nĐiêu này đôi với hệ thông thông tin cơ yêu thuộc Ban Cơ yêu Chính phủ.\n\nĐiều 19. Phòng, chống khủng bố mạng",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 19,
+              "n_chars": 2717,
+              "char_count": 2717,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương III",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 438
+            },
+            "score": 27.446248292583345,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p20_para_001",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 20,
+            "text": "5. Bộ Quốc phòng chủ trì, phối hợp với Bộ, ngành có liên quan triển khai\ncông tác phòng, chông khủng bỗ mạng, áp dụng biện pháp vô hiệu hóa nguồn\nkhủng bô mạng, xử lý khủng bô mạng, hạn chê đên mức thấp nhất hậu quả xảy\nra đôi với hệ thông thông tin quân sự.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 20,
+              "n_chars": 2629,
+              "char_count": 2629,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương III",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 258
+            },
+            "score": 23.287426521729174,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p11_para_001",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 11,
+            "text": "đ) Phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng trong việc\nthực hiện kiêm tra an ninh mạng đột xuât.\n\n2. Bộ Công an có trách nhiệm sau đây đối với hệ thống thông tin quan\ntrọng về an ninh quôc gia, trừ hệ thông thông tin quân sự và hệ thông thông tin\ncơ yêu thuộc Ban Cơ yêu Chính phủ theo quy định của pháp luật:\n\na) Thầm định an ninh mạng đối với hệ thống thông tin quan trọng về an\nninh quôc gia;",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 11,
+              "n_chars": 2446,
+              "char_count": 2446,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương II",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 410
+            },
+            "score": 17.781392876625358,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p19_para_005",
+          "luat_an_ninh_mang_116-2025_p20_para_001",
+          "luat_an_ninh_mang_116-2025_p11_para_001"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1685
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 3.1128000000535394
+    },
+    {
+      "query_id": "basic-dev-08",
+      "question": "Điều 22 mô tả xung đột thông tin trên không gian mạng do bao nhiêu tổ chức thực hiện?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p22_para_000",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 22,
+          "text": "22\n\nđ) Chủ động tấn công vô hiệu hóa mục tiêu trên không gian mạng nhằm\nbảo vệ an ninh quôc gia và bảo đảm trật tự, an toàn xã hội.\n\n3. Bộ Công an chủ trì, phối hợp với Bộ, ngành có liên quan thực hiện đấu\ntranh bảo vệ an ninh mạng; Bộ Quôc phòng chủ trì, phôi hợp với Bộ, ngành có liên\nquan thực hiện đâu tranh bảo vệ an ninh mạng đôi với hệ thông thông tin quân sự.\n\nĐiều 22. Ngăn chặn xung đột thông tin trên không gian mạng",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 22,
+            "n_chars": 2381,
+            "char_count": 2381,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương III",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 427
+          },
+          "score": 22.73506488716497,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p22_para_003",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 22,
+          "text": "a) Ngăn chặn xung đột thông tin trên không gian mạng từ hệ thống thông\ntin của mình; hợp tác xác định nguôn, đây lùi, khăc phục hậu quả tân công mạng\nđược thực hiện thông qua hệ thông thông tin của tổ chức, cá nhân trong nước và |\nnước ngoài;\n\nb) Ngăn chặn hoạt động của tô chức, cá nhân trong nước và nước ngoài có\nmục đích tạo xung đột thông tin trên không gian mạng;",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 22,
+            "n_chars": 2381,
+            "char_count": 2381,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương III",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 369
+          },
+          "score": 22.402748718269063,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p22_para_002",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 22,
+          "text": "2. Ngăn chặn xung đột thông tin trên không gian mạng là việc thực hiện\ncác biện pháp công nghệ, kỹ thuật đề giám sát, phát hiện, cảnh báo, xác định\nnguôn gôc, chặn lọc, gỡ bỏ, phản bác, định hướng dư luận, khắc phục, xử phạt\nvà các biện pháp khác loại trừ xung đột thông tin trên không gian mạng.\n\n3. Tổ chức, cá nhân trong phạm vi nhiệm vụ, quyền hạn của mình có trách\nnhiệm sau đây:",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 22,
+            "n_chars": 2381,
+            "char_count": 2381,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương III",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 384
+          },
+          "score": 21.83997460469702,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p22_para_000] luat_an_ninh_mang_116-2025 | PDF page 22\n22\n\nđ) Chủ động tấn công vô hiệu hóa mục tiêu trên không gian mạng nhằm\nbảo vệ an ninh quôc gia và bảo đảm trật tự, an toàn xã hội.\n\n3. Bộ Công an chủ trì, phối hợp với Bộ, ngành có liên quan thực hiện đấu\ntranh bảo vệ an ninh mạng; Bộ Quôc phòng chủ trì, phôi hợp với Bộ, ngành có liên\nquan thực hiện đâu tranh bảo vệ an ninh mạng đôi với hệ thông thông tin quân sự.\n\nĐiều 22. Ngăn chặn xung đột thông tin trên không gian mạng\n\n[luat_an_ninh_mang_116-2025_p22_para_003] luat_an_ninh_mang_116-2025 | PDF page 22\na) Ngăn chặn xung đột thông tin trên không gian mạng từ hệ thống thông\ntin của mình; hợp tác xác định nguôn, đây lùi, khăc phục hậu quả tân công mạng\nđược thực hiện thông qua hệ thông thông tin của tổ chức, cá nhân trong nước và |\nnước ngoài;\n\nb) Ngăn chặn hoạt động của tô chức, cá nhân trong nước và nước ngoài có\nmục đích tạo xung đột thông tin trên không gian mạng;\n\n[luat_an_ninh_mang_116-2025_p22_para_002] luat_an_ninh_mang_116-2025 | PDF page 22\n2. Ngăn chặn xung đột thông tin trên không gian mạng là việc thực hiện\ncác biện pháp công nghệ, kỹ thuật đề giám sát, phát hiện, cảnh báo, xác định\nnguôn gôc, chặn lọc, gỡ bỏ, phản bác, định hướng dư luận, khắc phục, xử phạt\nvà các biện pháp khác loại trừ xung đột thông tin trên không gian mạng.\n\n3. Tổ chức, cá nhân trong phạm vi nhiệm vụ, quyền hạn của mình có trách\nnhiệm sau đây:",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p22_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 22,
+            "text": "22\n\nđ) Chủ động tấn công vô hiệu hóa mục tiêu trên không gian mạng nhằm\nbảo vệ an ninh quôc gia và bảo đảm trật tự, an toàn xã hội.\n\n3. Bộ Công an chủ trì, phối hợp với Bộ, ngành có liên quan thực hiện đấu\ntranh bảo vệ an ninh mạng; Bộ Quôc phòng chủ trì, phôi hợp với Bộ, ngành có liên\nquan thực hiện đâu tranh bảo vệ an ninh mạng đôi với hệ thông thông tin quân sự.\n\nĐiều 22. Ngăn chặn xung đột thông tin trên không gian mạng",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 22,
+              "n_chars": 2381,
+              "char_count": 2381,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương III",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 427
+            },
+            "score": 22.73506488716497,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p22_para_003",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 22,
+            "text": "a) Ngăn chặn xung đột thông tin trên không gian mạng từ hệ thống thông\ntin của mình; hợp tác xác định nguôn, đây lùi, khăc phục hậu quả tân công mạng\nđược thực hiện thông qua hệ thông thông tin của tổ chức, cá nhân trong nước và |\nnước ngoài;\n\nb) Ngăn chặn hoạt động của tô chức, cá nhân trong nước và nước ngoài có\nmục đích tạo xung đột thông tin trên không gian mạng;",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 22,
+              "n_chars": 2381,
+              "char_count": 2381,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương III",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 369
+            },
+            "score": 22.402748718269063,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p22_para_002",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 22,
+            "text": "2. Ngăn chặn xung đột thông tin trên không gian mạng là việc thực hiện\ncác biện pháp công nghệ, kỹ thuật đề giám sát, phát hiện, cảnh báo, xác định\nnguôn gôc, chặn lọc, gỡ bỏ, phản bác, định hướng dư luận, khắc phục, xử phạt\nvà các biện pháp khác loại trừ xung đột thông tin trên không gian mạng.\n\n3. Tổ chức, cá nhân trong phạm vi nhiệm vụ, quyền hạn của mình có trách\nnhiệm sau đây:",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 22,
+              "n_chars": 2381,
+              "char_count": 2381,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương III",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 384
+            },
+            "score": 21.83997460469702,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p22_para_000",
+          "luat_an_ninh_mang_116-2025_p22_para_003",
+          "luat_an_ninh_mang_116-2025_p22_para_002"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1785
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 2.825499999744352
+    },
+    {
+      "query_id": "basic-dev-09",
+      "question": "Dịch vụ khôi phục dữ liệu có nằm trong danh sách dịch vụ an ninh mạng ở Điều 28 không?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p26_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 26,
+          "text": "c) Dịch vụ mật mã dân sự;\n\nđ) Dịch vụ tư vấn an ninh mạng;\n\nđ) Dịch vụ giám sát an ninh mạng;\n\ne) Dịch vụ ứng cứu sự cô an ninh mạng;\n\nø) Dịch vụ khôi phục dữ liệu;\n\nh) Dịch vụ phòng ngừa, chống tấn công mạng;\n\n1) Dịch vụ an ninh mạng khác.\n\n3. Chính phủ quy định chi tiết Điều này.\n\nĐiều 29. Kinh doanh sản phẩm, dịch vụ an ninh mạng\n\n1. Doanh nghiệp kinh doanh sản phẩm, dịch vụ an ninh mạng phải có giấy\nphép kinh doanh sản phâm, dịch vụ an ninh mạng.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 26,
+            "n_chars": 1646,
+            "char_count": 1646,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương V",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 454
+          },
+          "score": 19.56411295115005,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p24_para_004",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 24,
+          "text": "3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng\nviên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt\nNam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá\nnhân, dữ liệu vê môi quan hệ của người sử dụng dịch vụ, dữ liệu do người sử\ndụng dịch vụ tại Việt Nam tạo ra phải áp dụng các biện pháp bảo vệ dữ liệu theo\nquy định của pháp luật và lưu trữ dữ liệu này tại Việt Nam trong thời gian theo\nquy định của Chính phủ.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 24,
+            "n_chars": 2620,
+            "char_count": 2620,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương IV",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 484
+          },
+          "score": 15.447683510523829,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p3_para_003",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 3,
+          "text": "21. Sản phẩm an ninh mạng là phần cứng, phần mềm có chức năng bảo vệ\nan ninh mạng, an ninh thông tin mạng, an ninh dữ liệu, thông tin, dữ liệu, hệ\nthông thông tin, cơ sở hạ tâng công nghệ thông tin.\n\n22. Dịch vụ an ninh mạng là dịch vụ được cung cấp để bảo vệ an ninh\nmạng, an ninh thông tin mạng, an ninh dữ liệu, thông tin, dữ liệu, hệ thông thông\ntin, cơ sở hạ tâng công nghệ thông tin.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 3,
+            "n_chars": 2705,
+            "char_count": 2705,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương I",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 389
+          },
+          "score": 13.215094187955515,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p26_para_001] luat_an_ninh_mang_116-2025 | PDF page 26\nc) Dịch vụ mật mã dân sự;\n\nđ) Dịch vụ tư vấn an ninh mạng;\n\nđ) Dịch vụ giám sát an ninh mạng;\n\ne) Dịch vụ ứng cứu sự cô an ninh mạng;\n\nø) Dịch vụ khôi phục dữ liệu;\n\nh) Dịch vụ phòng ngừa, chống tấn công mạng;\n\n1) Dịch vụ an ninh mạng khác.\n\n3. Chính phủ quy định chi tiết Điều này.\n\nĐiều 29. Kinh doanh sản phẩm, dịch vụ an ninh mạng\n\n1. Doanh nghiệp kinh doanh sản phẩm, dịch vụ an ninh mạng phải có giấy\nphép kinh doanh sản phâm, dịch vụ an ninh mạng.\n\n[luat_an_ninh_mang_116-2025_p24_para_004] luat_an_ninh_mang_116-2025 | PDF page 24\n3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng\nviên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt\nNam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá\nnhân, dữ liệu vê môi quan hệ của người sử dụng dịch vụ, dữ liệu do người sử\ndụng dịch vụ tại Việt Nam tạo ra phải áp dụng các biện pháp bảo vệ dữ liệu theo\nquy định của pháp luật và lưu trữ dữ liệu này tại Việt Nam trong thời gian theo\nquy định của Chính phủ.\n\n[luat_an_ninh_mang_116-2025_p3_para_003] luat_an_ninh_mang_116-2025 | PDF page 3\n21. Sản phẩm an ninh mạng là phần cứng, phần mềm có chức năng bảo vệ\nan ninh mạng, an ninh thông tin mạng, an ninh dữ liệu, thông tin, dữ liệu, hệ\nthông thông tin, cơ sở hạ tâng công nghệ thông tin.\n\n22. Dịch vụ an ninh mạng là dịch vụ được cung cấp để bảo vệ an ninh\nmạng, an ninh thông tin mạng, an ninh dữ liệu, thông tin, dữ liệu, hệ thông thông\ntin, cơ sở hạ tâng công nghệ thông tin.",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p26_para_001",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 26,
+            "text": "c) Dịch vụ mật mã dân sự;\n\nđ) Dịch vụ tư vấn an ninh mạng;\n\nđ) Dịch vụ giám sát an ninh mạng;\n\ne) Dịch vụ ứng cứu sự cô an ninh mạng;\n\nø) Dịch vụ khôi phục dữ liệu;\n\nh) Dịch vụ phòng ngừa, chống tấn công mạng;\n\n1) Dịch vụ an ninh mạng khác.\n\n3. Chính phủ quy định chi tiết Điều này.\n\nĐiều 29. Kinh doanh sản phẩm, dịch vụ an ninh mạng\n\n1. Doanh nghiệp kinh doanh sản phẩm, dịch vụ an ninh mạng phải có giấy\nphép kinh doanh sản phâm, dịch vụ an ninh mạng.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 26,
+              "n_chars": 1646,
+              "char_count": 1646,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương V",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 454
+            },
+            "score": 19.56411295115005,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p24_para_004",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 24,
+            "text": "3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng\nviên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt\nNam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá\nnhân, dữ liệu vê môi quan hệ của người sử dụng dịch vụ, dữ liệu do người sử\ndụng dịch vụ tại Việt Nam tạo ra phải áp dụng các biện pháp bảo vệ dữ liệu theo\nquy định của pháp luật và lưu trữ dữ liệu này tại Việt Nam trong thời gian theo\nquy định của Chính phủ.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 24,
+              "n_chars": 2620,
+              "char_count": 2620,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương IV",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 484
+            },
+            "score": 15.447683510523829,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p3_para_003",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 3,
+            "text": "21. Sản phẩm an ninh mạng là phần cứng, phần mềm có chức năng bảo vệ\nan ninh mạng, an ninh thông tin mạng, an ninh dữ liệu, thông tin, dữ liệu, hệ\nthông thông tin, cơ sở hạ tâng công nghệ thông tin.\n\n22. Dịch vụ an ninh mạng là dịch vụ được cung cấp để bảo vệ an ninh\nmạng, an ninh thông tin mạng, an ninh dữ liệu, thông tin, dữ liệu, hệ thông thông\ntin, cơ sở hạ tâng công nghệ thông tin.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 3,
+              "n_chars": 2705,
+              "char_count": 2705,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương I",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 389
+            },
+            "score": 13.215094187955515,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p26_para_001",
+          "luat_an_ninh_mang_116-2025_p24_para_004",
+          "luat_an_ninh_mang_116-2025_p3_para_003"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1958
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 2.6491999997233506
+    },
+    {
+      "query_id": "basic-dev-10",
+      "question": "Theo Điều 34, người quản trị hệ thống thông tin cấp độ 3–5 trong cơ quan nhà nước được miễn tập huấn chuyên sâu trong trường hợp nào?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p28_para_004",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 28,
+          "text": "2. Người trực tiếp quản trị, vận hành hệ thống thông tin Cấp độ 3, Cấp độ\n4, Câp độ Š trong cơ quan, tô chức, doanh nghiệp Nhà nước phải được tập huân\nkiên thức, kỹ năng chuyên sâu về an ninh mạng và được câp chứng nhận, trừ các\ncá nhân đã được đào tạo chuyên ngành an ninh mạng.\n\n3. Bộ Công an chủ trì, phối hợp với các Bộ, ngành liên quan tổ chức tập\nhuân vê kiên thức, kỹ năng chuyên sâu vê an ninh mạng, trừ trường hợp quy\nđịnh tại khoản 4 Điêu này.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 28,
+            "n_chars": 2514,
+            "char_count": 2514,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VI",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 453
+          },
+          "score": 40.585816069036476,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p28_para_005",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 28,
+          "text": "4. Bộ Quốc phòng, Ban Cơ yêu Chính phủ tổ chức tập huấn kiến thức, kỹ\nnăng chuyên sâu về an ninh mạng đôi với đôi tượng thuộc phạm vi quản lý.\n\n5. Chính phủ quy định về chuẩn kiến thức, kỹ năng chuyên sâu về an ninh\nmạng; chương trình, nội dung, việc chứng nhận tập huân kiên thức, kỹ năng\nchuyên sâu về an ninh mạng.\n\nĐiều 35. Phổ biến kiến thức về an ninh mạng",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 28,
+            "n_chars": 2514,
+            "char_count": 2514,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VI",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 362
+          },
+          "score": 24.11315884042116,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p28_para_003",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 28,
+          "text": "Bộ Quốc phòng, Ban Cơ yếu Chính phủ tổ chức bồi dưỡng nghiệp vụ an\nninh mạng cho đôi tượng thuộc phạm vi quản lý.\n\nĐiều 34. Tập huấn kiến thức, kỹ năng chuyên sâu về an ninh mạng\n\n1. Lực lượng bảo vệ an ninh mạng quy định tại điểm a và điểm b khoản 1\nĐiêu 30 của Luật này phải đáp ứng yêu câu kiên thức, kỹ năng chuyên sâu về an\nninh mạng.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 28,
+            "n_chars": 2514,
+            "char_count": 2514,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VI",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 339
+          },
+          "score": 23.417160946630016,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p28_para_004] luat_an_ninh_mang_116-2025 | PDF page 28\n2. Người trực tiếp quản trị, vận hành hệ thống thông tin Cấp độ 3, Cấp độ\n4, Câp độ Š trong cơ quan, tô chức, doanh nghiệp Nhà nước phải được tập huân\nkiên thức, kỹ năng chuyên sâu về an ninh mạng và được câp chứng nhận, trừ các\ncá nhân đã được đào tạo chuyên ngành an ninh mạng.\n\n3. Bộ Công an chủ trì, phối hợp với các Bộ, ngành liên quan tổ chức tập\nhuân vê kiên thức, kỹ năng chuyên sâu vê an ninh mạng, trừ trường hợp quy\nđịnh tại khoản 4 Điêu này.\n\n[luat_an_ninh_mang_116-2025_p28_para_005] luat_an_ninh_mang_116-2025 | PDF page 28\n4. Bộ Quốc phòng, Ban Cơ yêu Chính phủ tổ chức tập huấn kiến thức, kỹ\nnăng chuyên sâu về an ninh mạng đôi với đôi tượng thuộc phạm vi quản lý.\n\n5. Chính phủ quy định về chuẩn kiến thức, kỹ năng chuyên sâu về an ninh\nmạng; chương trình, nội dung, việc chứng nhận tập huân kiên thức, kỹ năng\nchuyên sâu về an ninh mạng.\n\nĐiều 35. Phổ biến kiến thức về an ninh mạng\n\n[luat_an_ninh_mang_116-2025_p28_para_003] luat_an_ninh_mang_116-2025 | PDF page 28\nBộ Quốc phòng, Ban Cơ yếu Chính phủ tổ chức bồi dưỡng nghiệp vụ an\nninh mạng cho đôi tượng thuộc phạm vi quản lý.\n\nĐiều 34. Tập huấn kiến thức, kỹ năng chuyên sâu về an ninh mạng\n\n1. Lực lượng bảo vệ an ninh mạng quy định tại điểm a và điểm b khoản 1\nĐiêu 30 của Luật này phải đáp ứng yêu câu kiên thức, kỹ năng chuyên sâu về an\nninh mạng.",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p28_para_004",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 28,
+            "text": "2. Người trực tiếp quản trị, vận hành hệ thống thông tin Cấp độ 3, Cấp độ\n4, Câp độ Š trong cơ quan, tô chức, doanh nghiệp Nhà nước phải được tập huân\nkiên thức, kỹ năng chuyên sâu về an ninh mạng và được câp chứng nhận, trừ các\ncá nhân đã được đào tạo chuyên ngành an ninh mạng.\n\n3. Bộ Công an chủ trì, phối hợp với các Bộ, ngành liên quan tổ chức tập\nhuân vê kiên thức, kỹ năng chuyên sâu vê an ninh mạng, trừ trường hợp quy\nđịnh tại khoản 4 Điêu này.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 28,
+              "n_chars": 2514,
+              "char_count": 2514,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VI",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 453
+            },
+            "score": 40.585816069036476,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p28_para_005",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 28,
+            "text": "4. Bộ Quốc phòng, Ban Cơ yêu Chính phủ tổ chức tập huấn kiến thức, kỹ\nnăng chuyên sâu về an ninh mạng đôi với đôi tượng thuộc phạm vi quản lý.\n\n5. Chính phủ quy định về chuẩn kiến thức, kỹ năng chuyên sâu về an ninh\nmạng; chương trình, nội dung, việc chứng nhận tập huân kiên thức, kỹ năng\nchuyên sâu về an ninh mạng.\n\nĐiều 35. Phổ biến kiến thức về an ninh mạng",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 28,
+              "n_chars": 2514,
+              "char_count": 2514,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VI",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 362
+            },
+            "score": 24.11315884042116,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p28_para_003",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 28,
+            "text": "Bộ Quốc phòng, Ban Cơ yếu Chính phủ tổ chức bồi dưỡng nghiệp vụ an\nninh mạng cho đôi tượng thuộc phạm vi quản lý.\n\nĐiều 34. Tập huấn kiến thức, kỹ năng chuyên sâu về an ninh mạng\n\n1. Lực lượng bảo vệ an ninh mạng quy định tại điểm a và điểm b khoản 1\nĐiêu 30 của Luật này phải đáp ứng yêu câu kiên thức, kỹ năng chuyên sâu về an\nninh mạng.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 28,
+              "n_chars": 2514,
+              "char_count": 2514,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VI",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 339
+            },
+            "score": 23.417160946630016,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p28_para_004",
+          "luat_an_ninh_mang_116-2025_p28_para_005",
+          "luat_an_ninh_mang_116-2025_p28_para_003"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1775
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 3.8699000001543027
+    },
+    {
+      "query_id": "basic-dev-11",
+      "question": "Theo Điều 36, những chủ thể nào có quyền nghiên cứu, phát triển an ninh mạng?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p29_para_003",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 29,
+          "text": "h) Sáng kiến kỹ thuật nâng cao nhận thức, kỹ năng về an ninh mạng:\n\n1) Dự báo an ninh mạng;\n\nk) Nghiên cứu thực tiễn, phát triển lý luận an ninh mạng.\n\n2. Cơ quan, tổ chức, cá nhân có liên quan có quyền nghiên cứu, phát triển\nan ninh mạng.\n\nĐiều 37. Nâng cao năng lực tự chủ về an ninh mạng",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 29,
+            "n_chars": 2285,
+            "char_count": 2285,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VI",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 290
+          },
+          "score": 22.227624122275405,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p29_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 29,
+          "text": "3. Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt\nđộng phô biên kiên thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tô\nchức, cá nhân của địa phương.\n\nĐiều 36. Nghiên cứu, phát triển an ninh mạng\n\n1. Nội dung nghiên cứu, phát triển an ninh mạng bao gồm:\n\na) Xây dựng hệ thông phần mềm, trang thiết bị bảo vệ an ninh mạng;\n\nb) Phương pháp thầm định phần mềm, trang thiết bị bảo vệ an ninh mạng\nđạt chuân và hạn chê tôn tại điêm yêu, lỗ hông bảo mật, phân mêm độc hại;",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 29,
+            "n_chars": 2285,
+            "char_count": 2285,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VI",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 493
+          },
+          "score": 19.355725207246586,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p30_para_000",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 30,
+          "text": "30\n\nb) Thúc đây chuyền giao, nghiên cứu, làm chủ và phát triển công nghệ,\nsản phâm, dịch vụ công nghiệp an ninh mạng;\n\nc) Thúc đây ứng dụng công nghệ mới, công nghệ tiên tiễn liên quan đến\nan ninh mạng;\n\nd) Tổ chức đào tạo, phát triển, tối ưu hóa sử dụng nguồn nhân lực an ninh\nmạng chât lượng cao;\n\nđ) Tăng cường môi trường kinh doanh, cải thiện điều kiện cạnh tranh, hỗ\ntrợ doanh nghiệp nghiên cứu, sản xuât sản phâm, dịch vụ, ứng dụng đê bảo vệ\nan ninh mạng.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 30,
+            "n_chars": 2489,
+            "char_count": 2489,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VI",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 461
+          },
+          "score": 16.146619066563428,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p29_para_003] luat_an_ninh_mang_116-2025 | PDF page 29\nh) Sáng kiến kỹ thuật nâng cao nhận thức, kỹ năng về an ninh mạng:\n\n1) Dự báo an ninh mạng;\n\nk) Nghiên cứu thực tiễn, phát triển lý luận an ninh mạng.\n\n2. Cơ quan, tổ chức, cá nhân có liên quan có quyền nghiên cứu, phát triển\nan ninh mạng.\n\nĐiều 37. Nâng cao năng lực tự chủ về an ninh mạng\n\n[luat_an_ninh_mang_116-2025_p29_para_001] luat_an_ninh_mang_116-2025 | PDF page 29\n3. Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt\nđộng phô biên kiên thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tô\nchức, cá nhân của địa phương.\n\nĐiều 36. Nghiên cứu, phát triển an ninh mạng\n\n1. Nội dung nghiên cứu, phát triển an ninh mạng bao gồm:\n\na) Xây dựng hệ thông phần mềm, trang thiết bị bảo vệ an ninh mạng;\n\nb) Phương pháp thầm định phần mềm, trang thiết bị bảo vệ an ninh mạng\nđạt chuân và hạn chê tôn tại điêm yêu, lỗ hông bảo mật, phân mêm độc hại;\n\n[luat_an_ninh_mang_116-2025_p30_para_000] luat_an_ninh_mang_116-2025 | PDF page 30\n30\n\nb) Thúc đây chuyền giao, nghiên cứu, làm chủ và phát triển công nghệ,\nsản phâm, dịch vụ công nghiệp an ninh mạng;\n\nc) Thúc đây ứng dụng công nghệ mới, công nghệ tiên tiễn liên quan đến\nan ninh mạng;\n\nd) Tổ chức đào tạo, phát triển, tối ưu hóa sử dụng nguồn nhân lực an ninh\nmạng chât lượng cao;\n\nđ) Tăng cường môi trường kinh doanh, cải thiện điều kiện cạnh tranh, hỗ\ntrợ doanh nghiệp nghiên cứu, sản xuât sản phâm, dịch vụ, ứng dụng đê bảo vệ\nan ninh mạng.",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p29_para_003",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 29,
+            "text": "h) Sáng kiến kỹ thuật nâng cao nhận thức, kỹ năng về an ninh mạng:\n\n1) Dự báo an ninh mạng;\n\nk) Nghiên cứu thực tiễn, phát triển lý luận an ninh mạng.\n\n2. Cơ quan, tổ chức, cá nhân có liên quan có quyền nghiên cứu, phát triển\nan ninh mạng.\n\nĐiều 37. Nâng cao năng lực tự chủ về an ninh mạng",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 29,
+              "n_chars": 2285,
+              "char_count": 2285,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VI",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 290
+            },
+            "score": 22.227624122275405,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p29_para_001",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 29,
+            "text": "3. Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt\nđộng phô biên kiên thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tô\nchức, cá nhân của địa phương.\n\nĐiều 36. Nghiên cứu, phát triển an ninh mạng\n\n1. Nội dung nghiên cứu, phát triển an ninh mạng bao gồm:\n\na) Xây dựng hệ thông phần mềm, trang thiết bị bảo vệ an ninh mạng;\n\nb) Phương pháp thầm định phần mềm, trang thiết bị bảo vệ an ninh mạng\nđạt chuân và hạn chê tôn tại điêm yêu, lỗ hông bảo mật, phân mêm độc hại;",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 29,
+              "n_chars": 2285,
+              "char_count": 2285,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VI",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 493
+            },
+            "score": 19.355725207246586,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p30_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 30,
+            "text": "30\n\nb) Thúc đây chuyền giao, nghiên cứu, làm chủ và phát triển công nghệ,\nsản phâm, dịch vụ công nghiệp an ninh mạng;\n\nc) Thúc đây ứng dụng công nghệ mới, công nghệ tiên tiễn liên quan đến\nan ninh mạng;\n\nd) Tổ chức đào tạo, phát triển, tối ưu hóa sử dụng nguồn nhân lực an ninh\nmạng chât lượng cao;\n\nđ) Tăng cường môi trường kinh doanh, cải thiện điều kiện cạnh tranh, hỗ\ntrợ doanh nghiệp nghiên cứu, sản xuât sản phâm, dịch vụ, ứng dụng đê bảo vệ\nan ninh mạng.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 30,
+              "n_chars": 2489,
+              "char_count": 2489,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VI",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 461
+            },
+            "score": 16.146619066563428,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p29_para_003",
+          "luat_an_ninh_mang_116-2025_p29_para_001",
+          "luat_an_ninh_mang_116-2025_p30_para_000"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1849
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 2.912099999775819
+    },
+    {
+      "query_id": "basic-dev-12",
+      "question": "Ai chịu trách nhiệm xây dựng hoạt động phổ biến kiến thức an ninh mạng cho địa phương?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p29_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 29,
+          "text": "3. Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt\nđộng phô biên kiên thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tô\nchức, cá nhân của địa phương.\n\nĐiều 36. Nghiên cứu, phát triển an ninh mạng\n\n1. Nội dung nghiên cứu, phát triển an ninh mạng bao gồm:\n\na) Xây dựng hệ thông phần mềm, trang thiết bị bảo vệ an ninh mạng;\n\nb) Phương pháp thầm định phần mềm, trang thiết bị bảo vệ an ninh mạng\nđạt chuân và hạn chê tôn tại điêm yêu, lỗ hông bảo mật, phân mêm độc hại;",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 29,
+            "n_chars": 2285,
+            "char_count": 2285,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VI",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 493
+          },
+          "score": 22.43671176147027,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p28_para_005",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 28,
+          "text": "4. Bộ Quốc phòng, Ban Cơ yêu Chính phủ tổ chức tập huấn kiến thức, kỹ\nnăng chuyên sâu về an ninh mạng đôi với đôi tượng thuộc phạm vi quản lý.\n\n5. Chính phủ quy định về chuẩn kiến thức, kỹ năng chuyên sâu về an ninh\nmạng; chương trình, nội dung, việc chứng nhận tập huân kiên thức, kỹ năng\nchuyên sâu về an ninh mạng.\n\nĐiều 35. Phổ biến kiến thức về an ninh mạng",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 28,
+            "n_chars": 2514,
+            "char_count": 2514,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VI",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 362
+          },
+          "score": 21.422243072213845,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p29_para_000",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 29,
+          "text": "v5\ncá nhân thực hiện chương trình giáo dục và nâng cao nhận thức về an ninh\nmạng; ưu tiên phô biên, hướng dân trẻ em, người cao tuôi, người khó khăn trong\nnhận thức đê nâng cao khả năng tự bảo vệ quyên và lợi ích hợp pháp của mình\ntrên không gian mạng.\n\n2. Bộ, ngành, cơ quan, tô chức có trách nhiệm xây dựng và triển khai hoạt\nđộng phô biên kiên thức về an ninh mạng cho cán bộ, công chức, viên chức,\nngười lao động trong Bộ, ngành, cơ quan, tô chức.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 29,
+            "n_chars": 2285,
+            "char_count": 2285,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VI",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 451
+          },
+          "score": 16.948163635623295,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p29_para_001] luat_an_ninh_mang_116-2025 | PDF page 29\n3. Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt\nđộng phô biên kiên thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tô\nchức, cá nhân của địa phương.\n\nĐiều 36. Nghiên cứu, phát triển an ninh mạng\n\n1. Nội dung nghiên cứu, phát triển an ninh mạng bao gồm:\n\na) Xây dựng hệ thông phần mềm, trang thiết bị bảo vệ an ninh mạng;\n\nb) Phương pháp thầm định phần mềm, trang thiết bị bảo vệ an ninh mạng\nđạt chuân và hạn chê tôn tại điêm yêu, lỗ hông bảo mật, phân mêm độc hại;\n\n[luat_an_ninh_mang_116-2025_p28_para_005] luat_an_ninh_mang_116-2025 | PDF page 28\n4. Bộ Quốc phòng, Ban Cơ yêu Chính phủ tổ chức tập huấn kiến thức, kỹ\nnăng chuyên sâu về an ninh mạng đôi với đôi tượng thuộc phạm vi quản lý.\n\n5. Chính phủ quy định về chuẩn kiến thức, kỹ năng chuyên sâu về an ninh\nmạng; chương trình, nội dung, việc chứng nhận tập huân kiên thức, kỹ năng\nchuyên sâu về an ninh mạng.\n\nĐiều 35. Phổ biến kiến thức về an ninh mạng\n\n[luat_an_ninh_mang_116-2025_p29_para_000] luat_an_ninh_mang_116-2025 | PDF page 29\nv5\ncá nhân thực hiện chương trình giáo dục và nâng cao nhận thức về an ninh\nmạng; ưu tiên phô biên, hướng dân trẻ em, người cao tuôi, người khó khăn trong\nnhận thức đê nâng cao khả năng tự bảo vệ quyên và lợi ích hợp pháp của mình\ntrên không gian mạng.\n\n2. Bộ, ngành, cơ quan, tô chức có trách nhiệm xây dựng và triển khai hoạt\nđộng phô biên kiên thức về an ninh mạng cho cán bộ, công chức, viên chức,\nngười lao động trong Bộ, ngành, cơ quan, tô chức.",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p29_para_001",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 29,
+            "text": "3. Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt\nđộng phô biên kiên thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tô\nchức, cá nhân của địa phương.\n\nĐiều 36. Nghiên cứu, phát triển an ninh mạng\n\n1. Nội dung nghiên cứu, phát triển an ninh mạng bao gồm:\n\na) Xây dựng hệ thông phần mềm, trang thiết bị bảo vệ an ninh mạng;\n\nb) Phương pháp thầm định phần mềm, trang thiết bị bảo vệ an ninh mạng\nđạt chuân và hạn chê tôn tại điêm yêu, lỗ hông bảo mật, phân mêm độc hại;",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 29,
+              "n_chars": 2285,
+              "char_count": 2285,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VI",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 493
+            },
+            "score": 22.43671176147027,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p28_para_005",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 28,
+            "text": "4. Bộ Quốc phòng, Ban Cơ yêu Chính phủ tổ chức tập huấn kiến thức, kỹ\nnăng chuyên sâu về an ninh mạng đôi với đôi tượng thuộc phạm vi quản lý.\n\n5. Chính phủ quy định về chuẩn kiến thức, kỹ năng chuyên sâu về an ninh\nmạng; chương trình, nội dung, việc chứng nhận tập huân kiên thức, kỹ năng\nchuyên sâu về an ninh mạng.\n\nĐiều 35. Phổ biến kiến thức về an ninh mạng",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 28,
+              "n_chars": 2514,
+              "char_count": 2514,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VI",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 362
+            },
+            "score": 21.422243072213845,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p29_para_000",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 29,
+            "text": "v5\ncá nhân thực hiện chương trình giáo dục và nâng cao nhận thức về an ninh\nmạng; ưu tiên phô biên, hướng dân trẻ em, người cao tuôi, người khó khăn trong\nnhận thức đê nâng cao khả năng tự bảo vệ quyên và lợi ích hợp pháp của mình\ntrên không gian mạng.\n\n2. Bộ, ngành, cơ quan, tô chức có trách nhiệm xây dựng và triển khai hoạt\nđộng phô biên kiên thức về an ninh mạng cho cán bộ, công chức, viên chức,\nngười lao động trong Bộ, ngành, cơ quan, tô chức.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 29,
+              "n_chars": 2285,
+              "char_count": 2285,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VI",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 451
+            },
+            "score": 16.948163635623295,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p29_para_001",
+          "luat_an_ninh_mang_116-2025_p28_para_005",
+          "luat_an_ninh_mang_116-2025_p29_para_000"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1938
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 2.4224000003414403
+    },
+    {
+      "query_id": "basic-dev-13",
+      "question": "Đơn vị không thuộc nhóm được ngân sách nhà nước bảo đảm theo khoản 1 Điều 38 lấy kinh phí bảo vệ an ninh mạng từ đâu?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p30_para_006",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 30,
+          "text": "2. Cơ quan, tổ chức, đơn vị không thuộc quy định tại khoản 1 Điều này tự\nbảo đảm kinh phí bảo vệ an ninh mạng cho cơ quan, tô chức, đơn vị mình.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 30,
+            "n_chars": 2489,
+            "char_count": 2489,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VI",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 144
+          },
+          "score": 36.74454114005811,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p30_para_005",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 30,
+          "text": "1. Cơ quan, tổ chức, doanh nghiệp nhà nước, tổ chức chính trị, tổ chức\nchính trị - xã hội và các đơn vị sự nghiệp công lập do ngân sách nhà nước bảo\nđảm phải bô trí kinh phí bảo vệ an ninh mạng trong dự toán chi thực hiện nhiệm\nvụ chuyên đôi sô, ứng dụng công nghệ thông tin hàng năm của cơ quan, tô chức,\nđơn vị mình; bô trí tôi thiêu 15% tông kinh phí thực hiện chương trình, đê án, dự\nán đầu tư chuyên đôi sô, ứng dụng công nghệ thông tin đề bảo vệ an ninh mạng.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 30,
+            "n_chars": 2489,
+            "char_count": 2489,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VI",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 465
+          },
+          "score": 33.205998191219415,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p30_para_004",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 30,
+          "text": "đ) Các cơ quan, tô chức, doanh nghiệp nhà nước ưu tiên sử dụng các sản\nphâm, dịch vụ an ninh mạng được sản xuât trong nước.\n\n4. Bộ Công an tham mưu, giúp Chính phủ xây dựng, phát triển hạ tầng\ncông nghiệp an ninh mạng nhăm nâng cao năng lực tự chủ vê an ninh mạng.\n\nĐiều 38. Kinh phí bảo vệ an ninh mạng",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 30,
+            "n_chars": 2489,
+            "char_count": 2489,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VI",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 303
+          },
+          "score": 20.10722596586773,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p30_para_006] luat_an_ninh_mang_116-2025 | PDF page 30\n2. Cơ quan, tổ chức, đơn vị không thuộc quy định tại khoản 1 Điều này tự\nbảo đảm kinh phí bảo vệ an ninh mạng cho cơ quan, tô chức, đơn vị mình.\n\n[luat_an_ninh_mang_116-2025_p30_para_005] luat_an_ninh_mang_116-2025 | PDF page 30\n1. Cơ quan, tổ chức, doanh nghiệp nhà nước, tổ chức chính trị, tổ chức\nchính trị - xã hội và các đơn vị sự nghiệp công lập do ngân sách nhà nước bảo\nđảm phải bô trí kinh phí bảo vệ an ninh mạng trong dự toán chi thực hiện nhiệm\nvụ chuyên đôi sô, ứng dụng công nghệ thông tin hàng năm của cơ quan, tô chức,\nđơn vị mình; bô trí tôi thiêu 15% tông kinh phí thực hiện chương trình, đê án, dự\nán đầu tư chuyên đôi sô, ứng dụng công nghệ thông tin đề bảo vệ an ninh mạng.\n\n[luat_an_ninh_mang_116-2025_p30_para_004] luat_an_ninh_mang_116-2025 | PDF page 30\nđ) Các cơ quan, tô chức, doanh nghiệp nhà nước ưu tiên sử dụng các sản\nphâm, dịch vụ an ninh mạng được sản xuât trong nước.\n\n4. Bộ Công an tham mưu, giúp Chính phủ xây dựng, phát triển hạ tầng\ncông nghiệp an ninh mạng nhăm nâng cao năng lực tự chủ vê an ninh mạng.\n\nĐiều 38. Kinh phí bảo vệ an ninh mạng",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p30_para_006",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 30,
+            "text": "2. Cơ quan, tổ chức, đơn vị không thuộc quy định tại khoản 1 Điều này tự\nbảo đảm kinh phí bảo vệ an ninh mạng cho cơ quan, tô chức, đơn vị mình.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 30,
+              "n_chars": 2489,
+              "char_count": 2489,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VI",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 144
+            },
+            "score": 36.74454114005811,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p30_para_005",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 30,
+            "text": "1. Cơ quan, tổ chức, doanh nghiệp nhà nước, tổ chức chính trị, tổ chức\nchính trị - xã hội và các đơn vị sự nghiệp công lập do ngân sách nhà nước bảo\nđảm phải bô trí kinh phí bảo vệ an ninh mạng trong dự toán chi thực hiện nhiệm\nvụ chuyên đôi sô, ứng dụng công nghệ thông tin hàng năm của cơ quan, tô chức,\nđơn vị mình; bô trí tôi thiêu 15% tông kinh phí thực hiện chương trình, đê án, dự\nán đầu tư chuyên đôi sô, ứng dụng công nghệ thông tin đề bảo vệ an ninh mạng.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 30,
+              "n_chars": 2489,
+              "char_count": 2489,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VI",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 465
+            },
+            "score": 33.205998191219415,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p30_para_004",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 30,
+            "text": "đ) Các cơ quan, tô chức, doanh nghiệp nhà nước ưu tiên sử dụng các sản\nphâm, dịch vụ an ninh mạng được sản xuât trong nước.\n\n4. Bộ Công an tham mưu, giúp Chính phủ xây dựng, phát triển hạ tầng\ncông nghiệp an ninh mạng nhăm nâng cao năng lực tự chủ vê an ninh mạng.\n\nĐiều 38. Kinh phí bảo vệ an ninh mạng",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 30,
+              "n_chars": 2489,
+              "char_count": 2489,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VI",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 303
+            },
+            "score": 20.10722596586773,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p30_para_006",
+          "luat_an_ninh_mang_116-2025_p30_para_005",
+          "luat_an_ninh_mang_116-2025_p30_para_004"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1437
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 2.8654000002461544
+    },
+    {
+      "query_id": "basic-dev-14",
+      "question": "Theo khoản 2 Điều 40, chủ quản hệ thống sử dụng ngân sách nhà nước phải chỉ định ai phụ trách an ninh mạng?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p32_para_004",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 32,
+          "text": "b) Kết nối hệ thống giám sát an ninh mạng, hệ thống phòng chống mã độc\ntập trung về Trung tâm An ninh mạng quôc gia của Bộ Công an hoặc Trung tâm\nAn ninh mạng của tỉnh, thành phô đê hồ trợ giám sát an ninh mạng;\n\nc) Báo cáo sự cô an ninh mạng với cơ quan chuyên trách của Bộ Công an\nhoặc Bộ Quôc phòng.\n\n2. Chủ quản hệ thống thông tin có sử dụng ngân sách nhà nước ngoài\ntrách nhiệm quy định tại khoản 1 Điêu này thì có trách nhiệm sau đây:",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 32,
+            "n_chars": 2239,
+            "char_count": 2239,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VII",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 440
+          },
+          "score": 23.59494139834254,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p32_para_003",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 32,
+          "text": "6. Ủy ban nhân dân cấp tỉnh thực hiện công tác bảo vệ an ninh mạng\ntại địa phương; phôi hợp với Bộ Công an thực hiện quản lý nhà nước vê an\nninh mạng. |\n\nĐiều 40. Trách nhiệm của chủ quản hệ thống thông tin trong bảo vệ |\nan ninh mạng\n\n1. Chủ quản hệ thống thông tin có trách nhiệm sau đây:\n\na) Thực hiện bảo vệ hệ thống thông tin theo quy định tại Luật này;",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 32,
+            "n_chars": 2239,
+            "char_count": 2239,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VII",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 358
+          },
+          "score": 23.13537652949132,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p33_para_005",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 33,
+          "text": "2. Có trách nhiệm bảo mật thông tin đăng ký, mở, quản lý, sử dụng tài\nkhoản sô của mình. Trường hợp sử dụng tài khoản sô đê thực hiện hành vi vi\nphạm pháp luật, tùy theo tính chât, mức độ của hành vi vi phạm, chủ tài khoản\nsô, người sử dụng tài khoản sô bị xử lý kỷ luật, xử phạt li phạm hành chính\nhoặc bị truy cứu trách nhiệm hình sự; nêu gây thiệt hại đên lợi ích của Nhà\nnước, quyên và lợi ích hợp pháp của tô chức, cá nhân thì phải bôi thường thiệt\nhại theo quy định pháp luật.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 33,
+            "n_chars": 2682,
+            "char_count": 2682,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VII",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 482
+          },
+          "score": 18.257793863778463,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p32_para_004] luat_an_ninh_mang_116-2025 | PDF page 32\nb) Kết nối hệ thống giám sát an ninh mạng, hệ thống phòng chống mã độc\ntập trung về Trung tâm An ninh mạng quôc gia của Bộ Công an hoặc Trung tâm\nAn ninh mạng của tỉnh, thành phô đê hồ trợ giám sát an ninh mạng;\n\nc) Báo cáo sự cô an ninh mạng với cơ quan chuyên trách của Bộ Công an\nhoặc Bộ Quôc phòng.\n\n2. Chủ quản hệ thống thông tin có sử dụng ngân sách nhà nước ngoài\ntrách nhiệm quy định tại khoản 1 Điêu này thì có trách nhiệm sau đây:\n\n[luat_an_ninh_mang_116-2025_p32_para_003] luat_an_ninh_mang_116-2025 | PDF page 32\n6. Ủy ban nhân dân cấp tỉnh thực hiện công tác bảo vệ an ninh mạng\ntại địa phương; phôi hợp với Bộ Công an thực hiện quản lý nhà nước vê an\nninh mạng. |\n\nĐiều 40. Trách nhiệm của chủ quản hệ thống thông tin trong bảo vệ |\nan ninh mạng\n\n1. Chủ quản hệ thống thông tin có trách nhiệm sau đây:\n\na) Thực hiện bảo vệ hệ thống thông tin theo quy định tại Luật này;\n\n[luat_an_ninh_mang_116-2025_p33_para_005] luat_an_ninh_mang_116-2025 | PDF page 33\n2. Có trách nhiệm bảo mật thông tin đăng ký, mở, quản lý, sử dụng tài\nkhoản sô của mình. Trường hợp sử dụng tài khoản sô đê thực hiện hành vi vi\nphạm pháp luật, tùy theo tính chât, mức độ của hành vi vi phạm, chủ tài khoản\nsô, người sử dụng tài khoản sô bị xử lý kỷ luật, xử phạt li phạm hành chính\nhoặc bị truy cứu trách nhiệm hình sự; nêu gây thiệt hại đên lợi ích của Nhà\nnước, quyên và lợi ích hợp pháp của tô chức, cá nhân thì phải bôi thường thiệt\nhại theo quy định pháp luật.",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p32_para_004",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 32,
+            "text": "b) Kết nối hệ thống giám sát an ninh mạng, hệ thống phòng chống mã độc\ntập trung về Trung tâm An ninh mạng quôc gia của Bộ Công an hoặc Trung tâm\nAn ninh mạng của tỉnh, thành phô đê hồ trợ giám sát an ninh mạng;\n\nc) Báo cáo sự cô an ninh mạng với cơ quan chuyên trách của Bộ Công an\nhoặc Bộ Quôc phòng.\n\n2. Chủ quản hệ thống thông tin có sử dụng ngân sách nhà nước ngoài\ntrách nhiệm quy định tại khoản 1 Điêu này thì có trách nhiệm sau đây:",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 32,
+              "n_chars": 2239,
+              "char_count": 2239,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VII",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 440
+            },
+            "score": 23.59494139834254,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p32_para_003",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 32,
+            "text": "6. Ủy ban nhân dân cấp tỉnh thực hiện công tác bảo vệ an ninh mạng\ntại địa phương; phôi hợp với Bộ Công an thực hiện quản lý nhà nước vê an\nninh mạng. |\n\nĐiều 40. Trách nhiệm của chủ quản hệ thống thông tin trong bảo vệ |\nan ninh mạng\n\n1. Chủ quản hệ thống thông tin có trách nhiệm sau đây:\n\na) Thực hiện bảo vệ hệ thống thông tin theo quy định tại Luật này;",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 32,
+              "n_chars": 2239,
+              "char_count": 2239,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VII",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 358
+            },
+            "score": 23.13537652949132,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p33_para_005",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 33,
+            "text": "2. Có trách nhiệm bảo mật thông tin đăng ký, mở, quản lý, sử dụng tài\nkhoản sô của mình. Trường hợp sử dụng tài khoản sô đê thực hiện hành vi vi\nphạm pháp luật, tùy theo tính chât, mức độ của hành vi vi phạm, chủ tài khoản\nsô, người sử dụng tài khoản sô bị xử lý kỷ luật, xử phạt li phạm hành chính\nhoặc bị truy cứu trách nhiệm hình sự; nêu gây thiệt hại đên lợi ích của Nhà\nnước, quyên và lợi ích hợp pháp của tô chức, cá nhân thì phải bôi thường thiệt\nhại theo quy định pháp luật.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 33,
+              "n_chars": 2682,
+              "char_count": 2682,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VII",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 482
+            },
+            "score": 18.257793863778463,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p32_para_004",
+          "luat_an_ninh_mang_116-2025_p32_para_003",
+          "luat_an_ninh_mang_116-2025_p33_para_005"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1923
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 3.3789999997679843
+    },
+    {
+      "query_id": "basic-dev-15",
+      "question": "Doanh nghiệp cung cấp dịch vụ trên không gian mạng phải làm gì ngay khi xảy ra sự cố an ninh mạng?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p23_para_005",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 23,
+          "text": "2. Doanh nghiệp trong nước và nước ngoài khi cung cấp dịch vụ trên\nmạng viên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại\nViệt Nam có trách nhiệm sau đây:\n\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật\nthông tin, tài khoản của người dùng; cung câp thông tin người dùng cho lực\nlượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an chậm nhất là 24",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 23,
+            "n_chars": 2513,
+            "char_count": 2513,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương IV",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 392
+          },
+          "score": 20.318564652699003,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p24_para_004",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 24,
+          "text": "3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng\nviên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt\nNam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá\nnhân, dữ liệu vê môi quan hệ của người sử dụng dịch vụ, dữ liệu do người sử\ndụng dịch vụ tại Việt Nam tạo ra phải áp dụng các biện pháp bảo vệ dữ liệu theo\nquy định của pháp luật và lưu trữ dữ liệu này tại Việt Nam trong thời gian theo\nquy định của Chính phủ.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 24,
+            "n_chars": 2620,
+            "char_count": 2620,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương IV",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 484
+          },
+          "score": 20.269879501123395,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p3_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 3,
+          "text": "17. Sự cố an ninh mạng là sự việc bất ngờ xảy ra trên không gian mạng\nxâm phạm an ninh quôc gia, trật tự, an toàn xã hội, quyên và lợi ích hợp pháp\ncủa cơ quan, tô chức, cá nhân.\n\n18. Tình huống nguy hiểm về an ninh mạng là trạng thái hoặc diễn biến trên\nkhông gian mạng khi có yêu tô tân công, xâm nhập, kích động, làm lộ, mât thông\ntin hoặc hành vi khác đe dọa xâm phạm nghiêm trọng đên an ninh quôc gia, trật\ntự, an toàn xã hội, quyên và lợi ích hợp pháp của cơ quan, tô chức, cá nhân.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 3,
+            "n_chars": 2705,
+            "char_count": 2705,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương I",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 488
+          },
+          "score": 19.737243984849247,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p23_para_005] luat_an_ninh_mang_116-2025 | PDF page 23\n2. Doanh nghiệp trong nước và nước ngoài khi cung cấp dịch vụ trên\nmạng viên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại\nViệt Nam có trách nhiệm sau đây:\n\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật\nthông tin, tài khoản của người dùng; cung câp thông tin người dùng cho lực\nlượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an chậm nhất là 24\n\n[luat_an_ninh_mang_116-2025_p24_para_004] luat_an_ninh_mang_116-2025 | PDF page 24\n3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng\nviên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt\nNam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá\nnhân, dữ liệu vê môi quan hệ của người sử dụng dịch vụ, dữ liệu do người sử\ndụng dịch vụ tại Việt Nam tạo ra phải áp dụng các biện pháp bảo vệ dữ liệu theo\nquy định của pháp luật và lưu trữ dữ liệu này tại Việt Nam trong thời gian theo\nquy định của Chính phủ.\n\n[luat_an_ninh_mang_116-2025_p3_para_001] luat_an_ninh_mang_116-2025 | PDF page 3\n17. Sự cố an ninh mạng là sự việc bất ngờ xảy ra trên không gian mạng\nxâm phạm an ninh quôc gia, trật tự, an toàn xã hội, quyên và lợi ích hợp pháp\ncủa cơ quan, tô chức, cá nhân.\n\n18. Tình huống nguy hiểm về an ninh mạng là trạng thái hoặc diễn biến trên\nkhông gian mạng khi có yêu tô tân công, xâm nhập, kích động, làm lộ, mât thông\ntin hoặc hành vi khác đe dọa xâm phạm nghiêm trọng đên an ninh quôc gia, trật\ntự, an toàn xã hội, quyên và lợi ích hợp pháp của cơ quan, tô chức, cá nhân.",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p23_para_005",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 23,
+            "text": "2. Doanh nghiệp trong nước và nước ngoài khi cung cấp dịch vụ trên\nmạng viên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại\nViệt Nam có trách nhiệm sau đây:\n\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật\nthông tin, tài khoản của người dùng; cung câp thông tin người dùng cho lực\nlượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an chậm nhất là 24",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 23,
+              "n_chars": 2513,
+              "char_count": 2513,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương IV",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 392
+            },
+            "score": 20.318564652699003,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p24_para_004",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 24,
+            "text": "3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng\nviên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt\nNam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá\nnhân, dữ liệu vê môi quan hệ của người sử dụng dịch vụ, dữ liệu do người sử\ndụng dịch vụ tại Việt Nam tạo ra phải áp dụng các biện pháp bảo vệ dữ liệu theo\nquy định của pháp luật và lưu trữ dữ liệu này tại Việt Nam trong thời gian theo\nquy định của Chính phủ.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 24,
+              "n_chars": 2620,
+              "char_count": 2620,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương IV",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 484
+            },
+            "score": 20.269879501123395,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p3_para_001",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 3,
+            "text": "17. Sự cố an ninh mạng là sự việc bất ngờ xảy ra trên không gian mạng\nxâm phạm an ninh quôc gia, trật tự, an toàn xã hội, quyên và lợi ích hợp pháp\ncủa cơ quan, tô chức, cá nhân.\n\n18. Tình huống nguy hiểm về an ninh mạng là trạng thái hoặc diễn biến trên\nkhông gian mạng khi có yêu tô tân công, xâm nhập, kích động, làm lộ, mât thông\ntin hoặc hành vi khác đe dọa xâm phạm nghiêm trọng đên an ninh quôc gia, trật\ntự, an toàn xã hội, quyên và lợi ích hợp pháp của cơ quan, tô chức, cá nhân.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 3,
+              "n_chars": 2705,
+              "char_count": 2705,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương I",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 488
+            },
+            "score": 19.737243984849247,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p23_para_005",
+          "luat_an_ninh_mang_116-2025_p24_para_004",
+          "luat_an_ninh_mang_116-2025_p3_para_001"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1996
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 2.33780000007755
+    },
+    {
+      "query_id": "basic-dev-absent-1",
+      "question": "Báo cáo thống kê của luật cho biết có chính xác bao nhiêu vụ tấn công ransomware tại Việt Nam trong năm 2026?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p13_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 13,
+          "text": "__©) Phản ánh sai lệch, không chính xác về đường biên giới quốc gia, chủ\nquyên quôc gia Việt Nam; đăng tải, truyên đưa hình ảnh sai lệch, không chính\nxác, không đây đủ vê bản đô Việt Nam hoặc thê hiện sai chủ quyền quốc gia\nViệt Nam.\n\n2. Thông tin có nội dung phá hoại chính sách đoàn kết, chính sách kinh\ntê - xã hội nước Cộng hòa xã hội chủ nghĩa Việt Nam bao gôm:",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 13,
+            "n_chars": 2412,
+            "char_count": 2412,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương III",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 366
+          },
+          "score": 18.369079518291706,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p1_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 1,
+          "text": "2. Luật này áp dụng đối với:\n\na) Cơ quan, tổ chức, cá nhân Việt Nam);\n\nb) Cơ quan, tổ chức, cá nhân nước ngoài tại Việt Nam và người gốc Việt\nNam chưa xác định được quôc tịch đang sinh sông tại Việt Nam đã được câp\ngiây chứng nhận căn cước;\n\nc) Cơ quan, tổ chức, cá nhân nước ngoài trực tiếp tham gia hoặc có liên\nquan đên hoạt động bảo vệ an ninh mạng, kinh doanh sản phâm, dịch vụ an ninh\nmạng tại Việt Nam.\n\nĐiều 2. Giải thích từ ngữ\n\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 1,
+            "n_chars": 1786,
+            "char_count": 1786,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương I",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 492
+          },
+          "score": 17.37959326464156,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p24_para_004",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 24,
+          "text": "3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng\nviên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt\nNam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá\nnhân, dữ liệu vê môi quan hệ của người sử dụng dịch vụ, dữ liệu do người sử\ndụng dịch vụ tại Việt Nam tạo ra phải áp dụng các biện pháp bảo vệ dữ liệu theo\nquy định của pháp luật và lưu trữ dữ liệu này tại Việt Nam trong thời gian theo\nquy định của Chính phủ.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 24,
+            "n_chars": 2620,
+            "char_count": 2620,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương IV",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 484
+          },
+          "score": 17.047587686134882,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p13_para_001] luat_an_ninh_mang_116-2025 | PDF page 13\n__©) Phản ánh sai lệch, không chính xác về đường biên giới quốc gia, chủ\nquyên quôc gia Việt Nam; đăng tải, truyên đưa hình ảnh sai lệch, không chính\nxác, không đây đủ vê bản đô Việt Nam hoặc thê hiện sai chủ quyền quốc gia\nViệt Nam.\n\n2. Thông tin có nội dung phá hoại chính sách đoàn kết, chính sách kinh\ntê - xã hội nước Cộng hòa xã hội chủ nghĩa Việt Nam bao gôm:\n\n[luat_an_ninh_mang_116-2025_p1_para_001] luat_an_ninh_mang_116-2025 | PDF page 1\n2. Luật này áp dụng đối với:\n\na) Cơ quan, tổ chức, cá nhân Việt Nam);\n\nb) Cơ quan, tổ chức, cá nhân nước ngoài tại Việt Nam và người gốc Việt\nNam chưa xác định được quôc tịch đang sinh sông tại Việt Nam đã được câp\ngiây chứng nhận căn cước;\n\nc) Cơ quan, tổ chức, cá nhân nước ngoài trực tiếp tham gia hoặc có liên\nquan đên hoạt động bảo vệ an ninh mạng, kinh doanh sản phâm, dịch vụ an ninh\nmạng tại Việt Nam.\n\nĐiều 2. Giải thích từ ngữ\n\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:\n\n[luat_an_ninh_mang_116-2025_p24_para_004] luat_an_ninh_mang_116-2025 | PDF page 24\n3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng\nviên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt\nNam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá\nnhân, dữ liệu vê môi quan hệ của người sử dụng dịch vụ, dữ liệu do người sử\ndụng dịch vụ tại Việt Nam tạo ra phải áp dụng các biện pháp bảo vệ dữ liệu theo\nquy định của pháp luật và lưu trữ dữ liệu này tại Việt Nam trong thời gian theo\nquy định của Chính phủ.",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p13_para_001",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 13,
+            "text": "__©) Phản ánh sai lệch, không chính xác về đường biên giới quốc gia, chủ\nquyên quôc gia Việt Nam; đăng tải, truyên đưa hình ảnh sai lệch, không chính\nxác, không đây đủ vê bản đô Việt Nam hoặc thê hiện sai chủ quyền quốc gia\nViệt Nam.\n\n2. Thông tin có nội dung phá hoại chính sách đoàn kết, chính sách kinh\ntê - xã hội nước Cộng hòa xã hội chủ nghĩa Việt Nam bao gôm:",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 13,
+              "n_chars": 2412,
+              "char_count": 2412,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương III",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 366
+            },
+            "score": 18.369079518291706,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p1_para_001",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 1,
+            "text": "2. Luật này áp dụng đối với:\n\na) Cơ quan, tổ chức, cá nhân Việt Nam);\n\nb) Cơ quan, tổ chức, cá nhân nước ngoài tại Việt Nam và người gốc Việt\nNam chưa xác định được quôc tịch đang sinh sông tại Việt Nam đã được câp\ngiây chứng nhận căn cước;\n\nc) Cơ quan, tổ chức, cá nhân nước ngoài trực tiếp tham gia hoặc có liên\nquan đên hoạt động bảo vệ an ninh mạng, kinh doanh sản phâm, dịch vụ an ninh\nmạng tại Việt Nam.\n\nĐiều 2. Giải thích từ ngữ\n\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 1,
+              "n_chars": 1786,
+              "char_count": 1786,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương I",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 492
+            },
+            "score": 17.37959326464156,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p24_para_004",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 24,
+            "text": "3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng\nviên thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt\nNam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá\nnhân, dữ liệu vê môi quan hệ của người sử dụng dịch vụ, dữ liệu do người sử\ndụng dịch vụ tại Việt Nam tạo ra phải áp dụng các biện pháp bảo vệ dữ liệu theo\nquy định của pháp luật và lưu trữ dữ liệu này tại Việt Nam trong thời gian theo\nquy định của Chính phủ.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 24,
+              "n_chars": 2620,
+              "char_count": 2620,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương IV",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 484
+            },
+            "score": 17.047587686134882,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p13_para_001",
+          "luat_an_ninh_mang_116-2025_p1_para_001",
+          "luat_an_ninh_mang_116-2025_p24_para_004"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1996
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 3.947199999856821
+    },
+    {
+      "query_id": "basic-dev-absent-2",
+      "question": "Luật chỉ định hãng phần mềm diệt virus nào bắt buộc mọi cá nhân phải mua?",
+      "filter": null,
+      "original_results": [
+        {
+          "id": "luat_an_ninh_mang_116-2025_p29_para_001",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 29,
+          "text": "3. Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt\nđộng phô biên kiên thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tô\nchức, cá nhân của địa phương.\n\nĐiều 36. Nghiên cứu, phát triển an ninh mạng\n\n1. Nội dung nghiên cứu, phát triển an ninh mạng bao gồm:\n\na) Xây dựng hệ thông phần mềm, trang thiết bị bảo vệ an ninh mạng;\n\nb) Phương pháp thầm định phần mềm, trang thiết bị bảo vệ an ninh mạng\nđạt chuân và hạn chê tôn tại điêm yêu, lỗ hông bảo mật, phân mêm độc hại;",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 29,
+            "n_chars": 2285,
+            "char_count": 2285,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương VI",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 493
+          },
+          "score": 11.071345245077364,
+          "method": "bm25",
+          "rank": 1
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p15_para_004",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 15,
+          "text": "4. Tổ chức, cá nhân soạn thảo, đăng tải, phát tán thông tin trên không gian\nmạng có nội dung quy định tại các khoản 1, 2 và 3 Điều 13 của Luật này phải gỡ\nbỏ thông tin khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng và\nchịu trách nhiệm theo quy định của pháp luật.\n\n5. Chính phủ quy định chỉ tiết Điều này.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 15,
+            "n_chars": 2662,
+            "char_count": 2662,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương III",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 320
+          },
+          "score": 10.540781782979392,
+          "method": "bm25",
+          "rank": 2
+        },
+        {
+          "id": "luat_an_ninh_mang_116-2025_p2_para_002",
+          "source_id": "luat_an_ninh_mang_116-2025",
+          "source": "luat_an_ninh_mang_116-2025",
+          "page": 2,
+          "text": "__ 7. Hệ thống thông tin là tập hợp phần cứng, phần mềm và dữ liệu được\nthiệt lập phục vụ mục đích tạo lập, cung câp, truyên đưa, thu thập, xử lý, lưu trữ\nvà trao đôi thông tin trên không gian mạng.\n\n§. Chủ quản hệ thống thông tin là cơ quan, tô chức, cá nhân có thẩm\nquyền quản lý trực tiêp đôi với hệ thông thông tin.",
+          "content_type": "text",
+          "metadata": {
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "page": 2,
+            "n_chars": 2570,
+            "char_count": 2570,
+            "document_id": "luat_an_ninh_mang_116-2025",
+            "chapter": "Chương I",
+            "chunk_strategy": "by_paragraph",
+            "char_length": 319
+          },
+          "score": 10.238698808670923,
+          "method": "bm25",
+          "rank": 3
+        }
+      ],
+      "status": "retrieved",
+      "context": {
+        "text": "[luat_an_ninh_mang_116-2025_p29_para_001] luat_an_ninh_mang_116-2025 | PDF page 29\n3. Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt\nđộng phô biên kiên thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tô\nchức, cá nhân của địa phương.\n\nĐiều 36. Nghiên cứu, phát triển an ninh mạng\n\n1. Nội dung nghiên cứu, phát triển an ninh mạng bao gồm:\n\na) Xây dựng hệ thông phần mềm, trang thiết bị bảo vệ an ninh mạng;\n\nb) Phương pháp thầm định phần mềm, trang thiết bị bảo vệ an ninh mạng\nđạt chuân và hạn chê tôn tại điêm yêu, lỗ hông bảo mật, phân mêm độc hại;\n\n[luat_an_ninh_mang_116-2025_p15_para_004] luat_an_ninh_mang_116-2025 | PDF page 15\n4. Tổ chức, cá nhân soạn thảo, đăng tải, phát tán thông tin trên không gian\nmạng có nội dung quy định tại các khoản 1, 2 và 3 Điều 13 của Luật này phải gỡ\nbỏ thông tin khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng và\nchịu trách nhiệm theo quy định của pháp luật.\n\n5. Chính phủ quy định chỉ tiết Điều này.\n\n[luat_an_ninh_mang_116-2025_p2_para_002] luat_an_ninh_mang_116-2025 | PDF page 2\n__ 7. Hệ thống thông tin là tập hợp phần cứng, phần mềm và dữ liệu được\nthiệt lập phục vụ mục đích tạo lập, cung câp, truyên đưa, thu thập, xử lý, lưu trữ\nvà trao đôi thông tin trên không gian mạng.\n\n§. Chủ quản hệ thống thông tin là cơ quan, tô chức, cá nhân có thẩm\nquyền quản lý trực tiêp đôi với hệ thông thông tin.",
+        "chunks": [
+          {
+            "id": "luat_an_ninh_mang_116-2025_p29_para_001",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 29,
+            "text": "3. Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt\nđộng phô biên kiên thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tô\nchức, cá nhân của địa phương.\n\nĐiều 36. Nghiên cứu, phát triển an ninh mạng\n\n1. Nội dung nghiên cứu, phát triển an ninh mạng bao gồm:\n\na) Xây dựng hệ thông phần mềm, trang thiết bị bảo vệ an ninh mạng;\n\nb) Phương pháp thầm định phần mềm, trang thiết bị bảo vệ an ninh mạng\nđạt chuân và hạn chê tôn tại điêm yêu, lỗ hông bảo mật, phân mêm độc hại;",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 29,
+              "n_chars": 2285,
+              "char_count": 2285,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương VI",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 493
+            },
+            "score": 11.071345245077364,
+            "method": "bm25",
+            "rank": 1,
+            "context_score": 0.01639344262295082
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p15_para_004",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 15,
+            "text": "4. Tổ chức, cá nhân soạn thảo, đăng tải, phát tán thông tin trên không gian\nmạng có nội dung quy định tại các khoản 1, 2 và 3 Điều 13 của Luật này phải gỡ\nbỏ thông tin khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng và\nchịu trách nhiệm theo quy định của pháp luật.\n\n5. Chính phủ quy định chỉ tiết Điều này.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 15,
+              "n_chars": 2662,
+              "char_count": 2662,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương III",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 320
+            },
+            "score": 10.540781782979392,
+            "method": "bm25",
+            "rank": 2,
+            "context_score": 0.016129032258064516
+          },
+          {
+            "id": "luat_an_ninh_mang_116-2025_p2_para_002",
+            "source_id": "luat_an_ninh_mang_116-2025",
+            "source": "luat_an_ninh_mang_116-2025",
+            "page": 2,
+            "text": "__ 7. Hệ thống thông tin là tập hợp phần cứng, phần mềm và dữ liệu được\nthiệt lập phục vụ mục đích tạo lập, cung câp, truyên đưa, thu thập, xử lý, lưu trữ\nvà trao đôi thông tin trên không gian mạng.\n\n§. Chủ quản hệ thống thông tin là cơ quan, tô chức, cá nhân có thẩm\nquyền quản lý trực tiêp đôi với hệ thông thông tin.",
+            "content_type": "text",
+            "metadata": {
+              "source_id": "luat_an_ninh_mang_116-2025",
+              "page": 2,
+              "n_chars": 2570,
+              "char_count": 2570,
+              "document_id": "luat_an_ninh_mang_116-2025",
+              "chapter": "Chương I",
+              "chunk_strategy": "by_paragraph",
+              "char_length": 319
+            },
+            "score": 10.238698808670923,
+            "method": "bm25",
+            "rank": 3,
+            "context_score": 0.015873015873015872
+          }
+        ],
+        "ids": [
+          "luat_an_ninh_mang_116-2025_p29_para_001",
+          "luat_an_ninh_mang_116-2025_p15_para_004",
+          "luat_an_ninh_mang_116-2025_p2_para_002"
+        ],
+        "budget": 3000,
+        "budget_unit": "utf8_bytes_token_upper_bound",
+        "used": 1720
+      },
+      "events": [],
+      "citations": [],
+      "answer": "",
+      "model_calls": [],
+      "elapsed_ms": 2.636700000039127
+    }
+  ],
+  "pending": null,
+  "completed_at": "2026-11-16T09:52:47.973002+00:00"
+}

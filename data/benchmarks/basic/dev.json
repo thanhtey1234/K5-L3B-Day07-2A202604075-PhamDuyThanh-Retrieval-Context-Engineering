@@ -1,0 +1,251 @@
+[
+  {
+    "id": "basic-dev-01",
+    "split": "dev",
+    "question": "An ninh thông tin mạng bảo đảm ba thuộc tính nào của thông tin?",
+    "answerable": true,
+    "expected_answer": "Tính nguyên vẹn, tính bảo mật và tính khả dụng.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 1,
+        "evidence": "2. An ninh thông tin mạng là sự bảo đảm tính nguyên vẹn, tính bảo mật,\ntính khả dụng của thông tin trên không gian mạng, tránh bị truy cập, sử dụng,\ntiệt lộ, sửa đôi trái phép, phá hoại hoặc hành vi khác đe dọa hoặc gây phương\nhại đên an ninh quôc gia, trật tự, an toàn xã hội."
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-02",
+    "split": "dev",
+    "question": "Bộ Ngoại giao phối hợp với những bộ nào trong hợp tác quốc tế về an ninh mạng?",
+    "answerable": true,
+    "expected_answer": "Bộ Công an và Bộ Quốc phòng.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 6,
+        "evidence": "6\n\nø) Hoạt động hợp tác quốc tế khác về an ninh mạng.\n\n3. Trách nhiệm hợp tác quốc tế về an ninh mạng được quy định như sau:\n\na) Bộ Công an chịu trách nhiệm trước Chính phủ chủ trì, phối hợp thực\nhiện hợp tác quôc tê vê an ninh mạng;\n\nÖ_ b) Bộ Quốc phòng chịu trách nhiệm trước Chính phủ thực hiện hợp tác\nquôc tê vê an ninh mạng trong phạm vi quản lý;\n\nc) Bộ Ngoại giao có trách nhiệm phối hợp với Bộ Công an, Bộ Quốc\nphòng trong hoạt động hợp tác quôc tê về an ninh mạng:"
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-03",
+    "split": "dev",
+    "question": "Theo Điều 8, hệ thống thông tin cấp độ 5 có thể gây mức tổn hại nào?",
+    "answerable": true,
+    "expected_answer": "Có thể làm tổn hại đặc biệt nghiêm trọng tới an ninh quốc gia.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 8,
+        "evidence": "c) Cấp độ 3 có thê làm tổn hại đặc biệt nghiêm trọng tới quyền và lợi ích\nhợp pháp của tô chức, cá nhân; tôn hại nghiêm trọng tới lợi ích công cộng; tôn\nhại hoặc tôn hại nghiêm trọng tới trật tự, an toàn xã hội hoặc làm tôn hại tới an\nninh quôc ø1a;\n\nđ) Cấp độ 4 có thể làm tổn hại đặc biệt nghiêm trọng tới lợi ích công\ncộng, trật tự, an toàn xã hội hoặc làm tôn hại nghiêm trọng tới an ninh quôc ø1a;\n\nđ) Cấp độ 5 có thể làm tổn hại đặc biệt nghiêm trọng tới an ninh quốc gia."
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-04",
+    "split": "dev",
+    "question": "Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia phải thông báo kết quả tự kiểm tra định kỳ trước tháng nào?",
+    "answerable": true,
+    "expected_answer": "Trước tháng 10 hằng năm, bằng văn bản cho lực lượng chuyên trách có thẩm quyền.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 10,
+        "evidence": "b) Khi thiết lập, mở rộng hoặc nâng cấp hệ thống thông tin quan trọng về\nan ninh quôc gia phải thực hiện kiêm tra an ninh mạng trước khi đi vào vận\nhành, khai thác; định kỳ hắng năm, tự kiêm tra an ninh mạng, đánh giá điêu kiện\nan ninh mạng hệ thông thông tin quan trọng vê an ninh quồc gia và thông báo\nkêt quả kiêm tra băng văn bản trước tháng 10 hăng năm cho lực lượng chuyên\ntrách bảo vệ an ninh mạng có thâm quyên;"
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-05",
+    "split": "dev",
+    "question": "Theo Điều 12, ngoài trường hợp có hành vi vi phạm được liệt kê, hệ thống có thể được kiểm tra khi ai đề nghị?",
+    "answerable": true,
+    "expected_answer": "Khi có đề nghị của chủ quản hệ thống thông tin.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 12,
+        "evidence": "12\n\nĐiều 12. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ\nquan, tô chức không thuộc danh mục hệ thông thông tin quan trọng về an\nninh quôc gia\n\n1. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức\nkhông thuộc danh mục hệ thông thông tin quan trọng về an ninh quốc gia trong\ntrường hợp sau đây:\n\na) Khi có hành vi được quy định tại các khoản 12, 13, 14 và 15 Điều 2 của\nLuật này;\n\nb) Khi có đề nghị của chủ quản hệ thống thông tin."
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-06",
+    "split": "dev",
+    "question": "Ai đăng ký tài khoản khi trẻ em sử dụng dịch vụ giá trị gia tăng trên không gian mạng?",
+    "answerable": true,
+    "expected_answer": "Cha, mẹ hoặc người giám hộ đăng ký bằng thông tin của họ và giám sát, quản lý nội dung trẻ em sử dụng.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 17,
+        "evidence": "2. Trẻ em sử dụng dịch vụ giá trị gia tăng trên không gian mạng thì cha,\nmẹ hoặc người giám hộ theo quy định của pháp luật vê dân sự đăng ký tài khoản\nbăng thông tin của cha, mẹ hoặc người giám hộ và có trách nhiệm giám sát,\nquản lý nội dung trẻ em truy cập, đăng tải và chia sẻ thông tin trên các nền tảng\ndịch vụ đó.\n\n3. Chủ quản hệ thống thông tin, doanh nghiệp cung cấp dịch vụ trên mạng\nviên thông, mạng Internet, các dịch vụ giá trị gia tăng trên không gian mạng có\ncác trách nhiệm sau đây:"
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-07",
+    "split": "dev",
+    "question": "Cơ quan nào chủ trì phòng, chống khủng bố mạng đối với hệ thống thông tin quân sự?",
+    "answerable": true,
+    "expected_answer": "Bộ Quốc phòng chủ trì, phối hợp với bộ, ngành liên quan.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 20,
+        "evidence": "5. Bộ Quốc phòng chủ trì, phối hợp với Bộ, ngành có liên quan triển khai\ncông tác phòng, chông khủng bỗ mạng, áp dụng biện pháp vô hiệu hóa nguồn\nkhủng bô mạng, xử lý khủng bô mạng, hạn chê đên mức thấp nhất hậu quả xảy\nra đôi với hệ thông thông tin quân sự."
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-08",
+    "split": "dev",
+    "question": "Điều 22 mô tả xung đột thông tin trên không gian mạng do bao nhiêu tổ chức thực hiện?",
+    "answerable": true,
+    "expected_answer": "Hai hoặc nhiều tổ chức trong nước và nước ngoài sử dụng biện pháp công nghệ, kỹ thuật thông tin gây tổn hại.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 22,
+        "evidence": "1. Xung đột thông tin là việc hai hoặc nhiều tổ chức trong nước và nước\nngoài sử dụng biện pháp công nghệ, kỹ thuật thông tin gây tốn hại đến thông tin,\nhệ thông thông tin trên không gian mạng làm ảnh hưởng đến an ninh quốc gia,\ntrật tự, an toàn xã hội."
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-09",
+    "split": "dev",
+    "question": "Dịch vụ khôi phục dữ liệu có nằm trong danh sách dịch vụ an ninh mạng ở Điều 28 không?",
+    "answerable": true,
+    "expected_answer": "Có, dịch vụ khôi phục dữ liệu được liệt kê tại khoản 2 Điều 28.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 26,
+        "evidence": "c) Dịch vụ mật mã dân sự;\n\nđ) Dịch vụ tư vấn an ninh mạng;\n\nđ) Dịch vụ giám sát an ninh mạng;\n\ne) Dịch vụ ứng cứu sự cô an ninh mạng;\n\nø) Dịch vụ khôi phục dữ liệu;\n\nh) Dịch vụ phòng ngừa, chống tấn công mạng;\n\n1) Dịch vụ an ninh mạng khác.\n\n3. Chính phủ quy định chi tiết Điều này.\n\nĐiều 29. Kinh doanh sản phẩm, dịch vụ an ninh mạng\n\n1. Doanh nghiệp kinh doanh sản phẩm, dịch vụ an ninh mạng phải có giấy\nphép kinh doanh sản phâm, dịch vụ an ninh mạng."
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-10",
+    "split": "dev",
+    "question": "Theo Điều 34, người quản trị hệ thống thông tin cấp độ 3–5 trong cơ quan nhà nước được miễn tập huấn chuyên sâu trong trường hợp nào?",
+    "answerable": true,
+    "expected_answer": "Trường hợp cá nhân đã được đào tạo chuyên ngành an ninh mạng.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 28,
+        "evidence": "2. Người trực tiếp quản trị, vận hành hệ thống thông tin Cấp độ 3, Cấp độ\n4, Câp độ Š trong cơ quan, tô chức, doanh nghiệp Nhà nước phải được tập huân\nkiên thức, kỹ năng chuyên sâu về an ninh mạng và được câp chứng nhận, trừ các\ncá nhân đã được đào tạo chuyên ngành an ninh mạng.\n\n3. Bộ Công an chủ trì, phối hợp với các Bộ, ngành liên quan tổ chức tập\nhuân vê kiên thức, kỹ năng chuyên sâu vê an ninh mạng, trừ trường hợp quy\nđịnh tại khoản 4 Điêu này."
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-11",
+    "split": "dev",
+    "question": "Theo Điều 36, những chủ thể nào có quyền nghiên cứu, phát triển an ninh mạng?",
+    "answerable": true,
+    "expected_answer": "Cơ quan, tổ chức, cá nhân có liên quan.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 29,
+        "evidence": "h) Sáng kiến kỹ thuật nâng cao nhận thức, kỹ năng về an ninh mạng:\n\n1) Dự báo an ninh mạng;\n\nk) Nghiên cứu thực tiễn, phát triển lý luận an ninh mạng.\n\n2. Cơ quan, tổ chức, cá nhân có liên quan có quyền nghiên cứu, phát triển\nan ninh mạng.\n\nĐiều 37. Nâng cao năng lực tự chủ về an ninh mạng"
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-12",
+    "split": "dev",
+    "question": "Ai chịu trách nhiệm xây dựng hoạt động phổ biến kiến thức an ninh mạng cho địa phương?",
+    "answerable": true,
+    "expected_answer": "Ủy ban nhân dân cấp tỉnh.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 29,
+        "evidence": "3. Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt\nđộng phô biên kiên thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tô\nchức, cá nhân của địa phương.\n\nĐiều 36. Nghiên cứu, phát triển an ninh mạng\n\n1. Nội dung nghiên cứu, phát triển an ninh mạng bao gồm:\n\na) Xây dựng hệ thông phần mềm, trang thiết bị bảo vệ an ninh mạng;\n\nb) Phương pháp thầm định phần mềm, trang thiết bị bảo vệ an ninh mạng\nđạt chuân và hạn chê tôn tại điêm yêu, lỗ hông bảo mật, phân mêm độc hại;"
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-13",
+    "split": "dev",
+    "question": "Đơn vị không thuộc nhóm được ngân sách nhà nước bảo đảm theo khoản 1 Điều 38 lấy kinh phí bảo vệ an ninh mạng từ đâu?",
+    "answerable": true,
+    "expected_answer": "Tự bảo đảm kinh phí cho cơ quan, tổ chức, đơn vị mình.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 30,
+        "evidence": "2. Cơ quan, tổ chức, đơn vị không thuộc quy định tại khoản 1 Điều này tự\nbảo đảm kinh phí bảo vệ an ninh mạng cho cơ quan, tô chức, đơn vị mình."
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-14",
+    "split": "dev",
+    "question": "Theo khoản 2 Điều 40, chủ quản hệ thống sử dụng ngân sách nhà nước phải chỉ định ai phụ trách an ninh mạng?",
+    "answerable": true,
+    "expected_answer": "Chỉ định cá nhân hoặc bộ phận phụ trách an ninh mạng.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 32,
+        "evidence": "a) Có phương án bảo đảm an ninh mạng được cơ quan nhà nước có thâm\nquyên thâm định an ninh mạng khi thiệt lập, mở rộng hoặc nâng câp hệ thông\nthông tin;\n\nb) Chỉ định cá nhân, bộ phận phụ trách về an ninh mạng."
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-15",
+    "split": "dev",
+    "question": "Doanh nghiệp cung cấp dịch vụ trên không gian mạng phải làm gì ngay khi xảy ra sự cố an ninh mạng?",
+    "answerable": true,
+    "expected_answer": "Ngay lập tức triển khai phương án ứng cứu khẩn cấp và đồng thời báo cáo ngay lực lượng chuyên trách.",
+    "gold": [
+      {
+        "source_id": "luat_an_ninh_mang_116-2025",
+        "page": 33,
+        "evidence": "3. Khi xảy ra sự cố an ninh mạng, ngay lập tức triển khai phương án ứng\ncứu khân câp bảo đảm an ninh mạng, đông thời báo cáo ngay với lực lượng\nchuyên trách bảo vệ an ninh mạng theo quy định của Luật này.\n\n4. Áp dụng các biện pháp, giải pháp kỹ thuật để bảo đảm an ninh mạng\ncho hoạt động xử lý dữ liệu, xử lý đữ liệu cá nhân theo quy định của Luật này,\npháp luật về dữ liệu, pháp luật vê bảo vệ dữ liệu cá nhân và quy định khác của\npháp luật có liên quan."
+      }
+    ],
+    "source_review": "Agent-authored from Day 6 OCR; human PDF audit required before final submission"
+  },
+  {
+    "id": "basic-dev-absent-1",
+    "split": "dev",
+    "question": "Báo cáo thống kê của luật cho biết có chính xác bao nhiêu vụ tấn công ransomware tại Việt Nam trong năm 2026?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Luật quy định trách nhiệm và biện pháp; không có bảng thống kê số vụ ransomware năm 2026.",
+    "absence_checks": [
+      "ransomware"
+    ],
+    "source_review": "Full corpus inspected; final human audit required"
+  },
+  {
+    "id": "basic-dev-absent-2",
+    "split": "dev",
+    "question": "Luật chỉ định hãng phần mềm diệt virus nào bắt buộc mọi cá nhân phải mua?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không quy định tên hãng phần mềm diệt virus bắt buộc cho mọi cá nhân.",
+    "absence_checks": [
+      "diệt virus"
+    ],
+    "source_review": "Full corpus inspected; final human audit required"
+  }
+]

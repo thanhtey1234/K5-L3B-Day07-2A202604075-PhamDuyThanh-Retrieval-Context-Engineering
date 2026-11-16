@@ -1,0 +1,75 @@
+{
+  "hit_at_1": {
+    "n": 8,
+    "N": 15,
+    "rate": 0.5333333333333333
+  },
+  "evidence_hit_at_3": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.9333333333333333
+  },
+  "context_evidence_rate": {
+    "n": 6,
+    "N": 15,
+    "rate": 0.4
+  },
+  "cases": 17,
+  "completed": 17,
+  "errors": 0,
+  "evidence_rule": "OR between evidence sets, AND within a set; evaluated across retrieved prefix",
+  "total_elapsed_ms": 802470.2949000002,
+  "request_count": 43,
+  "usage": {
+    "prompt_tokens": 45013,
+    "completion_tokens": 3045,
+    "reported_cost_usd": null,
+    "calls_without_cost_report": 43
+  },
+  "evaluation_mode": "ai_source_review_not_human_verified",
+  "human_verified": false,
+  "provisional": true,
+  "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+  "review_hash": "975ac70588521238f731ffca446d2824a2b17372aa7d3bb0eda699d5c5adac25",
+  "run_hash": "55668cab07a0bf0c2649a657abc489bf0462da9e13c66efcc88bb3a4055c44dd",
+  "reviewer_code_sha256": "984af12b7f6609cbaba98ac6e805e347546522b7ace62cad58d58f54068164b4",
+  "provider_errors": 0,
+  "answer_grades": {
+    "0": 8,
+    "1": 1,
+    "2": 6
+  },
+  "answer_mean": 0.8666666666666667,
+  "context_grades": {
+    "0": 1,
+    "1": 8,
+    "2": 6
+  },
+  "grounded_complete": {
+    "n": 6,
+    "N": 15,
+    "rate": 0.4
+  },
+  "citation_validity": {
+    "n": 6,
+    "N": 7,
+    "rate": 0.8571428571428571
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2,
+    "rate": 1.0
+  },
+  "false_abstention": {
+    "n": 8,
+    "N": 15,
+    "rate": 0.5333333333333333
+  },
+  "answered": 7,
+  "overall_pass": {
+    "n": 8,
+    "N": 17,
+    "rate": 0.47058823529411764
+  },
+  "limitations": "AI semantic/source review requested by user; not independent human grading or a course score."
+}

@@ -1,0 +1,822 @@
+[
+  {
+    "id": "advanced-test-01",
+    "split": "test",
+    "group": "table",
+    "question": "Theo Table O.1, nước xuất cư cần làm gì về kiều hối khi kỹ năng người di cư có nhu cầu cao?",
+    "answerable": true,
+    "expected_answer": "Tận dụng kiều hối để giảm nghèo và giảm chi phí chuyển kiều hối.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 46,
+          "evidence": "Leverage remittances",
+          "region_id": "wdr2023:p46:table0-r3-c1",
+          "bbox": [
+            34.24,
+            130.15,
+            203.58,
+            295.53
+          ],
+          "modality": "table",
+          "locator": "Leverage remittances",
+          "printed_page": 16
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-02",
+    "split": "test",
+    "group": "table",
+    "question": "Trong Table O.1, nước đến hỗ trợ công dân bản địa bị ảnh hưởng tiêu cực bằng hai nhóm công cụ nào?",
+    "answerable": true,
+    "expected_answer": "Bảo trợ xã hội và đầu tư công để hỗ trợ tác động tới việc làm và dịch vụ công.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 46,
+          "evidence": "Support to nationals.",
+          "region_id": "wdr2023:p46:table0-r3-c2",
+          "bbox": [
+            203.58,
+            130.15,
+            372.91,
+            295.53
+          ],
+          "modality": "table",
+          "locator": "Support to nationals.",
+          "printed_page": 16
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-03",
+    "split": "test",
+    "group": "table",
+    "question": "Table O.1 yêu cầu thỏa thuận lao động song phương làm gì với chi phí tuyển dụng?",
+    "answerable": true,
+    "expected_answer": "Giảm chi phí tuyển dụng, đồng thời cấu trúc và tạo thuận lợi cho các luồng di chuyển đôi bên cùng có lợi.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 46,
+          "evidence": "Reduce recruitment costs.",
+          "region_id": "wdr2023:p46:table0-r3-c4",
+          "bbox": [
+            372.91,
+            130.15,
+            542.26,
+            295.53
+          ],
+          "modality": "table",
+          "locator": "Reduce recruitment costs.",
+          "printed_page": 16
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-04",
+    "split": "test",
+    "group": "table",
+    "question": "Ở phần weak match, fear motive của Table O.1, self-reliance được thúc đẩy bằng quyền tiếp cận việc làm nào?",
+    "answerable": true,
+    "expected_answer": "Cho phép người tị nạn tiếp cận việc làm trong thị trường lao động chính thức.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 46,
+          "evidence": "Self-reliance.",
+          "region_id": "wdr2023:p46:table0-r6-c1",
+          "bbox": [
+            34.24,
+            334.57,
+            288.25,
+            407.13
+          ],
+          "modality": "table",
+          "locator": "Self-reliance.",
+          "printed_page": 16
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-05",
+    "split": "test",
+    "group": "table",
+    "question": "Trong Table O.1, nước quá cảnh cuối cùng nên phối hợp với nước đến như thế nào khi weak match và no fear motive?",
+    "answerable": true,
+    "expected_answer": "Phối hợp để tiếp nhận người di cư hoặc đưa họ trở về một cách nhân đạo.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 46,
+          "evidence": "last transit country",
+          "region_id": "wdr2023:p46:table0-r9-c2",
+          "bbox": [
+            203.58,
+            446.04,
+            372.91,
+            555.65
+          ],
+          "modality": "table",
+          "locator": "last transit country",
+          "printed_page": 16
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-06",
+    "split": "test",
+    "group": "table",
+    "question": "Hàng Open data trong Table O.1 gắn việc mở dữ liệu cho nghiên cứu với điều kiện bảo vệ nào?",
+    "answerable": true,
+    "expected_answer": "Tôn trọng quyền riêng tư của người di cư và người tị nạn.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 46,
+          "evidence": "Open data.",
+          "region_id": "wdr2023:p46:table0-r12-c1",
+          "bbox": [
+            34.24,
+            586.94,
+            203.58,
+            687.35
+          ],
+          "modality": "table",
+          "locator": "Open data.",
+          "printed_page": 16
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-07",
+    "split": "test",
+    "group": "image",
+    "question": "Trong Figure O.3, Indian engineers in Silicon Valley nằm ở góc nào theo cả match và motive?",
+    "answerable": true,
+    "expected_answer": "Góc trên trái: stronger match và opportunity at destination.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 36,
+          "evidence": "Figure O.3",
+          "region_id": "wdr2023:p36:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure O.3",
+          "printed_page": 6
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-08",
+    "split": "test",
+    "group": "image",
+    "question": "Figure O.3 đặt Syrian entrepreneur refugees in Türkiye khác Rohingya không được làm việc ở Bangladesh như thế nào?",
+    "answerable": true,
+    "expected_answer": "Cả hai ở phía fear motive; doanh nhân Syria ở stronger match, còn Rohingya không được làm việc nằm ở weaker match.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 36,
+          "evidence": "Figure O.3",
+          "region_id": "wdr2023:p36:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure O.3",
+          "printed_page": 6
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-09",
+    "split": "test",
+    "group": "image",
+    "question": "Trong Figure O.5, khối AT DESTINATION bên phải nêu ba hướng giúp người tị nạn có weak match?",
+    "answerable": true,
+    "expected_answer": "Tạo thuận lợi cho di chuyển trong nước, cho phép làm việc và đưa họ vào các hệ thống quốc gia.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 41,
+          "evidence": "Figure O.5",
+          "region_id": "wdr2023:p41:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure O.5",
+          "printed_page": 11
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-10",
+    "split": "test",
+    "group": "image",
+    "question": "Figure O.7 đặt những ví dụ nào trong hợp tác song phương và hợp tác đa phương?",
+    "answerable": true,
+    "expected_answer": "Song phương: thỏa thuận lao động và Global Skills Partnerships; đa phương: chia sẻ trách nhiệm đối với người tị nạn và thiết lập chuẩn mực.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 45,
+          "evidence": "Figure O.7",
+          "region_id": "wdr2023:p45:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure O.7",
+          "printed_page": 15
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-11",
+    "split": "test",
+    "group": "image",
+    "question": "Đường đứt nét ở góc dưới trái Figure O.6 phân biệt hai nhóm distressed migrants theo tiêu chí nào?",
+    "answerable": true,
+    "expected_answer": "Phân biệt người có một số nhu cầu bảo vệ quốc tế với người không có nhu cầu đó.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 43,
+          "evidence": "figure O.6",
+          "region_id": "wdr2023:p43:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure O.6",
+          "printed_page": 13
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-12",
+    "split": "test",
+    "group": "chart",
+    "question": "Trong Figure 4.4a, hành lang nào có mức tăng thu nhập lớn nhất và giá trị là bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "India–United Arab Emirates, tăng 298%. Đơn vị là phần trăm tăng thu nhập.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 127,
+          "evidence": "figure 4.4",
+          "region_id": "wdr2023:p127:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure 4.4",
+          "printed_page": 97
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-13",
+    "split": "test",
+    "group": "chart",
+    "question": "Theo Figure 5.3, kiều hối/GDP của Tonga cao hơn Lebanon bao nhiêu điểm phần trăm và dữ liệu thuộc năm nào?",
+    "answerable": true,
+    "expected_answer": "Tonga 50% và Lebanon 38%; chênh 12 điểm phần trăm, theo ước tính năm 2022.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 159,
+          "evidence": "Figure 5.3",
+          "region_id": "wdr2023:p159:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure 5.3",
+          "printed_page": 129
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-14",
+    "split": "test",
+    "group": "chart",
+    "question": "Trong Figure 5.7, kênh nào có chi phí thấp nhất ở 2022 Q2, và đồ thị đo chi phí cho khoản kiều hối bao nhiêu USD?",
+    "answerable": true,
+    "expected_answer": "Mobile operator thấp nhất; đồ thị đo chi phí trung bình tính theo phần trăm khoản gửi 200 USD.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 164,
+          "evidence": "figure 5.7",
+          "region_id": "wdr2023:p164:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure 5.7",
+          "printed_page": 134
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-15",
+    "split": "test",
+    "group": "chart",
+    "question": "Trong Figure 7.6, tỷ trọng của Mỹ, Canada, Đức và Thụy Điển lần lượt là bao nhiêu và cộng lại bằng bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "29%, 15%, 14%, 13%; tổng 71% người tị nạn được tái định cư.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 243,
+          "evidence": "figure 7.6",
+          "region_id": "wdr2023:p243:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure 7.6",
+          "printed_page": 213
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-16",
+    "split": "test",
+    "group": "chart",
+    "question": "Figure 7.9 và Figure 7.10 dùng đơn vị trục đứng khác nhau ra sao; chú giải 7.9 có những nhóm nào?",
+    "answerable": true,
+    "expected_answer": "Figure 7.9 dùng phần trăm tổng người tị nạn, gồm Returned, Resettled, Naturalized; Figure 7.10 dùng triệu người.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 253,
+          "evidence": "Figure 7.9",
+          "region_id": "wdr2023:p253:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure 7.9",
+          "printed_page": 223
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-17",
+    "split": "test",
+    "group": "multi-hop",
+    "question": "Theo hai trang Glossary, emigrant và immigrant khác nhau ở góc nhìn của nước nào?",
+    "answerable": true,
+    "expected_answer": "Emigrant theo góc nhìn nước xuất cư; immigrant theo góc nhìn nước đến.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 27,
+          "evidence": "emigrant",
+          "region_id": "wdr2023:p27:text1",
+          "bbox": [
+            124.5,
+            531.74,
+            510.85,
+            731.23
+          ],
+          "modality": "text",
+          "locator": "emigrant",
+          "printed_page": "xxv"
+        },
+        {
+          "source_id": "wdr2023",
+          "page": 28,
+          "evidence": "immigrant",
+          "region_id": "wdr2023:p28:text0",
+          "bbox": [
+            124.5,
+            83.39,
+            510.83,
+            417.56
+          ],
+          "modality": "text",
+          "locator": "immigrant",
+          "printed_page": "xxvi"
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations.",
+    "requires_multiple_pages": true
+  },
+  {
+    "id": "advanced-test-18",
+    "split": "test",
+    "group": "multi-hop",
+    "question": "Kết hợp Figure 4.4a và Figure 5.3: mức tăng thu nhập của lao động Tonga đến New Zealand và tỷ trọng kiều hối/GDP Tonga là bao nhiêu, với đơn vị riêng?",
+    "answerable": true,
+    "expected_answer": "Tăng thu nhập 263% cho hành lang Tonga–New Zealand; kiều hối bằng 50% GDP Tonga theo ước tính 2022. Hai tỷ lệ đo hai đại lượng khác nhau.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 127,
+          "evidence": "figure 4.4",
+          "region_id": "wdr2023:p127:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure 4.4",
+          "printed_page": 97
+        },
+        {
+          "source_id": "wdr2023",
+          "page": 159,
+          "evidence": "Figure 5.3",
+          "region_id": "wdr2023:p159:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure 5.3",
+          "printed_page": 129
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations.",
+    "requires_multiple_pages": true
+  },
+  {
+    "id": "advanced-test-19",
+    "split": "test",
+    "group": "multi-hop",
+    "question": "Kết hợp phần đầu Chương 5 và phần chi phí chuyển tiền: quy mô kiều hối tới nước thu nhập thấp/trung bình năm 2021 là bao nhiêu và quy định nào hạn chế phát triển mobile digital money?",
+    "answerable": true,
+    "expected_answer": "Khoảng 605 tỷ USD năm 2021; các quy định chống rửa tiền và tài trợ khủng bố hạn chế tăng trưởng và khả năng cung cấp dịch vụ mobile digital money.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 158,
+          "evidence": "US$605 billion in 2021",
+          "region_id": "wdr2023:p158:text0",
+          "bbox": [
+            67.5,
+            83.41,
+            510.83,
+            251.38
+          ],
+          "modality": "text",
+          "locator": "US$605 billion in 2021",
+          "printed_page": 128
+        },
+        {
+          "source_id": "wdr2023",
+          "page": 164,
+          "evidence": "money laundering",
+          "region_id": "wdr2023:p164:text0",
+          "bbox": [
+            67.49,
+            83.55,
+            510.85,
+            294.52
+          ],
+          "modality": "text",
+          "locator": "money laundering",
+          "printed_page": 134
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations.",
+    "requires_multiple_pages": true
+  },
+  {
+    "id": "advanced-test-20",
+    "split": "test",
+    "group": "multi-hop",
+    "question": "Dùng Figure 7.2 và Figure 7.10 ở hai trang: hai dấu hiệu nào cho thấy số người tị nạn tăng trong khi các giải pháp chưa theo kịp?",
+    "answerable": true,
+    "expected_answer": "Số người tị nạn tăng hơn gấp đôi trong thập kỷ vừa qua; số người mới được ghi nhận vượt số giải pháp cho người tị nạn mỗi năm từ 2010 theo đồ thị và phần giải thích.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 236,
+          "evidence": "figure 7.2",
+          "region_id": "wdr2023:p236:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure 7.2",
+          "printed_page": 206
+        },
+        {
+          "source_id": "wdr2023",
+          "page": 253,
+          "evidence": "Figure 7.10",
+          "region_id": "wdr2023:p253:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure 7.10",
+          "printed_page": 223
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations.",
+    "requires_multiple_pages": true
+  },
+  {
+    "id": "advanced-test-21",
+    "split": "test",
+    "group": "text",
+    "question": "Theo Glossary, internally displaced persons có nhất thiết vượt biên giới quốc gia không?",
+    "answerable": true,
+    "expected_answer": "Không; họ bị di dời trong phạm vi biên giới một quốc gia.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 28,
+          "evidence": "internally displaced persons",
+          "region_id": "wdr2023:p28:text0",
+          "bbox": [
+            124.5,
+            83.39,
+            510.83,
+            417.56
+          ],
+          "modality": "text",
+          "locator": "internally displaced persons",
+          "printed_page": "xxvi"
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-22",
+    "split": "test",
+    "group": "text",
+    "question": "Glossary mô tả nguyên tắc non-refoulement cấm điều gì?",
+    "answerable": true,
+    "expected_answer": "Cấm đưa người trở lại nơi họ có nguy cơ bị đàn áp, tra tấn hoặc tổn hại nghiêm trọng khác.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 28,
+          "evidence": "legal principle prohibiting",
+          "region_id": "wdr2023:p28:text1",
+          "bbox": [
+            67.5,
+            425.69,
+            510.84,
+            731.23
+          ],
+          "modality": "text",
+          "locator": "legal principle prohibiting",
+          "printed_page": "xxvi"
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-23",
+    "split": "test",
+    "group": "text",
+    "question": "Theo Glossary, distressed migrant có đáp ứng tiêu chí refugee status không và việc di chuyển thường có tính chất gì?",
+    "answerable": true,
+    "expected_answer": "Không đáp ứng các tiêu chí áp dụng cho quy chế người tị nạn; việc di chuyển thường không chính quy và không an toàn.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 27,
+          "evidence": "distressed migrant",
+          "region_id": "wdr2023:p27:text1",
+          "bbox": [
+            124.5,
+            531.74,
+            510.85,
+            731.23
+          ],
+          "modality": "text",
+          "locator": "distressed migrant",
+          "printed_page": "xxv"
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-24",
+    "split": "test",
+    "group": "text",
+    "question": "Trong Glossary, stateless person được định nghĩa như thế nào?",
+    "answerable": true,
+    "expected_answer": "Người không là công dân của bất kỳ quốc gia nào.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 28,
+          "evidence": "stateless person",
+          "region_id": "wdr2023:p28:text1",
+          "bbox": [
+            67.5,
+            425.69,
+            510.84,
+            731.23
+          ],
+          "modality": "text",
+          "locator": "stateless person",
+          "printed_page": "xxvi"
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-test-absent-1",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Báo cáo xác nhận tổng kiều hối Việt Nam thực nhận cả năm 2026 là bao nhiêu USD?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có số liệu thực nhận cả năm 2026 trong báo cáo xuất bản năm 2023.",
+    "absence_checks": "Full report scope, contents and dates inspected; confirm with original source before grading."
+  },
+  {
+    "id": "advanced-test-absent-2",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Báo cáo công bố ngày có quyết định của hồ sơ xin tị nạn cá nhân số VN-2026-001 là ngày nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có hồ sơ cá nhân VN-2026-001 hoặc lịch ra quyết định của hồ sơ này.",
+    "absence_checks": "Full report scope, contents and dates inspected; confirm with original source before grading."
+  },
+  {
+    "id": "advanced-test-absent-3",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Trong báo cáo, ngân hàng nào ở Hà Nội có phí chuyển 200 USD thấp nhất vào ngày 16/11/2026?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Có so sánh kênh chuyển tiền tổng quát nhưng không có bảng giá ngân hàng Hà Nội vào ngày yêu cầu.",
+    "absence_checks": "Full report scope, contents and dates inspected; confirm with original source before grading."
+  },
+  {
+    "id": "advanced-test-absent-4",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Báo cáo chỉ định khoản bồi thường cụ thể cho riêng gia đình Nguyễn Văn A sau khi bị từ chối visa là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có tình huống và quyết định bồi thường cá nhân được nêu trong câu hỏi.",
+    "absence_checks": "Full report scope, contents and dates inspected; confirm with original source before grading."
+  },
+  {
+    "id": "advanced-test-absent-5",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Báo cáo cung cấp số điện thoại riêng của người di cư Tonga đứng sau cột số liệu Figure 5.3 là gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Figure 5.3 là số liệu cấp quốc gia, không định danh hay công bố điện thoại cá nhân.",
+    "absence_checks": "Full report scope, contents and dates inspected; confirm with original source before grading."
+  },
+  {
+    "id": "advanced-test-absent-6",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Báo cáo xác nhận chính xác số người sẽ tái định cư tại Canada ngày 01/01/2030 là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có số quan sát hay dự báo chính xác cho một ngày tương lai cụ thể như vậy.",
+    "absence_checks": "Full report scope, contents and dates inspected; confirm with original source before grading."
+  }
+]

@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "day7-agentic-rag"
+version = "0.1.0"
+description = "Evidence-first Agentic RAG, Day 6 adapters, reproducible benchmarks and a Vietnamese web demo"
+requires-python = ">=3.12"
+dependencies = [
+  "httpx>=0.28,<1",
+  "python-dotenv>=1,<2",
+  "psycopg[binary]>=3.2,<4",
+  "sentence-transformers>=6.3,<7",
+  "pymupdf>=1.26,<2",
+  "streamlit>=1.65,<2",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "ruff>=0.12,<1", "ty>=0.0.104,<1"]
+ocr = ["pytesseract>=0.3.13,<1", "Pillow>=11,<13"]
+
+[project.scripts]
+day7 = "day7_rag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "starter"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

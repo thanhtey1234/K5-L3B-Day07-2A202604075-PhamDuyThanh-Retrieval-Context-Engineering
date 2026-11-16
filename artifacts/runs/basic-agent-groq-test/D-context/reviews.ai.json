@@ -1,0 +1,130 @@
+[
+  {
+    "query_id": "basic-test-01",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      36
+    ],
+    "source_method": "post-freeze AI review of source PDF images, actual context and answer",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "reason": "PDF p36 khoản 17 Điều 43 xác nhận bãi bỏ khoản 3 Điều 49 Luật Thư viện. A không có đoạn này và từ chối; D có đoạn p36_para_004, trả lời đầy đủ và cite đúng."
+  },
+  {
+    "query_id": "basic-test-02",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      36,
+      37
+    ],
+    "source_method": "post-freeze AI review of source PDF images, actual context and answer",
+    "context_grade": 1,
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "reason": "PDF p36 bắt đầu khoản 2 Điều 45, p37 tiếp tục câu: giá trị đến hết thời hạn ghi trên giấy phép. A không có evidence; D chỉ có tiêu đề Điều 45, thiếu khoản 2. Hai câu trả lời từ chối đều nhận 0."
+  },
+  {
+    "query_id": "basic-test-03",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      33
+    ],
+    "source_method": "post-freeze AI review of source PDF images, actual context and answer",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "reason": "PDF p33 khoản 5 Điều 41 nêu cung cấp thông tin định danh IP cho lực lượng chuyên trách bảo vệ an ninh mạng để thực hiện biện pháp bảo vệ. A/D đều có nguyên đoạn và trả lời đủ, citation hỗ trợ."
+  },
+  {
+    "query_id": "basic-test-04",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      28
+    ],
+    "source_method": "post-freeze AI review of source PDF images, actual context and answer",
+    "context_grade": 0,
+    "answer_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "reason": "PDF p28 khoản 1 Điều 33 nêu môn học giáo dục quốc phòng và an ninh trong nhà trường, chương trình bồi dưỡng kiến thức quốc phòng và an ninh. A/D không đưa khoản này vào context và từ chối sai."
+  },
+  {
+    "query_id": "basic-test-05",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      32
+    ],
+    "source_method": "post-freeze AI review of source PDF images, actual context and answer",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "reason": "PDF p32 khoản 4 Điều 39 nêu Ban Cơ yếu giúp Bộ trưởng Bộ Quốc phòng. A/D đều có p32_para_002 và trả lời/cite đúng."
+  },
+  {
+    "query_id": "basic-test-absent-1",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      1,
+      33
+    ],
+    "source_method": "post-freeze AI review of source PDF images, actual context and answer",
+    "context_grade": null,
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "AI kiểm tra phạm vi luật p1 và nghĩa vụ báo cáo sự cố p33; tìm toàn corpus OCR không có mức phạt/API/endpoint/mã xác thực cho tình huống hỏi. Agent từ chối rõ, không tạo số tiền hay thông tin xác thực. Kiểm tra thiếu evidence là nhận định AI theo phạm vi tài liệu, không phải xác nhận con người."
+  },
+  {
+    "query_id": "basic-test-absent-2",
+    "reviewer_type": "ai",
+    "reviewer": "Codex assistant",
+    "reviewed_original_source": false,
+    "ai_reviewed_source": true,
+    "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+    "source_pages": [
+      1,
+      33
+    ],
+    "source_method": "post-freeze AI review of source PDF images, actual context and answer",
+    "context_grade": null,
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "AI kiểm tra phạm vi luật p1 và nghĩa vụ báo cáo sự cố p33; tìm toàn corpus OCR không có mức phạt/API/endpoint/mã xác thực cho tình huống hỏi. Agent từ chối rõ, không tạo số tiền hay thông tin xác thực. Kiểm tra thiếu evidence là nhận định AI theo phạm vi tài liệu, không phải xác nhận con người."
+  }
+]

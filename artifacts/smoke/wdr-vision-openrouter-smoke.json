@@ -1,0 +1,250 @@
+{
+  "evaluation_scope": "functional_smoke_only_not_benchmark",
+  "question": "Kiểm tra hình Figure O.1 ở trang PDF 33 của WDR 2023. Hãy dùng view_image đọc hình gốc và cho biết đơn vị của Population và Age. Trả lời bằng tiếng Việt kèm citation; không suy đoán khi chưa xem ảnh.",
+  "declared_filters": {
+    "page": 33
+  },
+  "corpus_scope": "visual/table regions only",
+  "model": {
+    "id": "inclusionai/ling-3.2-flash:free",
+    "canonical_slug": "inclusionai/ling-3.2-flash-20261113",
+    "context_length": 1048576,
+    "architecture": {
+      "modality": "text+image->text",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    },
+    "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ]
+  },
+  "status": "answered",
+  "answer": "Đã đọc hình gốc Figure O.1 ở trang PDF 33 của WDR 2023. Trục hoành ghi “Population (millions)” nên đơn vị của Population là triệu người; trục tung ghi “Age (years)” nên đơn vị của Age là năm (tuổi). [wdr2023:p33:visual]",
+  "citations": [
+    "wdr2023:p33:visual"
+  ],
+  "events": [
+    {
+      "event": "search",
+      "tool": "bm25",
+      "query": "WDR 2023 Figure O.1 page 33 Population Age unit",
+      "filter": {
+        "page": 33
+      },
+      "results": [
+        {
+          "id": "wdr2023:p33:visual",
+          "source_id": "wdr2023",
+          "source": "https://www.worldbank.org/en/publication/wdr2023",
+          "page": 33,
+          "text": "Figure O.1 Widely different demographic forces are at play in Italy, Mexico, and Nigeria\nFigure O.1 Widely different demographic forces are at play in Italy, Mexico, and Nigeria\n\n                                                a. Italy's population is aging, inverting its demographic pyramid\n\n                       1950                               2022                               2050\n    100+\n   90–94\n   80–84\n   70–74\n   60–64(years) 50–54\nAge 40–44\n   30–34\n   20–24\n   10–14\n     0–4\n\n          3    2    1    0    1    2    3     3    2    1    0    1    2    3     3    2    1    0    1    2    3\n\n                   Population (millions)                      Population (millions)                       Population (millions)\n\n               b. In Mexico, agingb.andIn Mexico,fertility havethe demographicalready beguntransitionto decline—ais welldeclineunder expectedway and istoexpectedaccelerateto overacceleratethe next three decades\n\n\n                       1950                               2022                               2050\n\n    100+\n   90–94\n   80–84\n   70–74\n   60–64(years) 50–54\nAge 40–44   30–34\n   20–24\n   10–14\n     0–4\n\n          6 5  4  3  2  1  0  1  2  3  4  5  6    6  5  4  3  2  1  0  1  2  3  4  5  6    6  5  4  3  2  1  0  1  2  3  4  5  6\n\n                    Population (millions)                      Population (millions)                      Population (millions)\n\n                                               c. Nigeria will remain young well through the middle of the century\n\n                       1950                               2022                               2050\n\n    100+\n   90–94\n   80–84\n   70–74\n   60–64(years) 50–54",
+          "metadata": {
+            "pdf_sha256": "9577adf6a2849918eaf406aa975082b278b26cd880277b4d4e87336f6200ee84",
+            "page_label": "3",
+            "vision_status": "native_labels_only",
+            "visual_boundary": "whole-page fallback",
+            "drawing_count": 494,
+            "caption_count": 1,
+            "extraction_verified": false
+          },
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "content_type": "image",
+          "pdf": "source.pdf",
+          "page_image": "images/page-0033.png",
+          "image": "images/page-0033.png",
+          "score": 13.710283318074314,
+          "method": "bm25",
+          "rank": 1
+        }
+      ],
+      "context_ids": [
+        "wdr2023:p33:visual"
+      ],
+      "elapsed_ms": 0.6983000002946937
+    },
+    {
+      "event": "view_image",
+      "chunk_id": "wdr2023:p33:visual",
+      "image": "images/page-0033.png",
+      "page": 33,
+      "bbox": [
+        0.0,
+        0.0,
+        576.0,
+        756.0
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "context": {
+    "text": "[wdr2023:p33:visual] https://www.worldbank.org/en/publication/wdr2023 | PDF page 33 | bbox=[0.0, 0.0, 576.0, 756.0]\nFigure O.1 Widely different demographic forces are at play in Italy, Mexico, and Nigeria\nFigure O.1 Widely different demographic forces are at play in Italy, Mexico, and Nigeria\n\n                                                a. Italy's population is aging, inverting its demographic pyramid\n\n                       1950                               2022                               2050\n    100+\n   90–94\n   80–84\n   70–74\n   60–64(years) 50–54\nAge 40–44\n   30–34\n   20–24\n   10–14\n     0–4\n\n          3    2    1    0    1    2    3     3    2    1    0    1    2    3     3    2    1    0    1    2    3\n\n                   Population (millions)                      Population (millions)                       Population (millions)\n\n               b. In Mexico, agingb.andIn Mexico,fertility havethe demographicalready beguntransitionto decline—ais welldeclineunder expectedway and istoexpectedaccelerateto overacceleratethe next three decades\n\n\n                       1950                               2022                               2050\n\n    100+\n   90–94\n   80–84\n   70–74\n   60–64(years) 50–54\nAge 40–44   30–34\n   20–24\n   10–14\n     0–4\n\n          6 5  4  3  2  1  0  1  2  3  4  5  6    6  5  4  3  2  1  0  1  2  3  4  5  6    6  5  4  3  2  1  0  1  2  3  4  5  6\n\n                    Population (millions)                      Population (millions)                      Population (millions)\n\n                                               c. Nigeria will remain young well through the middle of the century\n\n                       1950                               2022                               2050\n\n    100+\n   90–94\n   80–84\n   70–74\n   60–64(years) 50–54",
+    "chunks": [
+      {
+        "id": "wdr2023:p33:visual",
+        "source_id": "wdr2023",
+        "source": "https://www.worldbank.org/en/publication/wdr2023",
+        "page": 33,
+        "text": "Figure O.1 Widely different demographic forces are at play in Italy, Mexico, and Nigeria\nFigure O.1 Widely different demographic forces are at play in Italy, Mexico, and Nigeria\n\n                                                a. Italy's population is aging, inverting its demographic pyramid\n\n                       1950                               2022                               2050\n    100+\n   90–94\n   80–84\n   70–74\n   60–64(years) 50–54\nAge 40–44\n   30–34\n   20–24\n   10–14\n     0–4\n\n          3    2    1    0    1    2    3     3    2    1    0    1    2    3     3    2    1    0    1    2    3\n\n                   Population (millions)                      Population (millions)                       Population (millions)\n\n               b. In Mexico, agingb.andIn Mexico,fertility havethe demographicalready beguntransitionto decline—ais welldeclineunder expectedway and istoexpectedaccelerateto overacceleratethe next three decades\n\n\n                       1950                               2022                               2050\n\n    100+\n   90–94\n   80–84\n   70–74\n   60–64(years) 50–54\nAge 40–44   30–34\n   20–24\n   10–14\n     0–4\n\n          6 5  4  3  2  1  0  1  2  3  4  5  6    6  5  4  3  2  1  0  1  2  3  4  5  6    6  5  4  3  2  1  0  1  2  3  4  5  6\n\n                    Population (millions)                      Population (millions)                      Population (millions)\n\n                                               c. Nigeria will remain young well through the middle of the century\n\n                       1950                               2022                               2050\n\n    100+\n   90–94\n   80–84\n   70–74\n   60–64(years) 50–54",
+        "metadata": {
+          "pdf_sha256": "9577adf6a2849918eaf406aa975082b278b26cd880277b4d4e87336f6200ee84",
+          "page_label": "3",
+          "vision_status": "native_labels_only",
+          "visual_boundary": "whole-page fallback",
+          "drawing_count": 494,
+          "caption_count": 1,
+          "extraction_verified": false
+        },
+        "bbox": [
+          0.0,
+          0.0,
+          576.0,
+          756.0
+        ],
+        "content_type": "image",
+        "pdf": "source.pdf",
+        "page_image": "images/page-0033.png",
+        "image": "images/page-0033.png",
+        "score": 13.710283318074314,
+        "method": "bm25",
+        "rank": 1,
+        "context_score": 0.01639344262295082
+      }
+    ],
+    "ids": [
+      "wdr2023:p33:visual"
+    ],
+    "budget": 3000,
+    "budget_unit": "utf8_bytes_token_upper_bound",
+    "used": 1860
+  },
+  "model_calls": [
+    {
+      "model": "inclusionai/ling-3.2-flash:free",
+      "attempt": 1,
+      "http_status": 200,
+      "elapsed_ms": 3135.3656999999657,
+      "request_id": "gen-1794827539-5JUAYFqAe24YsTbS2xfV",
+      "provider": "Ant Digital",
+      "usage": {
+        "prompt_tokens": 675,
+        "completion_tokens": 38,
+        "total_tokens": 713,
+        "cost": 0,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0,
+          "upstream_inference_prompt_cost": 0,
+          "upstream_inference_completions_cost": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "response_model": "inclusionai/ling-3.2-flash:free"
+    },
+    {
+      "model": "inclusionai/ling-3.2-flash:free",
+      "attempt": 1,
+      "http_status": 200,
+      "elapsed_ms": 2284.9575999998706,
+      "request_id": "gen-1794827542-77aAqXWLc5DogcwjDBLN",
+      "provider": "Ant Digital",
+      "usage": {
+        "prompt_tokens": 1636,
+        "completion_tokens": 30,
+        "total_tokens": 1666,
+        "cost": 0,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0,
+          "upstream_inference_prompt_cost": 0,
+          "upstream_inference_completions_cost": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "response_model": "inclusionai/ling-3.2-flash:free"
+    },
+    {
+      "model": "inclusionai/ling-3.2-flash:free",
+      "attempt": 1,
+      "http_status": 200,
+      "elapsed_ms": 8911.257599999772,
+      "request_id": "gen-1794827545-XJCvYx8F3XSOvNTAPBdY",
+      "provider": "Ant Digital",
+      "usage": {
+        "prompt_tokens": 2885,
+        "completion_tokens": 138,
+        "total_tokens": 3023,
+        "cost": 0,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0,
+          "upstream_inference_prompt_cost": 0,
+          "upstream_inference_completions_cost": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "response_model": "inclusionai/ling-3.2-flash:free"
+    }
+  ],
+  "elapsed_ms": 14437.149800000043
+}

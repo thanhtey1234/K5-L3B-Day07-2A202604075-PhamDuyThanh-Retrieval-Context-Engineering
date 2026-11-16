@@ -11,6 +11,9 @@ def convert_chunk(c):
 
 
 def convert_question(q):
+    if q.get('answerable') is False:
+        return {k: q[k] for k in ('id', 'split', 'question', 'answerable', 'expected_behavior',
+                                  'absence_reason', 'filter') if k in q}
     gold = q.get('gold')
     if gold is None:
         gold = [{'source_id': q.get('gold_source_id'), 'page': q.get('gold_page'),

@@ -1,0 +1,42 @@
+{
+  "sha256": "9577adf6a2849918eaf406aa975082b278b26cd880277b4d4e87336f6200ee84",
+  "extractor_version": 4,
+  "source_id": "wdr2023",
+  "source_url": "https://www.worldbank.org/en/publication/wdr2023",
+  "dpi": 144,
+  "ocr_language": "eng",
+  "physical_pages": 348,
+  "pages_with_text": 337,
+  "chunk_count": 1396,
+  "table_regions": 47,
+  "visual_pages": 170,
+  "warnings": [
+    {
+      "page": 1,
+      "stage": "rights",
+      "reason": "Front matter/credited cover images excluded from visual reuse"
+    },
+    {
+      "page": 2,
+      "stage": "rights",
+      "reason": "Front matter/credited cover images excluded from visual reuse"
+    },
+    {
+      "page": 3,
+      "stage": "rights",
+      "reason": "Front matter/credited cover images excluded from visual reuse"
+    },
+    {
+      "page": 4,
+      "stage": "rights",
+      "reason": "Front matter/credited cover images excluded from visual reuse"
+    },
+    {
+      "page": 5,
+      "stage": "rights",
+      "reason": "Front matter/credited cover images excluded from visual reuse"
+    }
+  ],
+  "coverage_review_required": true,
+  "notes": "Heuristic visual/table detection requires source review; native labels and generated captions are not verified evidence."
+}

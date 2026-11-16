@@ -1,0 +1,29 @@
+{
+  "hit_at_1": {
+    "n": 11,
+    "N": 15,
+    "rate": 0.7333333333333333
+  },
+  "evidence_hit_at_3": {
+    "n": 12,
+    "N": 15,
+    "rate": 0.8
+  },
+  "context_evidence_rate": {
+    "n": 12,
+    "N": 15,
+    "rate": 0.8
+  },
+  "cases": 17,
+  "completed": 17,
+  "errors": 0,
+  "evidence_rule": "OR between evidence sets, AND within a set; evaluated across retrieved prefix",
+  "total_elapsed_ms": 50.28779999975086,
+  "request_count": 0,
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "reported_cost_usd": 0,
+    "calls_without_cost_report": 0
+  }
+}

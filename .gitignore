@@ -9,3 +9,15 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Real source downloads, models and local execution state (regenerable).
+work/
+.cache/
+.python/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+build/
+dist/
+output/

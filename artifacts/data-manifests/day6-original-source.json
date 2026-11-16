@@ -1,0 +1,27 @@
+{
+  "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat116-2025.pdf",
+  "pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+  "physical_pages": 37,
+  "native_text_characters": 0,
+  "ai_visually_reviewed_pages": [
+    1,
+    6,
+    8,
+    10,
+    12,
+    17,
+    19,
+    20,
+    22,
+    26,
+    28,
+    29,
+    30,
+    32,
+    33,
+    36,
+    37
+  ],
+  "source_review_type": "ai_not_human",
+  "note": "Original scanned PDF; selected pages rendered/read. Absence cases also use a full OCR corpus scope search."
+}

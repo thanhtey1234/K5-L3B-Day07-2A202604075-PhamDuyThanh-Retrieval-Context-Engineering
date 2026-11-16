@@ -1,0 +1,13 @@
+[
+  {
+    "query_id": "basic-dev-01",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      false
+    ],
+    "abstention_correct": false,
+    "reviewed_original_source": true,
+    "reason": "câu trả lời đúng với tài liệu đã có sẵn"
+  }
+]

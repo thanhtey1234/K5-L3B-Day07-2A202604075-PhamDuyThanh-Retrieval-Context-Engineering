@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-11-16T11:03:13.359176+00:00",
+  "evaluation_mode": "ai_source_review_not_human_verified",
+  "human_verified": false,
+  "source_pdf_sha256": "eded93a3e2820913c6d0801a24977b4588d65c7da1838a952e43faed9af78b08",
+  "corpus_hash": "096c01cc292de2fb3777361720920926a9afa1bfc459d0610de95c4c27d1577e",
+  "code_hash": "c8c3c8eb7a1295bf1798d9075c0a79d5b0dbe796539499be60564dfb431bd80f",
+  "test_hash": "97e58539a79b6c8de72524a4acc740db059dc7f3e90ec646bb807b678470c3ca",
+  "allowed_experiments": [
+    {
+      "name": "A-dense",
+      "method": "dense",
+      "top_k": 3,
+      "candidate_k": 10,
+      "context_budget": 3000,
+      "max_searches": 1,
+      "max_views": 2,
+      "rrf_k": 60
+    },
+    {
+      "name": "D-context",
+      "method": "hybrid",
+      "top_k": 6,
+      "candidate_k": 10,
+      "context_budget": 6000,
+      "max_searches": 1,
+      "max_views": 2,
+      "rrf_k": 60
+    }
+  ],
+  "model": {
+    "provider": "groq",
+    "id": "qwen/qwen3.8-27b",
+    "created": 1786984846,
+    "owned_by": "Alibaba Cloud",
+    "context_length": 131072,
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "tools": true,
+    "account_policy": "user_confirmed_free_tier_not_api_verified",
+    "tokenizer_revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+    "reasoning_effort": "none",
+    "temperature": 0,
+    "max_output_tokens": 1024,
+    "capabilities_source": "https://console.groq.com/docs/model/qwen/qwen3.8-27b"
+  },
+  "selected_experiment": {
+    "name": "D-context",
+    "method": "hybrid",
+    "top_k": 6,
+    "candidate_k": 10,
+    "context_budget": 6000,
+    "max_searches": 1,
+    "max_views": 2,
+    "rrf_k": 60
+  },
+  "dev_run_hash": "55668cab07a0bf0c2649a657abc489bf0462da9e13c66efcc88bb3a4055c44dd",
+  "dev_review_hash": "975ac70588521238f731ffca446d2824a2b17372aa7d3bb0eda699d5c5adac25",
+  "reviewer_code_sha256": "984af12b7f6609cbaba98ac6e805e347546522b7ace62cad58d58f54068164b4",
+  "dev_comparison": [
+    {
+      "experiment": "A-dense",
+      "quality": [
+        4,
+        0.8,
+        2,
+        4,
+        -44,
+        -559988.1448000006
+      ]
+    },
+    {
+      "experiment": "D-context",
+      "quality": [
+        6,
+        0.8571428571428571,
+        2,
+        6,
+        -43,
+        -802470.2949000002
+      ]
+    }
+  ],
+  "selection_rule": "AI-reviewed dev grounded completeness, citation, abstention, context; then requests/latency"
+}

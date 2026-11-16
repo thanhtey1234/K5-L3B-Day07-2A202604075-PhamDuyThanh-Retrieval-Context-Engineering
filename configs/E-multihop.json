@@ -1,0 +1,1 @@
+{"name":"E-multihop","method":"hybrid","top_k":6,"candidate_k":10,"context_budget":6000,"max_searches":4,"max_views":2,"rrf_k":60}

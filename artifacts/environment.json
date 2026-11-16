@@ -1,0 +1,62 @@
+{
+  "captured_at": "2026-11-16T14:46:02.940212+07:00",
+  "python": "3.12.14",
+  "packages": {
+    "httpx": "0.28.1",
+    "psycopg": "3.3.9",
+    "sentence-transformers": "6.3.0",
+    "pymupdf": "1.28.2",
+    "streamlit": "1.67.0",
+    "torch": "2.15.0",
+    "transformers": "5.23.0",
+    "ty": "0.0.104",
+    "ruff": "0.17.5"
+  },
+  "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+  "pgvector": "0.8.7",
+  "read_only_connection": "on",
+  "day6_counts": [
+    [
+      "strategy_a",
+      209
+    ],
+    [
+      "strategy_b",
+      235
+    ]
+  ],
+  "day7_counts": [
+    [
+      "5f652e08a083cf4ec690f49d",
+      1396,
+      1024,
+      1024
+    ]
+  ],
+  "openrouter_inference_run": true,
+  "openrouter_model": "inclusionai/ling-3.2-flash:free",
+  "openrouter_agent_status": "partial_dev_paused_http_429",
+  "active_provider": "groq",
+  "groq_model": "qwen/qwen3.8-27b",
+  "groq_free_tier_confirmed_by_user": true,
+  "groq_account_tier_api_verified": false,
+  "groq_smoke_status": "answered",
+  "groq_cost_reported_by_api": false,
+  "automated_test_count": 53,
+  "groq_basic_dev_runs": {
+    "A-dense": "complete_17",
+    "D-context": "complete_17"
+  },
+  "evaluation_mode": "ai_source_review_not_human_verified",
+  "basic_test_runs": {
+    "A-dense": "complete_7",
+    "D-context": "complete_7"
+  },
+  "selected_config": "D-context",
+  "advanced_vision_smoke": "passed_search_view_image_answer",
+  "groq_local_token_cap": 200000,
+  "updated_at": "2026-11-16T18:24:41.269296+07:00",
+  "basic_evaluation_complete": true,
+  "human_verified": false,
+  "advanced_test_complete": false
+}

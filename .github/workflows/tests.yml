@@ -1,0 +1,16 @@
+name: Python checks
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.lock.txt
+      - run: python -m pip install --no-deps -e .
+      - run: python -m pytest -q
+      - run: ruff check src scripts app_pages streamlit_app.py tests/test_rag_core.py tests/test_openrouter_client.py tests/test_groq_client.py tests/test_evaluation_pipeline.py tests/test_automated_review.py tests/test_web_app.py
+      - run: ty check src/day7_rag streamlit_app.py app_pages

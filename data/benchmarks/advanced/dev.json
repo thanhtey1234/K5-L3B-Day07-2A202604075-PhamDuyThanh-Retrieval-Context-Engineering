@@ -1,0 +1,515 @@
+[
+  {
+    "id": "advanced-dev-01",
+    "split": "dev",
+    "group": "table",
+    "question": "Trong Table O.1, nước xuất cư nên làm gì với diaspora và người trở về để chuyển giao kiến thức?",
+    "answerable": true,
+    "expected_answer": "Hợp tác với diaspora và người trở về để thúc đẩy chuyển giao kiến thức và hội nhập kinh tế toàn cầu.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 46,
+          "evidence": "Knowledge.",
+          "region_id": "wdr2023:p46:table0-r3-c1",
+          "bbox": [
+            34.24,
+            130.15,
+            203.58,
+            295.53
+          ],
+          "modality": "table",
+          "locator": "Knowledge.",
+          "printed_page": 16
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-dev-02",
+    "split": "dev",
+    "group": "table",
+    "question": "Ở cột hợp tác song phương, Table O.1 khuyến nghị tài trợ phát triển loại kỹ năng nào?",
+    "answerable": true,
+    "expected_answer": "Kỹ năng có nhu cầu ở cả thị trường lao động quốc gia và toàn cầu.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 46,
+          "evidence": "Skills development.",
+          "region_id": "wdr2023:p46:table0-r3-c4",
+          "bbox": [
+            372.91,
+            130.15,
+            542.26,
+            295.53
+          ],
+          "modality": "table",
+          "locator": "Skills development.",
+          "printed_page": 16
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-dev-03",
+    "split": "dev",
+    "group": "table",
+    "question": "Table O.1 liệt kê ba durable solutions truyền thống nào?",
+    "answerable": true,
+    "expected_answer": "Tự nguyện trở về, hội nhập tại chỗ hoặc tái định cư.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 46,
+          "evidence": "voluntary return, local",
+          "region_id": "wdr2023:p46:table0-r6-c3",
+          "bbox": [
+            288.25,
+            334.57,
+            542.26,
+            407.13
+          ],
+          "modality": "table",
+          "locator": "voluntary return, local",
+          "printed_page": 16
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-dev-04",
+    "split": "dev",
+    "group": "table",
+    "question": "Trong hàng New voices của Table O.1, tiếng nói của migrants và refugees cần hệ thống nào?",
+    "answerable": true,
+    "expected_answer": "Hệ thống đại diện và trách nhiệm giải trình để tổ chức tiếng nói của họ.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 46,
+          "evidence": "representation and accountability",
+          "region_id": "wdr2023:p46:table0-r12-c4",
+          "bbox": [
+            372.91,
+            586.94,
+            542.26,
+            687.35
+          ],
+          "modality": "table",
+          "locator": "representation and accountability",
+          "printed_page": 16
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-dev-05",
+    "split": "dev",
+    "group": "image",
+    "question": "Trong panel b của Figure O.2, động cơ nào gắn với nghĩa vụ tiếp nhận thay vì lựa chọn có tiếp nhận không?",
+    "answerable": true,
+    "expected_answer": "Nỗi sợ bị tổn hại tại nước xuất xứ, gắn với người tị nạn và nhu cầu bảo vệ quốc tế cao.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 35,
+          "evidence": "Figure O.2",
+          "region_id": "wdr2023:p35:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure O.2",
+          "printed_page": 5
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-dev-06",
+    "split": "dev",
+    "group": "image",
+    "question": "Figure O.4 đặt mục tiêu chung nào cho hai nhóm ở phần stronger match?",
+    "answerable": true,
+    "expected_answer": "Maximize gains for all, tối đa hóa lợi ích cho tất cả.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 38,
+          "evidence": "Figure O.4",
+          "region_id": "wdr2023:p38:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure O.4",
+          "printed_page": 8
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-dev-07",
+    "split": "dev",
+    "group": "image",
+    "question": "Các mũi tên bên ngoài ma trận trong Figure 1.1 nhấn mạnh cần tăng cường điều gì cho tất cả người di cư?",
+    "answerable": true,
+    "expected_answer": "Tăng cường mức độ phù hợp kỹ năng và thuộc tính của tất cả người di cư với nước đến.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 51,
+          "evidence": "figure 1.1",
+          "region_id": "wdr2023:p51:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure 1.1",
+          "printed_page": 21
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-dev-08",
+    "split": "dev",
+    "group": "chart",
+    "question": "Trong Figure O.1, đơn vị trục dân số và đại lượng trục đứng là gì?",
+    "answerable": true,
+    "expected_answer": "Dân số tính bằng triệu người; trục đứng là tuổi, tính bằng năm.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 33,
+          "evidence": "Figure O.1",
+          "region_id": "wdr2023:p33:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure O.1",
+          "printed_page": 3
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-dev-09",
+    "split": "dev",
+    "group": "chart",
+    "question": "Chú thích Figure 5.2 phân biệt dữ liệu 2021 với 2022–2023 như thế nào?",
+    "answerable": true,
+    "expected_answer": "2021 là ước tính; 2022 và 2023 là dự báo.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 158,
+          "evidence": "figure 5.2",
+          "region_id": "wdr2023:p158:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure 5.2",
+          "printed_page": 128
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-dev-10",
+    "split": "dev",
+    "group": "chart",
+    "question": "Trong Figure 7.2, trục số người dùng đơn vị gì và dữ liệu năm 2022 chốt ở thời điểm nào?",
+    "answerable": true,
+    "expected_answer": "Triệu người; dữ liệu tính đến giữa năm 2022.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 236,
+          "evidence": "figure 7.2",
+          "region_id": "wdr2023:p236:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure 7.2",
+          "printed_page": 206
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-dev-11",
+    "split": "dev",
+    "group": "multi-hop",
+    "question": "Dùng Box O.1 ở hai trang, lấy 31 triệu người di cư tại GCC chia cho tổng 184 triệu: tỷ lệ xấp xỉ bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "31/184 × 100 ≈ 16,85%, phù hợp với tỷ lệ làm tròn khoảng 17% trong báo cáo.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 31,
+          "evidence": "184 million migrants",
+          "region_id": "wdr2023:p31:text1",
+          "bbox": [
+            67.5,
+            348.61,
+            510.97,
+            594.37
+          ],
+          "modality": "text",
+          "locator": "184 million migrants",
+          "printed_page": 1
+        },
+        {
+          "source_id": "wdr2023",
+          "page": 32,
+          "evidence": "31 million economic migrants",
+          "region_id": "wdr2023:p32:text0",
+          "bbox": [
+            67.2,
+            100.41,
+            510.65,
+            352.4
+          ],
+          "modality": "text",
+          "locator": "31 million economic migrants",
+          "printed_page": 2
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations.",
+    "requires_multiple_pages": true
+  },
+  {
+    "id": "advanced-dev-12",
+    "split": "dev",
+    "group": "multi-hop",
+    "question": "Theo hai trang Glossary, asylum-seeker khác refugee ở tình trạng được xét bảo vệ như thế nào?",
+    "answerable": true,
+    "expected_answer": "Asylum-seeker đã nộp đơn nhưng chưa có quyết định cuối cùng; refugee đã được nước tiếp nhận trao bảo vệ quốc tế theo các căn cứ được nêu.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 27,
+          "evidence": "not yet received a final decision",
+          "region_id": "wdr2023:p27:text0",
+          "bbox": [
+            124.5,
+            133.2,
+            510.85,
+            522.86
+          ],
+          "modality": "text",
+          "locator": "not yet received a final decision",
+          "printed_page": "xxv"
+        },
+        {
+          "source_id": "wdr2023",
+          "page": 28,
+          "evidence": "A person who has been granted international protection",
+          "region_id": "wdr2023:p28:text1",
+          "bbox": [
+            67.5,
+            425.69,
+            510.84,
+            731.23
+          ],
+          "modality": "text",
+          "locator": "A person who has been granted international protection",
+          "printed_page": "xxvi"
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations.",
+    "requires_multiple_pages": true
+  },
+  {
+    "id": "advanced-dev-13",
+    "split": "dev",
+    "group": "multi-hop",
+    "question": "Đối chiếu Figure O.1 với phần Overview về Italy: xu hướng cơ cấu tuổi và quy mô dân số tới 2100 là gì?",
+    "answerable": true,
+    "expected_answer": "Cơ cấu dân số già hóa; Overview dự báo dân số giảm từ 59 triệu xuống 32 triệu vào 2100.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 33,
+          "evidence": "Figure O.1",
+          "region_id": "wdr2023:p33:visual",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "modality": "image",
+          "locator": "Figure O.1",
+          "printed_page": 3
+        },
+        {
+          "source_id": "wdr2023",
+          "page": 32,
+          "evidence": "32 million, by 2100",
+          "region_id": "wdr2023:p32:text1",
+          "bbox": [
+            67.5,
+            356.48,
+            510.86,
+            501.21
+          ],
+          "modality": "text",
+          "locator": "32 million, by 2100",
+          "printed_page": 2
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations.",
+    "requires_multiple_pages": true
+  },
+  {
+    "id": "advanced-dev-14",
+    "split": "dev",
+    "group": "text",
+    "question": "Glossary dùng thuật ngữ economic migrant cho người di chuyển vì nhóm lý do nào?",
+    "answerable": true,
+    "expected_answer": "Vì những lý do ngoài bị đàn áp hoặc nguy cơ tổn hại nghiêm trọng, như cải thiện điều kiện sống bằng việc làm hoặc đoàn tụ gia đình.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 27,
+          "evidence": "economic migrant",
+          "region_id": "wdr2023:p27:text1",
+          "bbox": [
+            124.5,
+            531.74,
+            510.85,
+            731.23
+          ],
+          "modality": "text",
+          "locator": "economic migrant",
+          "printed_page": "xxv"
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-dev-15",
+    "split": "dev",
+    "group": "text",
+    "question": "Theo Glossary, naturalized citizen là ai?",
+    "answerable": true,
+    "expected_answer": "Người di cư đã có quốc tịch tại nước đến.",
+    "evidence_sets": [
+      [
+        {
+          "source_id": "wdr2023",
+          "page": 28,
+          "evidence": "naturalized citizen",
+          "region_id": "wdr2023:p28:text0",
+          "bbox": [
+            124.5,
+            83.39,
+            510.83,
+            417.56
+          ],
+          "modality": "text",
+          "locator": "naturalized citizen",
+          "printed_page": "xxvi"
+        }
+      ]
+    ],
+    "source_review": "Agent-authored source annotation; final human audit required",
+    "grading_note": "Check complete answer, units/conditions/calculation, original figure/table and supporting citations."
+  },
+  {
+    "id": "advanced-dev-absent-1",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "Báo cáo xác nhận chính xác bao nhiêu người di cư toàn cầu vào ngày 01/01/2026?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Báo cáo 2023 không cung cấp số liệu quan sát tại ngày 01/01/2026.",
+    "absence_checks": "Full report scope, contents and dates inspected; confirm with original source before grading."
+  },
+  {
+    "id": "advanced-dev-absent-2",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "Báo cáo công bố biểu lệ phí visa Canada áp dụng từng tháng năm 2026 là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có biểu phí visa Canada theo từng tháng năm 2026.",
+    "absence_checks": "Full report scope, contents and dates inspected; confirm with original source before grading."
+  },
+  {
+    "id": "advanced-dev-absent-3",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "Báo cáo cho biết tên và số định danh của từng cá nhân trong 37 triệu người tị nạn là gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Báo cáo dùng số liệu tổng hợp, không có danh sách định danh từng cá nhân.",
+    "absence_checks": "Full report scope, contents and dates inspected; confirm with original source before grading."
+  }
+]

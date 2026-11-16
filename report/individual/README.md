@@ -1,3 +1,3 @@
 # Báo cáo cá nhân
 
-Sao chép [MSSV_HoTen.md](MSSV_HoTen.md), đổi tên theo MSSV và họ tên, ví dụ `20241234_NguyenVanAn.md`. Ghi đường dẫn kết quả và lệnh chạy; không nộp dữ liệu mật.
+[Báo cáo của Phạm Duy Thanh — 2A202604075](2A202604075_PhamDuyThanh.md) gồm kết quả dev/test, cách chấm AI, phân tích lỗi và giới hạn phần nâng cao. Trace và nhãn gốc được giữ trong `artifacts/runs/` ở thư mục dự án.
