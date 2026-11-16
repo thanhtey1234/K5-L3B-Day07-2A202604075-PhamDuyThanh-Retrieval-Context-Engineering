@@ -1,6 +1,6 @@
 # Day 7 · Agentic RAG có bằng chứng
 
-**Phạm Duy Thanh — 2A202604075, K5-L3B.** CLI và giao diện Streamlit dùng chung package `day7_rag`; kế thừa Day 6 và mở rộng hỏi đáp theo báo cáo có bảng, hình, biểu đồ.
+**Phạm Duy Thành — 2A202604075, L3B.** CLI và giao diện Streamlit dùng chung package `day7_rag`; kế thừa Day 6 và mở rộng hỏi đáp theo báo cáo có bảng, hình, biểu đồ.
 
 ## Bản triển khai cá nhân
 
